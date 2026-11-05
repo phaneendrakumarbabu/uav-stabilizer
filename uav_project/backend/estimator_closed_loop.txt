@@ -1,0 +1,5 @@
+flights 180 invalid 10
+payload 0.0: MAE 0.067  mean estimate 0.067  pre-change false alarm 0.02
+payload 0.2: MAE 0.082  mean estimate 0.237  pre-change false alarm 0.02
+payload 0.5: MAE 0.089  mean estimate 0.477  pre-change false alarm 0.02
+payload 0.7: MAE 0.107  mean estimate 0.597  pre-change false alarm 0.03

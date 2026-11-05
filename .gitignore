@@ -1,0 +1,32 @@
+# Environments
+.venv/
+*/.venv/
+env/
+venv/
+ENV/
+
+# Python caches
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large transient test logs and local modules
+diagnostic_logs/
+uav_project/diagnostic_logs/
+report_builder/node_modules/
+uav_project/backend/results/

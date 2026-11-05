@@ -1,0 +1,5118 @@
+{
+  "campaign": "uncertainty_monte_carlo",
+  "seed_base": 300000,
+  "trials": 20,
+  "duration_s": 15.0,
+  "disturbance_model": "dryden",
+  "lateral_disturbance": true,
+  "uncertainty_ranges": {
+    "rho": [
+      1.18,
+      1.27
+    ],
+    "CL_alpha": [
+      4.6,
+      5.2
+    ],
+    "Cm_alpha": [
+      -0.66,
+      -0.54
+    ],
+    "Cm_de": [
+      -1.21,
+      -0.99
+    ],
+    "CD0": [
+      0.027,
+      0.033
+    ],
+    "payload_mass_max": [
+      1.35,
+      1.65
+    ],
+    "payload_x_m": [
+      -0.115,
+      -0.093
+    ]
+  },
+  "conventional_summary": {
+    "trials": 20,
+    "completed": 20,
+    "valid_finite": 10,
+    "valid_finite_rate": 0.5,
+    "fallback_count": 14,
+    "fallback_rate": 0.7,
+    "invalid_reasons": {
+      "aerodynamic_validity_limit": 10
+    },
+    "supervisor_first_reasons": {
+      "angle_of_attack_envelope": 13,
+      "airspeed_envelope": 1,
+      "none": 6
+    },
+    "positive_static_margin_trials": 20,
+    "valid_finite_in_positive_static_margin": 10,
+    "valid_finite_rate_in_positive_static_margin": 0.5,
+    "metrics": {
+      "aileron_activity": {
+        "n": 10,
+        "mean": 39370.91707772255,
+        "p05": 36622.27627505696,
+        "p50": 38705.35798163549,
+        "p95": 43527.398713313254,
+        "max": 45019.8857342888
+      },
+      "aileron_saturation_s": {
+        "n": 10,
+        "mean": 0.0,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "elev_activity": {
+        "n": 10,
+        "mean": 33679.01894825292,
+        "p05": 22236.08491124198,
+        "p50": 30466.052370860714,
+        "p95": 48424.468093146694,
+        "max": 48680.56763439757
+      },
+      "elev_saturation_s": {
+        "n": 10,
+        "mean": 0.0,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "itae_pitch": {
+        "n": 10,
+        "mean": 253.46245365148692,
+        "p05": 16.730147788265388,
+        "p50": 60.12991714559697,
+        "p95": 895.3450593065003,
+        "max": 1034.2220434239819
+      },
+      "itae_roll": {
+        "n": 10,
+        "mean": 15.982877390528042,
+        "p05": 10.24618085577628,
+        "p50": 15.312934241983921,
+        "p95": 22.44805389040714,
+        "max": 23.127284265789267
+      },
+      "itae_yaw": {
+        "n": 10,
+        "mean": 51.93719147981925,
+        "p05": 19.476776261376532,
+        "p50": 49.10446006203439,
+        "p95": 88.30465125284817,
+        "max": 89.28979182645817
+      },
+      "max_altitude_drop_m": {
+        "n": 10,
+        "mean": 2.396441628282491,
+        "p05": 0.26284538082660164,
+        "p50": 1.5282085044326905,
+        "p95": 5.672841569742777,
+        "max": 6.017334614569961
+      },
+      "max_pitch_dev": {
+        "n": 10,
+        "mean": 10.149454779225879,
+        "p05": 1.1316067447904412,
+        "p50": 5.00478108603278,
+        "p95": 29.69692735416716,
+        "max": 33.7331636918604
+      },
+      "max_roll_dev": {
+        "n": 10,
+        "mean": 0.8850665328708255,
+        "p05": 0.653166145307774,
+        "p50": 0.8750931091319181,
+        "p95": 1.1217647660039458,
+        "max": 1.1665891378697113
+      },
+      "max_yaw_dev": {
+        "n": 10,
+        "mean": 2.2678091701582264,
+        "p05": 1.2369867726800656,
+        "p50": 2.172923364755242,
+        "p95": 3.53554542188982,
+        "max": 3.9403704742105186
+      },
+      "mean_aileron": {
+        "n": 10,
+        "mean": 1.5742021676517894,
+        "p05": 1.3617237955251418,
+        "p50": 1.6063913109879602,
+        "p95": 1.8260230390845988,
+        "max": 1.9077130569396954
+      },
+      "mean_drag": {
+        "n": 10,
+        "mean": 3.1874312527888544,
+        "p05": 2.4160391120328324,
+        "p50": 2.7167914357192258,
+        "p95": 5.217654727254182,
+        "max": 6.035614506971018
+      },
+      "mean_elev": {
+        "n": 10,
+        "mean": 4.838339888331397,
+        "p05": 1.604117059914453,
+        "p50": 3.7896432619514897,
+        "p95": 9.789685200196612,
+        "max": 10.003929812292645
+      },
+      "mean_rudder": {
+        "n": 10,
+        "mean": 2.545029998497748,
+        "p05": 1.3224988411119905,
+        "p50": 2.5250716009136784,
+        "p95": 3.6339739617042603,
+        "max": 3.67148922977216
+      },
+      "mean_signed_aileron": {
+        "n": 10,
+        "mean": -0.21421104092346085,
+        "p05": -0.7544254674817432,
+        "p50": -0.14444655257356992,
+        "p95": 0.2749898384227494,
+        "max": 0.4813616268693923
+      },
+      "mean_signed_elev": {
+        "n": 10,
+        "mean": 1.7030100996785422,
+        "p05": 0.7067827430007279,
+        "p50": 1.6745521011343159,
+        "p95": 2.6407920602283457,
+        "max": 2.731992354063376
+      },
+      "mean_signed_rudder": {
+        "n": 10,
+        "mean": -0.6958613176698147,
+        "p05": -2.5263893758556804,
+        "p50": -0.44321863705600084,
+        "p95": 1.00627606331394,
+        "max": 1.7282670534391924
+      },
+      "pitch_settled": {
+        "n": 10,
+        "mean": 0.2,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "pitch_settling_time_s": {
+        "n": 10,
+        "mean": 10.775999999999772,
+        "p05": 9.825999999999791,
+        "p50": 10.999999999999766,
+        "p95": 10.999999999999766,
+        "max": 10.999999999999766
+      },
+      "pitch_steady_state_error": {
+        "n": 10,
+        "mean": 0.22242270069586817,
+        "p05": -0.8982728540970822,
+        "p50": 0.13037874024384857,
+        "p95": 1.6840230293371432,
+        "max": 2.912635884541772
+      },
+      "rms_aileron": {
+        "n": 10,
+        "mean": 1.940628670171197,
+        "p05": 1.7101373200531524,
+        "p50": 1.9706039670213682,
+        "p95": 2.2037137666147464,
+        "max": 2.2849842804345997
+      },
+      "rms_altitude_error": {
+        "n": 10,
+        "mean": 1.8907158760437845,
+        "p05": 0.7025677593249218,
+        "p50": 1.4300971967334846,
+        "p95": 4.021833930056429,
+        "max": 4.873491549124239
+      },
+      "rms_elev": {
+        "n": 10,
+        "mean": 5.805790314243598,
+        "p05": 1.9500054886727933,
+        "p50": 4.6613467767754155,
+        "p95": 11.405248711899194,
+        "max": 11.668533779502624
+      },
+      "rms_pitch_error": {
+        "n": 10,
+        "mean": 4.77689125040531,
+        "p05": 0.40587602011488255,
+        "p50": 1.7061317631294683,
+        "p95": 15.728077473592094,
+        "max": 18.211476818490443
+      },
+      "rms_roll_error": {
+        "n": 10,
+        "mean": 0.30804994360174043,
+        "p05": 0.21168571457602614,
+        "p50": 0.3048774149035883,
+        "p95": 0.3892784499355262,
+        "max": 0.39248245520928715
+      },
+      "rms_rudder": {
+        "n": 10,
+        "mean": 3.104693647527278,
+        "p05": 1.6675997207879725,
+        "p50": 3.22453851154281,
+        "p95": 4.399962873431924,
+        "max": 4.455098395760463
+      },
+      "rms_yaw_error": {
+        "n": 10,
+        "mean": 1.0024129503597081,
+        "p05": 0.43576825408659536,
+        "p50": 0.9960579440725472,
+        "p95": 1.6443229376828747,
+        "max": 1.6691983666936119
+      },
+      "rudder_activity": {
+        "n": 10,
+        "mean": 30293.285831038615,
+        "p05": 29399.409581421423,
+        "p50": 30155.15492160537,
+        "p95": 31287.544799948166,
+        "max": 31444.86121367347
+      },
+      "rudder_saturation_s": {
+        "n": 10,
+        "mean": 0.0,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "tail_activity": {
+        "n": 10,
+        "mean": 0.0,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "tail_mean_abs": {
+        "n": 10,
+        "mean": 0.0,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "tail_rms": {
+        "n": 10,
+        "mean": 0.0,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      }
+    }
+  },
+  "intelligent_summary": {
+    "trials": 20,
+    "completed": 20,
+    "valid_finite": 10,
+    "valid_finite_rate": 0.5,
+    "fallback_count": 14,
+    "fallback_rate": 0.7,
+    "invalid_reasons": {
+      "aerodynamic_validity_limit": 10
+    },
+    "supervisor_first_reasons": {
+      "estimator_out_of_distribution": 11,
+      "none": 6,
+      "angle_of_attack_envelope": 3
+    },
+    "positive_static_margin_trials": 20,
+    "valid_finite_in_positive_static_margin": 10,
+    "valid_finite_rate_in_positive_static_margin": 0.5,
+    "metrics": {
+      "aileron_activity": {
+        "n": 10,
+        "mean": 40410.05123545968,
+        "p05": 36954.43011384196,
+        "p50": 39726.10419555279,
+        "p95": 45680.8515229008,
+        "max": 45749.25285972007
+      },
+      "aileron_saturation_s": {
+        "n": 10,
+        "mean": 0.0,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "elev_activity": {
+        "n": 10,
+        "mean": 33857.37511976925,
+        "p05": 22332.290716793195,
+        "p50": 30460.49359199878,
+        "p95": 48445.58056668477,
+        "max": 48644.27318480597
+      },
+      "elev_saturation_s": {
+        "n": 10,
+        "mean": 0.0,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "itae_pitch": {
+        "n": 10,
+        "mean": 246.96850130838388,
+        "p05": 16.946081645965723,
+        "p50": 58.98654406614922,
+        "p95": 876.468435607638,
+        "max": 999.8016783130691
+      },
+      "itae_roll": {
+        "n": 10,
+        "mean": 15.322383220566788,
+        "p05": 10.401460930332274,
+        "p50": 14.652150265294663,
+        "p95": 21.21202727511143,
+        "max": 22.21577550933107
+      },
+      "itae_yaw": {
+        "n": 10,
+        "mean": 48.40871805726873,
+        "p05": 19.713253511726894,
+        "p50": 47.3676123790503,
+        "p95": 78.55378371132538,
+        "max": 78.79060567262863
+      },
+      "max_altitude_drop_m": {
+        "n": 10,
+        "mean": 2.5889480050553515,
+        "p05": 0.2831329245884227,
+        "p50": 1.5007725490756343,
+        "p95": 6.183171396371166,
+        "max": 6.563209627506808
+      },
+      "max_pitch_dev": {
+        "n": 10,
+        "mean": 9.659314258429003,
+        "p05": 1.0425247986590827,
+        "p50": 4.533092612458662,
+        "p95": 27.711297338711653,
+        "max": 30.62655395998701
+      },
+      "max_roll_dev": {
+        "n": 10,
+        "mean": 0.8657715367800941,
+        "p05": 0.640002953397247,
+        "p50": 0.8358402857325586,
+        "p95": 1.0689360316992742,
+        "max": 1.1145213735043842
+      },
+      "max_yaw_dev": {
+        "n": 10,
+        "mean": 2.158575962157397,
+        "p05": 1.1768488644459856,
+        "p50": 2.145806809894511,
+        "p95": 3.3031819330740935,
+        "max": 3.674494027041814
+      },
+      "mean_aileron": {
+        "n": 10,
+        "mean": 1.644306392741545,
+        "p05": 1.4246000289122125,
+        "p50": 1.6253134079411522,
+        "p95": 1.9480570636170151,
+        "max": 1.9542402050157477
+      },
+      "mean_drag": {
+        "n": 10,
+        "mean": 3.1785837591776103,
+        "p05": 2.4547282169325,
+        "p50": 2.7472944221464792,
+        "p95": 5.042053389161504,
+        "max": 5.79075490854991
+      },
+      "mean_elev": {
+        "n": 10,
+        "mean": 4.525492508410804,
+        "p05": 1.289474367756434,
+        "p50": 3.433330463014599,
+        "p95": 9.691160105994303,
+        "max": 10.104076227396424
+      },
+      "mean_rudder": {
+        "n": 10,
+        "mean": 2.596345421037437,
+        "p05": 1.3446970735931425,
+        "p50": 2.582921119047997,
+        "p95": 3.721556906230296,
+        "max": 3.7487991860659884
+      },
+      "mean_signed_aileron": {
+        "n": 10,
+        "mean": -0.21371495473178204,
+        "p05": -0.7449772217285894,
+        "p50": -0.146070305980126,
+        "p95": 0.27742340760843365,
+        "max": 0.4915040853014574
+      },
+      "mean_signed_elev": {
+        "n": 10,
+        "mean": 0.9567894495378704,
+        "p05": -0.10981355705400064,
+        "p50": 1.1694592171772686,
+        "p95": 1.7317537149142024,
+        "max": 1.7336984079085362
+      },
+      "mean_signed_rudder": {
+        "n": 10,
+        "mean": -0.7095271276489042,
+        "p05": -2.5046338274053026,
+        "p50": -0.44275291898258085,
+        "p95": 1.0079204263598025,
+        "max": 1.7438912292817093
+      },
+      "pitch_settled": {
+        "n": 10,
+        "mean": 0.2,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "pitch_settling_time_s": {
+        "n": 10,
+        "mean": 10.939999999999767,
+        "p05": 10.673999999999772,
+        "p50": 10.999999999999766,
+        "p95": 10.999999999999766,
+        "max": 10.999999999999766
+      },
+      "pitch_steady_state_error": {
+        "n": 10,
+        "mean": -0.7778561730672987,
+        "p05": -2.808708055440944,
+        "p50": -0.37539990079300867,
+        "p95": 0.026019479845311916,
+        "max": 0.19392315330741183
+      },
+      "rms_aileron": {
+        "n": 10,
+        "mean": 2.0292484876022727,
+        "p05": 1.7922544402545149,
+        "p50": 2.01752338134777,
+        "p95": 2.342750341711424,
+        "max": 2.3464445763888717
+      },
+      "rms_altitude_error": {
+        "n": 10,
+        "mean": 1.936634568359714,
+        "p05": 0.7419464902263884,
+        "p50": 1.3797645301745054,
+        "p95": 4.225794866506657,
+        "max": 5.162139950772676
+      },
+      "rms_elev": {
+        "n": 10,
+        "mean": 5.4616676578063625,
+        "p05": 1.6198977119608713,
+        "p50": 4.255834204520219,
+        "p95": 11.281723110803268,
+        "max": 11.752908335990272
+      },
+      "rms_pitch_error": {
+        "n": 10,
+        "mean": 4.601065664894261,
+        "p05": 0.3480913622266085,
+        "p50": 1.5858366126220758,
+        "p95": 15.335073887243597,
+        "max": 17.949865245168066
+      },
+      "rms_roll_error": {
+        "n": 10,
+        "mean": 0.3005349801010504,
+        "p05": 0.21605563673359224,
+        "p50": 0.2972067754246841,
+        "p95": 0.3679916616298375,
+        "max": 0.3741746646934708
+      },
+      "rms_rudder": {
+        "n": 10,
+        "mean": 3.1637578293129374,
+        "p05": 1.6996019579061388,
+        "p50": 3.2766222716460094,
+        "p95": 4.515897213049504,
+        "max": 4.559282699388481
+      },
+      "rms_yaw_error": {
+        "n": 10,
+        "mean": 0.9393850459337869,
+        "p05": 0.4325190551805716,
+        "p50": 0.9610932412932284,
+        "p95": 1.4882951537815812,
+        "max": 1.5106404357898517
+      },
+      "rudder_activity": {
+        "n": 10,
+        "mean": 30495.36949571674,
+        "p05": 29580.29173355399,
+        "p50": 30402.45926403172,
+        "p95": 31518.789903165933,
+        "max": 31712.511706694335
+      },
+      "rudder_saturation_s": {
+        "n": 10,
+        "mean": 0.0,
+        "p05": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "tail_activity": {
+        "n": 10,
+        "mean": 390.05621395495064,
+        "p05": 363.33933667649416,
+        "p50": 392.4941174556613,
+        "p95": 414.7092666274579,
+        "max": 422.5076949872426
+      },
+      "tail_mean_abs": {
+        "n": 10,
+        "mean": 0.6142762852857575,
+        "p05": 0.03521609701363334,
+        "p50": 0.6603707957544698,
+        "p95": 1.1878593622968692,
+        "max": 1.2272692001703132
+      },
+      "tail_rms": {
+        "n": 10,
+        "mean": 0.6864821260713694,
+        "p05": 0.05296689645768664,
+        "p50": 0.7186256684984957,
+        "p95": 1.3166340958373695,
+        "max": 1.3599654718443805
+      }
+    }
+  },
+  "records": [
+    {
+      "trial": 0,
+      "seed": 300000,
+      "payload": 0.5194784725877246,
+      "airspeed": 16.628026311787753,
+      "gust_intensity": 0.9479638765844767,
+      "parameters": {
+        "rho": 1.1943008107735213,
+        "CL_alpha": 4.966072948153766,
+        "Cm_alpha": -0.6372278625726104,
+        "Cm_de": -1.09616684603194,
+        "CD0": 0.027240821647860083,
+        "payload_mass_max": 1.5252284001780156,
+        "payload_x_m": -0.0989227992660534
+      },
+      "sampled_static_margin": 0.03675261930777635,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.7999999999999616,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -16.728856383940226,
+          "max_pitch_dev": 24.954316636445142,
+          "max_roll_dev": 0.9078392445729914,
+          "max_yaw_dev": 1.4422180371652955,
+          "rms_pitch_error": 12.462570566151578,
+          "rms_roll_error": 0.33493976802144276,
+          "rms_yaw_error": 0.796632310350096,
+          "itae_pitch": 20.93296122892956,
+          "itae_roll": 0.336333888456666,
+          "itae_yaw": 1.2127569691902704,
+          "mean_elev": 9.5525503097379,
+          "mean_aileron": 2.0568152618726807,
+          "mean_rudder": 2.2001815908242444,
+          "mean_signed_elev": 0.23415934322385465,
+          "mean_signed_aileron": -0.541262035549881,
+          "mean_signed_rudder": -2.0931686608600084,
+          "rms_elev": 11.08361383651172,
+          "rms_aileron": 2.5259685538061105,
+          "rms_rudder": 2.5659704399975225,
+          "elev_activity": 7795.71791357456,
+          "aileron_activity": 7523.894639410929,
+          "rudder_activity": 5041.417055529032,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.9305912051652314,
+          "max_altitude_drop_m": 1.0427282789667487,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 4.396309831603138
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.427805530794013,
+          "beta_deg": -1.2647116715766706,
+          "airspeed_mps": 14.83567193011287
+        },
+        "simulated_T": 5.799999999999964,
+        "max_abs_alpha_deg": 15.427805530794013,
+        "max_abs_beta_deg": 3.630907516993205,
+        "min_airspeed_mps": 14.261630719159294,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 6,
+          "events": [
+            {
+              "t": 4.979999999999982,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.739999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.759999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.779999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.779999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.799999999999964,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.8199999999999612,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -8.530915256272882,
+          "max_pitch_dev": 19.261530011825364,
+          "max_roll_dev": 0.4932477313627115,
+          "max_yaw_dev": 1.3768690757427404,
+          "rms_pitch_error": 10.616310460611597,
+          "rms_roll_error": 0.19664728740478601,
+          "rms_yaw_error": 0.7648561534668911,
+          "itae_pitch": 17.479061499859085,
+          "itae_roll": 0.2379437193243916,
+          "itae_yaw": 1.1922367459834964,
+          "mean_elev": 8.85283187877906,
+          "mean_aileron": 1.4986297982578458,
+          "mean_rudder": 2.1452608963969944,
+          "mean_signed_elev": 0.15086471098206342,
+          "mean_signed_aileron": -0.5525491923594034,
+          "mean_signed_rudder": -2.0195819338667773,
+          "rms_elev": 10.347175731569234,
+          "rms_aileron": 1.8252344421282403,
+          "rms_rudder": 2.497034617136923,
+          "elev_activity": 7969.312703901964,
+          "aileron_activity": 6941.326605508346,
+          "rudder_activity": 5137.608192084013,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.8639330864194212,
+          "max_altitude_drop_m": 0.6725504213661537,
+          "tail_mean_abs": 0.02939993620285909,
+          "tail_rms": 0.031314370115288426,
+          "tail_activity": 60.1160419530807,
+          "mean_drag": 4.403847761923082
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.723519601146826,
+          "beta_deg": -1.561357624870021,
+          "airspeed_mps": 14.402614928111735
+        },
+        "simulated_T": 5.819999999999964,
+        "max_abs_alpha_deg": 15.723519601146826,
+        "max_abs_beta_deg": 3.6162347835485047,
+        "min_airspeed_mps": 14.26635364706546,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 17,
+          "events": [
+            {
+              "t": 3.000000000000002,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.000000000000003,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.499999999999992,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.979999999999982,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.999999999999981,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.699999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.719999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.739999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.739999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.759999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.759999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.779999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.779999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.799999999999964,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.799999999999964,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.819999999999964,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "seed": 300001,
+      "payload": 0.45091673072409083,
+      "airspeed": 12.103698178545965,
+      "gust_intensity": 0.9202100470531697,
+      "parameters": {
+        "rho": 1.261157134561097,
+        "CL_alpha": 5.130266904776635,
+        "Cm_alpha": -0.556727988632578,
+        "Cm_de": -1.1646954163185579,
+        "CD0": 0.032271931395306215,
+        "payload_mass_max": 1.4912553297419868,
+        "payload_x_m": -0.10881085813602918
+      },
+      "sampled_static_margin": 0.019811934004986497,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": 0.1508207171754829,
+          "max_pitch_dev": 1.4406024261900034,
+          "max_roll_dev": 0.8228590602565466,
+          "max_yaw_dev": 2.5361264284696645,
+          "rms_pitch_error": 0.505815884673724,
+          "rms_roll_error": 0.32447784561311116,
+          "rms_yaw_error": 1.379117071001349,
+          "itae_pitch": 17.58652516045977,
+          "itae_roll": 16.768953975605033,
+          "itae_yaw": 72.34874640729956,
+          "mean_elev": 1.8812183519246317,
+          "mean_aileron": 1.375423921825115,
+          "mean_rudder": 3.3635324690282156,
+          "mean_signed_elev": 1.7152459829573103,
+          "mean_signed_aileron": -0.6644539004553746,
+          "mean_signed_rudder": -2.2146090166511807,
+          "rms_elev": 2.2287173188400407,
+          "rms_aileron": 1.7274952795153375,
+          "rms_rudder": 3.9238190927278294,
+          "elev_activity": 22408.51761440421,
+          "aileron_activity": 36529.68303932148,
+          "rudder_activity": 29358.10362543848,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 4.873491549124239,
+          "max_altitude_drop_m": 5.251794514954,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 2.4893464564773398
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 9.711786439548169,
+        "max_abs_beta_deg": 6.589601307849594,
+        "min_airspeed_mps": 9.925013507582161,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "airspeed_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 26,
+          "events": [
+            {
+              "t": 10.479999999999865,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 10.479999999999865,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 10.499999999999865,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 10.499999999999865,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 10.579999999999863,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 10.579999999999863,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 10.599999999999863,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 10.639999999999862,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.259999999999849,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.279999999999848,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.299999999999848,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.319999999999848,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.339999999999847,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.339999999999847,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.359999999999847,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.379999999999846,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.399999999999846,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.399999999999846,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.419999999999845,
+              "reason": "airspeed_envelope"
+            },
+            {
+              "t": 11.499999999999844,
+              "reason": "airspeed_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -0.34751200474749105,
+          "max_pitch_dev": 1.1594564450565414,
+          "max_roll_dev": 0.8116161223214006,
+          "max_yaw_dev": 2.371378397999081,
+          "rms_pitch_error": 0.43745687122414306,
+          "rms_roll_error": 0.29194440132947475,
+          "rms_yaw_error": 1.265815875406176,
+          "itae_pitch": 19.77559982688159,
+          "itae_roll": 14.928874955630016,
+          "itae_yaw": 64.82177877157719,
+          "mean_elev": 1.2570525541390607,
+          "mean_aileron": 1.4095576100193772,
+          "mean_rudder": 3.423616247557007,
+          "mean_signed_elev": 0.3059464628134169,
+          "mean_signed_aileron": -0.6638101092068657,
+          "mean_signed_rudder": -2.217071012792916,
+          "rms_elev": 1.6240374927115848,
+          "rms_aileron": 1.7713632204222183,
+          "rms_rudder": 3.9992052545810095,
+          "elev_activity": 22434.025148744233,
+          "aileron_activity": 36936.9939651074,
+          "rudder_activity": 29513.929682208316,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 5.162139950772676,
+          "max_altitude_drop_m": 5.71868022498316,
+          "tail_mean_abs": 1.2272692001703132,
+          "tail_rms": 1.3599654718443805,
+          "tail_activity": 422.5076949872426,
+          "mean_drag": 2.538685114002458
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 9.721321778102501,
+        "max_abs_beta_deg": 6.728778573478889,
+        "min_airspeed_mps": 10.038453152519617,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "seed": 300002,
+      "payload": 0.42637778330018916,
+      "airspeed": 18.71095994118549,
+      "gust_intensity": 1.0398186111879708,
+      "parameters": {
+        "rho": 1.2172427787711544,
+        "CL_alpha": 4.722143856456227,
+        "Cm_alpha": -0.585944982797953,
+        "Cm_de": -1.043345029074648,
+        "CD0": 0.032823806473718235,
+        "payload_mass_max": 1.4003963037178235,
+        "payload_x_m": -0.1075328654661909
+      },
+      "sampled_static_margin": 0.04434778825908919,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 2.3599999999999497,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": 19.99411558603353,
+          "max_pitch_dev": 31.97448264492111,
+          "max_roll_dev": 1.0184558038311364,
+          "max_yaw_dev": 2.567036082208936,
+          "rms_pitch_error": 17.112433071713262,
+          "rms_roll_error": 0.48076801990440027,
+          "rms_yaw_error": 1.3172191390054462,
+          "itae_pitch": 47.874220118430266,
+          "itae_roll": 1.0740574898454087,
+          "itae_yaw": 4.095278493263863,
+          "mean_elev": 9.51981247678156,
+          "mean_aileron": 2.531245609307671,
+          "mean_rudder": 2.9462661039078974,
+          "mean_signed_elev": 2.992735021449401,
+          "mean_signed_aileron": -0.739347881211216,
+          "mean_signed_rudder": -2.6342400140577094,
+          "rms_elev": 11.209764781514846,
+          "rms_aileron": 3.0157961080183715,
+          "rms_rudder": 3.477401232745567,
+          "elev_activity": 10346.801559880845,
+          "aileron_activity": 11146.118060663373,
+          "rudder_activity": 6717.721682162965,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 3.843303504458911,
+          "max_altitude_drop_m": 0.29731907203850483,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 7.232559679560683
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": -15.363217439831384,
+          "beta_deg": -3.566905833683305,
+          "airspeed_mps": 15.91475543590039
+        },
+        "simulated_T": 6.359999999999952,
+        "max_abs_alpha_deg": 15.363217439831384,
+        "max_abs_beta_deg": 5.162678130310018,
+        "min_airspeed_mps": 15.8472657552302,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 28,
+          "events": [
+            {
+              "t": 5.399999999999973,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.419999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.439999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.439999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.4599999999999715,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.4599999999999715,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.479999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.479999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.51999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.53999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.859999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.879999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.879999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.899999999999962,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.899999999999962,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.919999999999962,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.919999999999962,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.939999999999961,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 4.059999999999914,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -3.7620484681209008,
+          "max_pitch_dev": 29.11773272299402,
+          "max_roll_dev": 1.128787642575116,
+          "max_yaw_dev": 2.580712441560259,
+          "rms_pitch_error": 17.39804702258482,
+          "rms_roll_error": 0.4269306247283905,
+          "rms_yaw_error": 1.3509593499290415,
+          "itae_pitch": 138.1122097350215,
+          "itae_roll": 2.7764471305975658,
+          "itae_yaw": 11.377914415223312,
+          "mean_elev": 9.889106003434538,
+          "mean_aileron": 2.209039627734468,
+          "mean_rudder": 3.277829034653396,
+          "mean_signed_elev": 2.005953088782634,
+          "mean_signed_aileron": -0.8795952816370584,
+          "mean_signed_rudder": -3.08602985610263,
+          "rms_elev": 11.458551906010833,
+          "rms_aileron": 2.6691037763886367,
+          "rms_rudder": 3.796413528224204,
+          "elev_activity": 17877.341676266064,
+          "aileron_activity": 17989.52609408372,
+          "rudder_activity": 11737.091184040279,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 4.643773788210532,
+          "max_altitude_drop_m": 0.7520785204634564,
+          "tail_mean_abs": 0.027861183739179972,
+          "tail_rms": 0.029982241527501976,
+          "tail_activity": 125.8771279482375,
+          "mean_drag": 6.982388745135631
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.000102066655792,
+          "beta_deg": -1.221984007919325,
+          "airspeed_mps": 16.785413871478898
+        },
+        "simulated_T": 8.059999999999917,
+        "max_abs_alpha_deg": 15.000102066655792,
+        "max_abs_beta_deg": 5.51297320361566,
+        "min_airspeed_mps": 15.738885149841664,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 73,
+          "events": [
+            {
+              "t": 3.000000000000002,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 3.5000000000000027,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.000000000000003,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.499999999999992,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.939999999999983,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.979999999999982,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.999999999999981,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.999999999999981,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.019999999999981,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.759999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.779999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.779999999999965,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.799999999999964,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.799999999999964,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.819999999999964,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.819999999999964,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.839999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.839999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.859999999999963,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "seed": 300003,
+      "payload": 0.20760928725584882,
+      "airspeed": 13.24002919900557,
+      "gust_intensity": 1.0570338738154417,
+      "parameters": {
+        "rho": 1.1841842837199212,
+        "CL_alpha": 4.634474808950414,
+        "Cm_alpha": -0.6394415710018874,
+        "Cm_de": -1.0750856178032122,
+        "CD0": 0.030890250253106648,
+        "payload_mass_max": 1.3808747136182942,
+        "payload_x_m": -0.10484645978467069
+      },
+      "sampled_static_margin": 0.09648970284998742,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 9.339999999999801,
+          "pitch_settled": 1.0,
+          "pitch_steady_state_error": -0.09642584007743597,
+          "max_pitch_dev": 8.064947687795401,
+          "max_roll_dev": 0.8199230695218627,
+          "max_yaw_dev": 3.04075924683119,
+          "rms_pitch_error": 2.7422602201480655,
+          "rms_roll_error": 0.3752584018030143,
+          "rms_yaw_error": 1.6691983666936119,
+          "itae_pitch": 103.5680146129983,
+          "itae_roll": 19.587321003687137,
+          "itae_yaw": 89.28979182645817,
+          "mean_elev": 4.641712355059883,
+          "mean_aileron": 1.6395825329740905,
+          "mean_rudder": 3.5881219673990494,
+          "mean_signed_elev": 0.7014669326874656,
+          "mean_signed_aileron": -0.49017290890363224,
+          "mean_signed_rudder": -1.6194855548297706,
+          "rms_elev": 5.874197546211007,
+          "rms_aileron": 2.0064895053334277,
+          "rms_rudder": 4.332575012808153,
+          "elev_activity": 39187.78282320717,
+          "aileron_activity": 38154.161777409245,
+          "rudder_activity": 30250.122840263444,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.8891799921660707,
+          "max_altitude_drop_m": 3.525805006645669,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 2.554795197445077
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 7.799025604832008,
+        "max_abs_beta_deg": 7.667233053096363,
+        "min_airspeed_mps": 11.887204507749738,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -0.40328779683852634,
+          "max_pitch_dev": 7.2635315802468305,
+          "max_roll_dev": 0.7903382723091507,
+          "max_yaw_dev": 2.8493560404468816,
+          "rms_pitch_error": 2.6010905564245737,
+          "rms_roll_error": 0.3469707849323118,
+          "rms_yaw_error": 1.5106404357898517,
+          "itae_pitch": 106.13191135420126,
+          "itae_roll": 17.57117115303392,
+          "itae_yaw": 78.26433464751031,
+          "mean_elev": 4.779430894755351,
+          "mean_aileron": 1.7305024689817636,
+          "mean_rudder": 3.688260786431116,
+          "mean_signed_elev": -0.062457893772741455,
+          "mean_signed_aileron": -0.5030570429372233,
+          "mean_signed_rudder": -1.6696367807026578,
+          "rms_elev": 5.921281937704243,
+          "rms_aileron": 2.1240754429369,
+          "rms_rudder": 4.462870507524089,
+          "elev_activity": 40624.194684270384,
+          "aileron_activity": 39230.7918971622,
+          "rudder_activity": 30447.40359738841,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.9812136078100314,
+          "max_altitude_drop_m": 3.848726609877261,
+          "tail_mean_abs": 0.5954908404776195,
+          "tail_rms": 0.6839385885000594,
+          "tail_activity": 385.12016964308003,
+          "mean_drag": 2.579164953009165
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 7.6067100450209955,
+        "max_abs_beta_deg": 7.94202091553098,
+        "min_airspeed_mps": 12.003045967139904,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "seed": 300004,
+      "payload": 0.30232671454767246,
+      "airspeed": 19.21034086161503,
+      "gust_intensity": 0.5239693371242865,
+      "parameters": {
+        "rho": 1.1973931111580267,
+        "CL_alpha": 5.167958714950972,
+        "Cm_alpha": -0.5986148031772316,
+        "Cm_de": -1.0976817369623708,
+        "CD0": 0.027880429529208668,
+        "payload_mass_max": 1.4552966400870364,
+        "payload_x_m": -0.09529959047393158
+      },
+      "sampled_static_margin": 0.06097874741579668,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": 0.10923103439375907,
+          "max_pitch_dev": 33.7331636918604,
+          "max_roll_dev": 1.0669794226124547,
+          "max_yaw_dev": 0.8704884917439114,
+          "rms_pitch_error": 18.211476818490443,
+          "rms_roll_error": 0.35223831859468435,
+          "rms_yaw_error": 0.36132709476185876,
+          "itae_pitch": 1034.2220434239819,
+          "itae_roll": 18.20808029073896,
+          "itae_yaw": 17.959099369274153,
+          "mean_elev": 10.003929812292645,
+          "mean_aileron": 1.9077130569396954,
+          "mean_rudder": 1.221731887434275,
+          "mean_signed_elev": 1.6338582193113214,
+          "mean_signed_aileron": 0.02275765254352013,
+          "mean_signed_rudder": 0.1238426309386353,
+          "rms_elev": 11.668533779502624,
+          "rms_aileron": 2.2849842804345997,
+          "rms_rudder": 1.5103370413307153,
+          "elev_activity": 48680.56763439757,
+          "aileron_activity": 45019.8857342888,
+          "rudder_activity": 29985.93673402303,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.5498850233639817,
+          "max_altitude_drop_m": 1.556579216677818,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 6.035614506971018
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 13.891276855068497,
+        "max_abs_beta_deg": 2.2967978487699887,
+        "min_airspeed_mps": 14.792712849055542,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 80,
+          "events": [
+            {
+              "t": 8.219999999999914,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.239999999999913,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.239999999999913,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.259999999999913,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.259999999999913,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.279999999999912,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.279999999999912,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.299999999999912,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.319999999999911,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.119999999999894,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.139999999999894,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.159999999999894,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.159999999999894,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.179999999999893,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.179999999999893,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.199999999999893,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.199999999999893,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.219999999999892,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.219999999999892,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.239999999999892,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -2.705749084804716,
+          "max_pitch_dev": 30.62655395998701,
+          "max_roll_dev": 1.0097266524007829,
+          "max_yaw_dev": 0.8545316851620873,
+          "rms_pitch_error": 17.949865245168066,
+          "rms_roll_error": 0.3547139448245218,
+          "rms_yaw_error": 0.3802044178227309,
+          "itae_pitch": 999.8016783130691,
+          "itae_roll": 17.05596147871441,
+          "itae_yaw": 18.882327073769282,
+          "mean_elev": 10.104076227396424,
+          "mean_aileron": 1.9404998907963422,
+          "mean_rudder": 1.2202820710608555,
+          "mean_signed_elev": 1.7293768679211279,
+          "mean_signed_aileron": 0.015769245983628017,
+          "mean_signed_rudder": 0.10840055612192011,
+          "rms_elev": 11.752908335990272,
+          "rms_aileron": 2.3382351659945435,
+          "rms_rudder": 1.5142783270199438,
+          "elev_activity": 48644.27318480597,
+          "aileron_activity": 45597.24988901058,
+          "rudder_activity": 30072.64763441118,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.5461824849306803,
+          "max_altitude_drop_m": 1.7973636986475157,
+          "tail_mean_abs": 0.028905414446678133,
+          "tail_rms": 0.03117463141277533,
+          "tail_activity": 362.141585052191,
+          "mean_drag": 5.79075490854991
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 13.44072307199382,
+        "max_abs_beta_deg": 2.223224966240217,
+        "min_airspeed_mps": 14.712890270024323,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 98,
+          "events": [
+            {
+              "t": 3.000000000000002,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 3.5000000000000027,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.000000000000003,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.499999999999992,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.999999999999981,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.99999999999996,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 6.3999999999999515,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.499999999999949,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 6.779999999999943,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.799999999999943,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.799999999999943,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.8199999999999426,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.8199999999999426,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.839999999999942,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.839999999999942,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.859999999999942,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.859999999999942,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.879999999999941,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.879999999999941,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "seed": 300005,
+      "payload": 0.5123749476352472,
+      "airspeed": 14.975930248781417,
+      "gust_intensity": 1.1834508829724744,
+      "parameters": {
+        "rho": 1.2272683897092445,
+        "CL_alpha": 4.651671135170042,
+        "Cm_alpha": -0.5623049015194552,
+        "Cm_de": -1.0479088827306013,
+        "CD0": 0.03195095360820163,
+        "payload_mass_max": 1.4909200248718582,
+        "payload_x_m": -0.10741312169082816
+      },
+      "sampled_static_margin": 0.024190899204423428,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.8999999999999595,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -16.84039623872453,
+          "max_pitch_dev": 25.80928789236674,
+          "max_roll_dev": 0.9655370042922302,
+          "max_yaw_dev": 2.40161970599097,
+          "rms_pitch_error": 11.698052667581885,
+          "rms_roll_error": 0.5189222218438814,
+          "rms_yaw_error": 1.8634026256349612,
+          "itae_pitch": 22.048550617592912,
+          "itae_roll": 0.8652760356660588,
+          "itae_yaw": 3.2815094731598133,
+          "mean_elev": 8.751031066797387,
+          "mean_aileron": 2.4262997985746,
+          "mean_rudder": 5.812877261906731,
+          "mean_signed_elev": 1.2208208134277847,
+          "mean_signed_aileron": -1.6728433407184589,
+          "mean_signed_rudder": -5.812877261906731,
+          "rms_elev": 10.2503286541327,
+          "rms_aileron": 2.9469259201321516,
+          "rms_rudder": 6.05433150268846,
+          "elev_activity": 8226.33209971856,
+          "aileron_activity": 8030.568879340924,
+          "rudder_activity": 5253.108814871332,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.4877432919743518,
+          "max_altitude_drop_m": 1.031005117749487,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 4.916858741930123
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.581425296639116,
+          "beta_deg": -7.882191025019605,
+          "airspeed_mps": 16.423068649990036
+        },
+        "simulated_T": 5.899999999999962,
+        "max_abs_alpha_deg": 15.581425296639116,
+        "max_abs_beta_deg": 7.882191025019605,
+        "min_airspeed_mps": 13.731690498568362,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 9,
+          "events": [
+            {
+              "t": 5.51999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.53999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.559999999999969,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.579999999999969,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.839999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.859999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.879999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.879999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.899999999999962,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.87999999999996,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -18.99998681701153,
+          "max_pitch_dev": 26.99439758716138,
+          "max_roll_dev": 0.9358654747229633,
+          "max_yaw_dev": 2.298014204962271,
+          "rms_pitch_error": 12.595592963520662,
+          "rms_roll_error": 0.5045949269391112,
+          "rms_yaw_error": 1.7817628158884353,
+          "itae_pitch": 23.42161784622504,
+          "itae_roll": 0.8376256878730748,
+          "itae_yaw": 3.1195444778083514,
+          "mean_elev": 8.895249924285896,
+          "mean_aileron": 2.4369608462153556,
+          "mean_rudder": 5.892025956077081,
+          "mean_signed_elev": 0.591624390671348,
+          "mean_signed_aileron": -1.6705103620964152,
+          "mean_signed_rudder": -5.892025956077081,
+          "rms_elev": 10.44116122282061,
+          "rms_aileron": 2.9642943434499154,
+          "rms_rudder": 6.139967564214842,
+          "elev_activity": 8136.762641107806,
+          "aileron_activity": 8103.770012153208,
+          "rudder_activity": 5205.948429448428,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.6172802252383522,
+          "max_altitude_drop_m": 1.0933056624389224,
+          "tail_mean_abs": 0.327107604617363,
+          "tail_rms": 0.35580699820386674,
+          "tail_activity": 84.56968555667369,
+          "mean_drag": 5.017839287674078
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.46179351174662,
+          "beta_deg": -7.85626222771809,
+          "airspeed_mps": 16.371888883427587
+        },
+        "simulated_T": 5.879999999999963,
+        "max_abs_alpha_deg": 15.46179351174662,
+        "max_abs_beta_deg": 7.85626222771809,
+        "min_airspeed_mps": 13.76127999157844,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 9,
+          "events": [
+            {
+              "t": 5.499999999999971,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.51999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.53999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.559999999999969,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.579999999999969,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.839999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.859999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.879999999999963,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "seed": 300006,
+      "payload": 0.5897881599420997,
+      "airspeed": 15.754247911385253,
+      "gust_intensity": 1.37716693451664,
+      "parameters": {
+        "rho": 1.1855170529310621,
+        "CL_alpha": 4.895382947673049,
+        "Cm_alpha": -0.5892948286727403,
+        "Cm_de": -1.0262522624214794,
+        "CD0": 0.027943184710406795,
+        "payload_mass_max": 1.6209690430233774,
+        "payload_x_m": -0.10504520513888845
+      },
+      "sampled_static_margin": 0.008615112425426594,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 2.4199999999999484,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -16.189877277633894,
+          "max_pitch_dev": 25.494840456798478,
+          "max_roll_dev": 1.2910091190129385,
+          "max_yaw_dev": 2.516036654232826,
+          "rms_pitch_error": 12.669588732567595,
+          "rms_roll_error": 0.5322374589669134,
+          "rms_yaw_error": 1.6850741451937783,
+          "itae_pitch": 37.923115876129586,
+          "itae_roll": 1.5261931175937562,
+          "itae_yaw": 4.574558973683159,
+          "mean_elev": 9.704210690353523,
+          "mean_aileron": 2.1349055000503214,
+          "mean_rudder": 5.513149210893311,
+          "mean_signed_elev": 1.6360807895474032,
+          "mean_signed_aileron": -1.5281861906066108,
+          "mean_signed_rudder": -5.513149210893311,
+          "rms_elev": 11.503394127036307,
+          "rms_aileron": 2.6500783689520033,
+          "rms_rudder": 5.788589402058279,
+          "elev_activity": 10430.399502883121,
+          "aileron_activity": 9646.13738209538,
+          "rudder_activity": 6506.381923520264,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.5971271290732271,
+          "max_altitude_drop_m": 0.08939604394106482,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 4.22960867374814
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 16.4964921517467,
+          "beta_deg": -4.835933279657409,
+          "airspeed_mps": 14.466226111893539
+        },
+        "simulated_T": 6.419999999999951,
+        "max_abs_alpha_deg": 16.4964921517467,
+        "max_abs_beta_deg": 7.286241429023478,
+        "min_airspeed_mps": 13.064688526938195,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 22,
+          "events": [
+            {
+              "t": 5.359999999999974,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.379999999999973,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.399999999999973,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.399999999999973,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.419999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.419999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.439999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.439999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.4599999999999715,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.479999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.479999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.51999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.51999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.53999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.559999999999969,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.359999999999952,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.379999999999952,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.3999999999999515,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 2.0799999999999557,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -15.017667925023746,
+          "max_pitch_dev": 21.163300082821824,
+          "max_roll_dev": 1.15251457159559,
+          "max_yaw_dev": 2.729362871313903,
+          "rms_pitch_error": 10.86527974176891,
+          "rms_roll_error": 0.4864814813068483,
+          "rms_yaw_error": 1.7363268853399754,
+          "itae_pitch": 24.36886161745889,
+          "itae_roll": 1.0374144134906986,
+          "itae_yaw": 3.6636391625971365,
+          "mean_elev": 9.609343047799342,
+          "mean_aileron": 2.054133825421337,
+          "mean_rudder": 5.727955912498916,
+          "mean_signed_elev": 1.2176218001928465,
+          "mean_signed_aileron": -1.4352051594199446,
+          "mean_signed_rudder": -5.727955912498916,
+          "rms_elev": 11.227630868854991,
+          "rms_aileron": 2.574215717597045,
+          "rms_rudder": 6.033766588342123,
+          "elev_activity": 9027.828118745829,
+          "aileron_activity": 8446.72221832071,
+          "rudder_activity": 5755.3984456354565,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.47555183658572575,
+          "max_altitude_drop_m": 0.0,
+          "tail_mean_abs": 0.28081644378802995,
+          "tail_rms": 0.34649054475873664,
+          "tail_activity": 86.70551686362089,
+          "mean_drag": 3.730351036388806
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.252860472471982,
+          "beta_deg": -3.282328521462404,
+          "airspeed_mps": 14.660182792793325
+        },
+        "simulated_T": 6.079999999999958,
+        "max_abs_alpha_deg": 15.252860472471982,
+        "max_abs_beta_deg": 7.485373391459794,
+        "min_airspeed_mps": 13.458060818555996,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 6,
+          "events": [
+            {
+              "t": 5.219999999999977,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.339999999999974,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.99999999999996,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 6.059999999999959,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.079999999999958,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "seed": 300007,
+      "payload": 0.5832751912821552,
+      "airspeed": 15.52088488977112,
+      "gust_intensity": 1.1244583480832415,
+      "parameters": {
+        "rho": 1.2210025297367588,
+        "CL_alpha": 4.847921954156725,
+        "Cm_alpha": -0.5580569378043668,
+        "Cm_de": -1.0492267775393642,
+        "CD0": 0.027254359743265108,
+        "payload_mass_max": 1.4776196840349338,
+        "payload_x_m": -0.10517882410135301
+      },
+      "sampled_static_margin": 0.011404752235822562,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.9399999999999586,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -18.15749484840514,
+          "max_pitch_dev": 24.208054792318702,
+          "max_roll_dev": 0.7529502406995656,
+          "max_yaw_dev": 1.5430351895759713,
+          "rms_pitch_error": 10.839502864158172,
+          "rms_roll_error": 0.3282520898772016,
+          "rms_yaw_error": 0.4543332304301677,
+          "itae_pitch": 21.524102924890556,
+          "itae_roll": 0.5173723490148142,
+          "itae_yaw": 0.33987638744151494,
+          "mean_elev": 8.883948844180022,
+          "mean_aileron": 2.093728224946313,
+          "mean_rudder": 1.5478201303505061,
+          "mean_signed_elev": 1.7234773431035042,
+          "mean_signed_aileron": -0.509695620810855,
+          "mean_signed_rudder": -1.3027357014488228,
+          "rms_elev": 10.431268753078308,
+          "rms_aileron": 2.4969476763270437,
+          "rms_rudder": 1.8905566063759542,
+          "elev_activity": 8403.425491142423,
+          "aileron_activity": 8360.221775151993,
+          "rudder_activity": 5266.438579371309,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.3732479691670948,
+          "max_altitude_drop_m": 1.477116949940907,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 3.90810724742481
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.04017773692254,
+          "beta_deg": -2.3505758837490576,
+          "airspeed_mps": 15.230211111669272
+        },
+        "simulated_T": 5.939999999999961,
+        "max_abs_alpha_deg": 15.04017773692254,
+        "max_abs_beta_deg": 5.598418381918731,
+        "min_airspeed_mps": 14.649805171380399,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 2,
+          "events": [
+            {
+              "t": 5.919999999999962,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.939999999999961,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.8199999999999612,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -23.993834148274058,
+          "max_pitch_dev": 31.720298395675485,
+          "max_roll_dev": 0.9469781963365375,
+          "max_yaw_dev": 1.3449882611539263,
+          "rms_pitch_error": 18.835156010687143,
+          "rms_roll_error": 0.37735827087249624,
+          "rms_yaw_error": 0.448162041347805,
+          "itae_pitch": 32.45278253614347,
+          "itae_roll": 0.5046725539016239,
+          "itae_yaw": 0.4308541496048181,
+          "mean_elev": 11.327438622927334,
+          "mean_aileron": 2.2271576115338645,
+          "mean_rudder": 1.708181533648837,
+          "mean_signed_elev": 1.5771722516482112,
+          "mean_signed_aileron": -0.48087164986231695,
+          "mean_signed_rudder": -1.344951227990363,
+          "rms_elev": 13.195493954271829,
+          "rms_aileron": 2.6043984403679206,
+          "rms_rudder": 2.004741295722773,
+          "elev_activity": 7827.259260068694,
+          "aileron_activity": 7578.133100844781,
+          "rudder_activity": 5024.229996981939,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.5016632087253031,
+          "max_altitude_drop_m": 0.9687626258897666,
+          "tail_mean_abs": 0.09864150041299773,
+          "tail_rms": 0.12930842092298717,
+          "tail_activity": 72.96180607449692,
+          "mean_drag": 5.365754115085893
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.484967392951129,
+          "beta_deg": -2.192915446661932,
+          "airspeed_mps": 14.132246031918946
+        },
+        "simulated_T": 5.819999999999964,
+        "max_abs_alpha_deg": 15.484967392951129,
+        "max_abs_beta_deg": 5.563049636068228,
+        "min_airspeed_mps": 13.365823490642526,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 48,
+          "events": [
+            {
+              "t": 4.779999999999986,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.799999999999986,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.819999999999985,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.819999999999985,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.839999999999985,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.839999999999985,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.859999999999984,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.859999999999984,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.879999999999984,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.879999999999984,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.8999999999999835,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.8999999999999835,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.919999999999983,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.919999999999983,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.939999999999983,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.939999999999983,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.959999999999982,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.959999999999982,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.979999999999982,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.979999999999982,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "seed": 300008,
+      "payload": 0.35150327237223145,
+      "airspeed": 14.320956284812985,
+      "gust_intensity": 1.4386065014849236,
+      "parameters": {
+        "rho": 1.203621912898984,
+        "CL_alpha": 4.941922763952937,
+        "Cm_alpha": -0.6389571767745248,
+        "Cm_de": -1.0425448112996156,
+        "CD0": 0.032086417805124515,
+        "payload_mass_max": 1.46338547753576,
+        "payload_x_m": -0.10435646743856632
+      },
+      "sampled_static_margin": 0.060801928340625123,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.419999999999778,
+          "pitch_settled": 1.0,
+          "pitch_steady_state_error": 0.10993676331221426,
+          "max_pitch_dev": 11.068499926722524,
+          "max_roll_dev": 0.9895779883336764,
+          "max_yaw_dev": 2.589937908884798,
+          "rms_pitch_error": 3.564723428662602,
+          "rms_roll_error": 0.27889616101051384,
+          "rms_yaw_error": 1.0691094916848691,
+          "itae_pitch": 92.05482720056413,
+          "itae_roll": 12.633665124372845,
+          "itae_yaw": 51.432936491344734,
+          "mean_elev": 4.925266343507154,
+          "mean_aileron": 1.4592387942097755,
+          "mean_rudder": 2.5961943811483654,
+          "mean_signed_elev": 1.358644443881245,
+          "mean_signed_aileron": -0.2623476215348181,
+          "mean_signed_rudder": -1.0020486447070838,
+          "rms_elev": 6.521872563930514,
+          "rms_aileron": 1.8137315615339908,
+          "rms_rudder": 3.238433052517967,
+          "elev_activity": 36330.48158526089,
+          "aileron_activity": 37906.014794511735,
+          "rudder_activity": 30723.305023559005,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 2.9809190623068877,
+          "max_altitude_drop_m": 0.914038920690345,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 2.786498230120255
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 11.09057357398332,
+        "max_abs_beta_deg": 6.37136685519255,
+        "min_airspeed_mps": 10.965618182849141,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 1,
+          "events": [
+            {
+              "t": 9.099999999999895,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.439999999999777,
+          "pitch_settled": 1.0,
+          "pitch_steady_state_error": 0.19392315330741183,
+          "max_pitch_dev": 11.634012394368025,
+          "max_roll_dev": 1.0132206139374735,
+          "max_yaw_dev": 2.4692086529517523,
+          "rms_pitch_error": 3.6333680448625283,
+          "rms_roll_error": 0.2783118677523906,
+          "rms_yaw_error": 1.027090255034155,
+          "itae_pitch": 92.87003780136638,
+          "itae_roll": 12.396157883277253,
+          "itae_yaw": 50.59765462162655,
+          "mean_elev": 4.813059405459785,
+          "mean_aileron": 1.5451045574372586,
+          "mean_rudder": 2.6521836474854337,
+          "mean_signed_elev": 1.0854697545210148,
+          "mean_signed_aileron": -0.2767864190477605,
+          "mean_signed_rudder": -1.0527518146456165,
+          "rms_elev": 6.436509763988857,
+          "rms_aileron": 1.9383504523315678,
+          "rms_rudder": 3.3205184811710224,
+          "elev_activity": 35781.25977973203,
+          "aileron_activity": 39487.17877273254,
+          "rudder_activity": 30829.495302019346,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 3.0813730968481945,
+          "max_altitude_drop_m": 0.9402523784710723,
+          "tail_mean_abs": 0.20245720561749167,
+          "tail_rms": 0.3074012895491565,
+          "tail_activity": 403.90050103798717,
+          "mean_drag": 2.7969014187969203
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 11.394601889732028,
+        "max_abs_beta_deg": 6.652256111364345,
+        "min_airspeed_mps": 10.967822919676168,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 2,
+          "events": [
+            {
+              "t": 9.099999999999895,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.119999999999894,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 9,
+      "seed": 300009,
+      "payload": 0.5572190445551841,
+      "airspeed": 12.453389579779,
+      "gust_intensity": 1.3073500891580077,
+      "parameters": {
+        "rho": 1.214707830243412,
+        "CL_alpha": 5.171158743616888,
+        "Cm_alpha": -0.5693757499739875,
+        "Cm_de": -1.01908087485477,
+        "CD0": 0.03043367439160396,
+        "payload_mass_max": 1.3768279157813768,
+        "payload_x_m": -0.1061485305585767
+      },
+      "sampled_static_margin": 0.014238565653008461,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": 0.15466028222285602,
+          "max_pitch_dev": 1.8597575817479606,
+          "max_roll_dev": 0.9196792759591176,
+          "max_yaw_dev": 3.9403704742105186,
+          "rms_pitch_error": 0.6628761028427173,
+          "rms_roll_error": 0.39248245520928715,
+          "rms_yaw_error": 1.6139196355586405,
+          "itae_pitch": 21.55555107813509,
+          "itae_roll": 21.61788343160677,
+          "itae_yaw": 87.1005905517693,
+          "mean_elev": 2.6266514356964312,
+          "mean_aileron": 1.6432131405854118,
+          "mean_rudder": 3.67148922977216,
+          "mean_signed_elev": 2.315031536416986,
+          "mean_signed_aileron": -0.10218323079786847,
+          "mean_signed_rudder": -0.24307060756862314,
+          "rms_elev": 3.1555972958173877,
+          "rms_aileron": 2.050449795409238,
+          "rms_rudder": 4.455098395760463,
+          "elev_activity": 24086.92102438457,
+          "aileron_activity": 39957.94485133692,
+          "rudder_activity": 31444.86121367347,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 2.4455729645352653,
+          "max_altitude_drop_m": 6.017334614569961,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 2.5704059213532213
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 9.60636618145004,
+        "max_abs_beta_deg": 11.203669671858533,
+        "min_airspeed_mps": 10.529706377709823,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -0.504974467979466,
+          "max_pitch_dev": 1.4706585251132465,
+          "max_roll_dev": 0.8600644491437166,
+          "max_yaw_dev": 3.674494027041814,
+          "rms_pitch_error": 0.570582668819578,
+          "rms_roll_error": 0.36043465788539675,
+          "rms_yaw_error": 1.4609842535492505,
+          "itae_pitch": 25.10305033093207,
+          "itae_roll": 19.98522387773188,
+          "itae_yaw": 78.79060567262863,
+          "mean_elev": 1.9285605396238152,
+          "mean_aileron": 1.6748902737572564,
+          "mean_rudder": 3.7487991860659884,
+          "mean_signed_elev": 0.8159707239089694,
+          "mean_signed_aileron": -0.10039108111837683,
+          "mean_signed_rudder": -0.23764861374766305,
+          "rms_elev": 2.4599865087189428,
+          "rms_aileron": 2.082830432710224,
+          "rms_rudder": 4.559282699388481,
+          "elev_activity": 24202.132990568593,
+          "aileron_activity": 40045.69441858601,
+          "rudder_activity": 31712.511706694335,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 2.6721692209654218,
+          "max_altitude_drop_m": 6.563209627506808,
+          "tail_mean_abs": 1.1396917826737714,
+          "tail_rms": 1.263673525162134,
+          "tail_activity": 399.1700295725139,
+          "mean_drag": 2.621276489095261
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 9.69299227538438,
+        "max_abs_beta_deg": 11.214755853327974,
+        "min_airspeed_mps": 10.662834677108115,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 10,
+      "seed": 300010,
+      "payload": 0.42435149029755703,
+      "airspeed": 15.787263843353568,
+      "gust_intensity": 1.2467029083674506,
+      "parameters": {
+        "rho": 1.2680383817015908,
+        "CL_alpha": 5.139353258807032,
+        "Cm_alpha": -0.5769768369609498,
+        "Cm_de": -1.1786212991405463,
+        "CD0": 0.02888900291006721,
+        "payload_mass_max": 1.4836781644031385,
+        "payload_x_m": -0.10905187214397448
+      },
+      "sampled_static_margin": 0.027887066881310648,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.7599999999999625,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -17.675230342493922,
+          "max_pitch_dev": 29.500575775613505,
+          "max_roll_dev": 0.7820119016069803,
+          "max_yaw_dev": 1.2532112634331718,
+          "rms_pitch_error": 15.066068985390574,
+          "rms_roll_error": 0.33373286298820387,
+          "rms_yaw_error": 0.5686107069242444,
+          "itae_pitch": 23.75840327787317,
+          "itae_roll": 0.4178802899072954,
+          "itae_yaw": 0.9260008067613181,
+          "mean_elev": 9.91553165349114,
+          "mean_aileron": 2.266848407366444,
+          "mean_rudder": 1.856022451649352,
+          "mean_signed_elev": 0.6347148403425983,
+          "mean_signed_aileron": 0.04366229099843099,
+          "mean_signed_rudder": 0.48677792535235215,
+          "rms_elev": 11.53622508388508,
+          "rms_aileron": 2.632632499115626,
+          "rms_rudder": 2.2089645722580564,
+          "elev_activity": 7812.180743865047,
+          "aileron_activity": 7798.9254880314475,
+          "rudder_activity": 4912.166271880076,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 2.509546838505921,
+          "max_altitude_drop_m": 1.4922668185331247,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 4.792859386705241
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.431165868728609,
+          "beta_deg": 2.6423180546813008,
+          "airspeed_mps": 14.697267834539696
+        },
+        "simulated_T": 5.759999999999965,
+        "max_abs_alpha_deg": 15.431165868728609,
+        "max_abs_beta_deg": 4.0005368536501855,
+        "min_airspeed_mps": 13.863182572498774,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 6,
+          "events": [
+            {
+              "t": 5.679999999999967,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.699999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.719999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.739999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.739999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.759999999999965,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.9799999999999578,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -25.03214998090679,
+          "max_pitch_dev": 33.717883154540715,
+          "max_roll_dev": 0.6736750411314575,
+          "max_yaw_dev": 1.5332748893535826,
+          "rms_pitch_error": 18.247696330703366,
+          "rms_roll_error": 0.30050881906913796,
+          "rms_yaw_error": 0.7344768717338335,
+          "itae_pitch": 37.51909693648941,
+          "itae_roll": 0.5232597387571672,
+          "itae_yaw": 1.543303943100725,
+          "mean_elev": 10.963987948658234,
+          "mean_aileron": 1.935706486509671,
+          "mean_rudder": 2.20730643649899,
+          "mean_signed_elev": 0.6223361120291478,
+          "mean_signed_aileron": 0.19321409581267124,
+          "mean_signed_rudder": 0.9460763189183851,
+          "rms_elev": 12.670673830638528,
+          "rms_aileron": 2.292218329531275,
+          "rms_rudder": 2.6531791155683506,
+          "elev_activity": 8569.066650300185,
+          "aileron_activity": 7815.305547030582,
+          "rudder_activity": 5465.536379231312,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 2.536872030394212,
+          "max_altitude_drop_m": 1.6498150458744192,
+          "tail_mean_abs": 0.03432417511672532,
+          "tail_rms": 0.05697785659877373,
+          "tail_activity": 73.07773693498797,
+          "mean_drag": 4.850913497230159
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 16.454293434926253,
+          "beta_deg": 2.903213420611535,
+          "airspeed_mps": 14.22047125714234
+        },
+        "simulated_T": 5.9799999999999605,
+        "max_abs_alpha_deg": 16.454293434926253,
+        "max_abs_beta_deg": 4.543807839713385,
+        "min_airspeed_mps": 12.992332873861933,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 31,
+          "events": [
+            {
+              "t": 4.000000000000003,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.499999999999992,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.999999999999981,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.0399999999999805,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.05999999999998,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.05999999999998,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.07999999999998,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.07999999999998,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.099999999999979,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.099999999999979,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.119999999999979,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.119999999999979,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.479999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.51999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.51999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.53999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.53999999999997,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.559999999999969,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 11,
+      "seed": 300011,
+      "payload": 0.312324090698113,
+      "airspeed": 16.77590035858615,
+      "gust_intensity": 0.8662201932695835,
+      "parameters": {
+        "rho": 1.2069052616551537,
+        "CL_alpha": 4.6439085432104905,
+        "Cm_alpha": -0.6277496227129504,
+        "Cm_de": -1.079371049483588,
+        "CD0": 0.028448599148814608,
+        "payload_mass_max": 1.4078645802734329,
+        "payload_x_m": -0.11203919185088433
+      },
+      "sampled_static_margin": 0.07072172037429247,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": 2.912635884541772,
+          "max_pitch_dev": 24.763749608097662,
+          "max_roll_dev": 0.8326025261813415,
+          "max_yaw_dev": 1.8325601185717393,
+          "rms_pitch_error": 12.692811607605236,
+          "rms_roll_error": 0.25824385479203016,
+          "rms_yaw_error": 0.5739056767125482,
+          "itae_pitch": 725.6065231629124,
+          "itae_roll": 12.218814529872411,
+          "itae_yaw": 30.64003770652353,
+          "mean_elev": 9.527830674301462,
+          "mean_aileron": 1.72617968392837,
+          "mean_rudder": 1.5975853034198624,
+          "mean_signed_elev": 1.902827422494507,
+          "mean_signed_aileron": -0.037761223466474717,
+          "mean_signed_rudder": -0.06358936618431632,
+          "rms_elev": 11.083455851495003,
+          "rms_aileron": 2.1043831386127034,
+          "rms_rudder": 2.0453872210083754,
+          "elev_activity": 48111.45754272895,
+          "aileron_activity": 41703.24790989871,
+          "rudder_activity": 30060.1870029473,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.4461822614335689,
+          "max_altitude_drop_m": 0.9297735261488924,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 4.217926107600276
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 14.38108880897208,
+        "max_abs_beta_deg": 4.450664373997519,
+        "min_airspeed_mps": 13.28517594738034,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 63,
+          "events": [
+            {
+              "t": 6.699999999999945,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.719999999999945,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.719999999999945,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.739999999999944,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.739999999999944,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.759999999999944,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.759999999999944,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.779999999999943,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.8199999999999426,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 7.599999999999926,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 7.6199999999999255,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.059999999999874,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.079999999999874,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.079999999999874,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.919999999999856,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.959999999999855,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.979999999999855,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.979999999999855,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.999999999999854,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.999999999999854,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -2.8929472132342218,
+          "max_pitch_dev": 24.148205912708455,
+          "max_roll_dev": 1.0113919382717107,
+          "max_yaw_dev": 1.788238131169572,
+          "rms_pitch_error": 12.139217783113706,
+          "rms_roll_error": 0.30246914951989345,
+          "rms_yaw_error": 0.5662690574716476,
+          "itae_pitch": 725.7278056343338,
+          "itae_roll": 14.37542557495931,
+          "itae_yaw": 29.909876881316812,
+          "mean_elev": 9.186484846502825,
+          "mean_aileron": 1.9542402050157477,
+          "mean_rudder": 1.6260697880073958,
+          "mean_signed_elev": 1.7336984079085362,
+          "mean_signed_aileron": -0.027742044979879216,
+          "mean_signed_rudder": -0.14503650813231042,
+          "rms_elev": 10.705830057796932,
+          "rms_aileron": 2.3464445763888717,
+          "rms_rudder": 2.054448617878383,
+          "elev_activity": 48202.73403342552,
+          "aileron_activity": 45749.25285972007,
+          "rudder_activity": 30357.514930675035,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.5562317140633468,
+          "max_altitude_drop_m": 1.0197504853357344,
+          "tail_mean_abs": 0.04292915348435637,
+          "tail_rms": 0.0796018870681338,
+          "tail_activity": 372.7528148290276,
+          "mean_drag": 4.1269737543534575
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 14.654318648447537,
+        "max_abs_beta_deg": 4.519041948065728,
+        "min_airspeed_mps": 13.717456633191597,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 47,
+          "events": [
+            {
+              "t": 4.499999999999992,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.999999999999981,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.99999999999996,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 6.499999999999949,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 6.999999999999939,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 7.999999999999917,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 8.499999999999908,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 8.999999999999897,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 9.499999999999886,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 9.999999999999876,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 10.499999999999865,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 10.999999999999854,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 11.499999999999844,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 11.999999999999833,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 12.399999999999824,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 12.419999999999824,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 12.419999999999824,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 12.439999999999824,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 12.439999999999824,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 12,
+      "seed": 300012,
+      "payload": 0.5733448104115195,
+      "airspeed": 12.985221062132474,
+      "gust_intensity": 1.161520120942844,
+      "parameters": {
+        "rho": 1.1949811302572815,
+        "CL_alpha": 4.615620719356808,
+        "Cm_alpha": -0.6007463752452911,
+        "Cm_de": -1.0802335452147847,
+        "CD0": 0.028273236460335378,
+        "payload_mass_max": 1.628579054318656,
+        "payload_x_m": -0.10876900345309354
+      },
+      "sampled_static_margin": 0.016395088774613167,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": 0.18238509519815865,
+          "max_pitch_dev": 1.5596263421977787,
+          "max_roll_dev": 0.7001299043230388,
+          "max_yaw_dev": 1.8370731873134813,
+          "rms_pitch_error": 0.6430672231928151,
+          "rms_roll_error": 0.18967377486130194,
+          "rms_yaw_error": 0.5267518932612735,
+          "itae_pitch": 28.205007090629806,
+          "itae_roll": 8.632207849697629,
+          "itae_yaw": 21.33171468505722,
+          "mean_elev": 2.728966220867087,
+          "mean_aileron": 1.3824005525639178,
+          "mean_rudder": 1.4456584511625314,
+          "mean_signed_elev": 2.5293250344299762,
+          "mean_signed_aileron": -0.18670987434927136,
+          "mean_signed_rudder": -0.6043824573478978,
+          "rms_elev": 3.2661387778733575,
+          "rms_aileron": 1.7155578666432754,
+          "rms_rudder": 1.859809662346842,
+          "elev_activity": 24601.623156460537,
+          "aileron_activity": 39143.39115883845,
+          "rudder_activity": 31029.444314290326,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.4140121320334003,
+          "max_altitude_drop_m": 0.5617009116612621,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 2.6470846413181968
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 7.879921555240797,
+        "max_abs_beta_deg": 4.716708796748287,
+        "min_airspeed_mps": 11.826662061575973,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -0.211246074654509,
+          "max_pitch_dev": 1.4895298699439539,
+          "max_roll_dev": 0.6591474975036642,
+          "max_yaw_dev": 1.7161469834430119,
+          "rms_pitch_error": 0.4825560739714356,
+          "rms_roll_error": 0.19929590088589857,
+          "rms_yaw_error": 0.4964591675068213,
+          "itae_pitch": 22.001866626845615,
+          "itae_roll": 9.155456820005803,
+          "itae_yaw": 20.72883026923064,
+          "mean_elev": 2.0739443626134615,
+          "mean_aileron": 1.486978556758051,
+          "mean_rudder": 1.4967598544659377,
+          "mean_signed_elev": 1.2534486798335225,
+          "mean_signed_aileron": -0.19174953084187513,
+          "mean_signed_rudder": -0.6167114702444304,
+          "rms_elev": 2.514139136121042,
+          "rms_aileron": 1.8383506691599838,
+          "rms_rudder": 1.926108617878155,
+          "elev_activity": 25139.727404265534,
+          "aileron_activity": 39965.029618373046,
+          "rudder_activity": 31282.01880996455,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.2032973462856642,
+          "max_altitude_drop_m": 0.6041216400628286,
+          "tail_mean_abs": 1.0268736552765512,
+          "tail_rms": 1.0893415914078413,
+          "tail_activity": 393.3583922511428,
+          "mean_drag": 2.697687425496038
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 8.12007674561745,
+        "max_abs_beta_deg": 4.813438006158857,
+        "min_airspeed_mps": 11.860530695821614,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 13,
+      "seed": 300013,
+      "payload": 0.2639008582737197,
+      "airspeed": 15.014026924121264,
+      "gust_intensity": 1.0306204628495095,
+      "parameters": {
+        "rho": 1.260277371022083,
+        "CL_alpha": 4.657885430634887,
+        "Cm_alpha": -0.5666878032376705,
+        "Cm_de": -0.9972578029828402,
+        "CD0": 0.027233250116064284,
+        "payload_mass_max": 1.5782867915401293,
+        "payload_x_m": -0.09492848257701515
+      },
+      "sampled_static_margin": 0.06952020232971075,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -1.5543295019313383,
+          "max_pitch_dev": 16.18079394700428,
+          "max_roll_dev": 1.1665891378697113,
+          "max_yaw_dev": 2.3122604414815524,
+          "rms_pitch_error": 7.7517708723053405,
+          "rms_roll_error": 0.38536244348981835,
+          "rms_yaw_error": 0.9464558558169315,
+          "itae_pitch": 468.5886612019761,
+          "itae_roll": 23.127284265789267,
+          "itae_yaw": 59.118833605067586,
+          "mean_elev": 7.732851699824551,
+          "mean_aileron": 1.684555303209979,
+          "mean_rudder": 2.4539488206789914,
+          "mean_signed_elev": 1.4284292260485225,
+          "mean_signed_aileron": 0.4813616268693923,
+          "mean_signed_rudder": 1.7282670534391924,
+          "rms_elev": 9.088925464708444,
+          "rms_aileron": 2.062774518131579,
+          "rms_rudder": 3.210643970567653,
+          "elev_activity": 47428.019821771835,
+          "aileron_activity": 40292.0709217873,
+          "rudder_activity": 29449.89463873391,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.2646843466899313,
+          "max_altitude_drop_m": 1.499837792187563,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 3.37642049024687
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 11.247778438135095,
+        "max_abs_beta_deg": 7.129186895313582,
+        "min_airspeed_mps": 13.543779812809579,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -0.5041685011230761,
+          "max_pitch_dev": 16.051686800588854,
+          "max_roll_dev": 1.1145213735043842,
+          "max_yaw_dev": 2.293833000967059,
+          "rms_pitch_error": 7.412224130871663,
+          "rms_roll_error": 0.3741746646934708,
+          "rms_yaw_error": 0.9363326636785687,
+          "itae_pitch": 443.93483974414994,
+          "itae_roll": 22.21577550933107,
+          "itae_yaw": 58.64061161280976,
+          "mean_elev": 7.695985193499137,
+          "mean_aileron": 1.6825686149655954,
+          "mean_rudder": 2.51365859061056,
+          "mean_signed_elev": 1.3725234185651676,
+          "mean_signed_aileron": 0.4915040853014574,
+          "mean_signed_rudder": 1.7438912292817093,
+          "rms_elev": 8.995086255076178,
+          "rms_aileron": 2.077710720246533,
+          "rms_rudder": 3.232726062120996,
+          "elev_activity": 47604.666008503154,
+          "aileron_activity": 40837.6138586145,
+          "rudder_activity": 29661.40090742092,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.128063100592564,
+          "max_altitude_drop_m": 1.204181399503753,
+          "tail_mean_abs": 0.20117308081127483,
+          "tail_rms": 0.27661409165402934,
+          "tail_activity": 391.6298426601798,
+          "mean_drag": 3.359694753718183
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 10.254435043450263,
+        "max_abs_beta_deg": 7.125375731609375,
+        "min_airspeed_mps": 13.590220356382222,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 10,
+          "events": [
+            {
+              "t": 9.499999999999886,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 9.999999999999876,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 10.499999999999865,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 10.999999999999854,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 11.499999999999844,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 12.499999999999822,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 12.999999999999812,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 13.499999999999801,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 13.99999999999979,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 14.49999999999978,
+              "reason": "estimator_out_of_distribution"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 14,
+      "seed": 300014,
+      "payload": 0.45729557974627205,
+      "airspeed": 18.877315548758467,
+      "gust_intensity": 1.0316219265193851,
+      "parameters": {
+        "rho": 1.2209282926870673,
+        "CL_alpha": 5.082032154563648,
+        "Cm_alpha": -0.5780809843427028,
+        "Cm_de": -1.015838020939285,
+        "CD0": 0.029406690774732732,
+        "payload_mass_max": 1.4853118303428974,
+        "payload_x_m": -0.09459187700527294
+      },
+      "sampled_static_margin": 0.03602265113437902,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 6.059999999999872,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": 0.17147722502976032,
+          "max_pitch_dev": 34.3837383863663,
+          "max_roll_dev": 1.2690504833549585,
+          "max_yaw_dev": 1.0993481830837957,
+          "rms_pitch_error": 19.8183974530394,
+          "rms_roll_error": 0.3602544848346656,
+          "rms_yaw_error": 0.5556733559555052,
+          "itae_pitch": 355.8107207437318,
+          "itae_roll": 4.2688479378644075,
+          "itae_yaw": 10.062196258774941,
+          "mean_elev": 10.637502786177924,
+          "mean_aileron": 1.901222679229242,
+          "mean_rudder": 1.4500499047603148,
+          "mean_signed_elev": 1.7483136542569506,
+          "mean_signed_aileron": -0.07857327247924158,
+          "mean_signed_rudder": -0.32489873911584605,
+          "rms_elev": 12.393841588025696,
+          "rms_aileron": 2.269676037623345,
+          "rms_rudder": 1.8040637511843385,
+          "elev_activity": 26355.816130932617,
+          "aileron_activity": 24520.42412667808,
+          "rudder_activity": 17817.788520003705,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 2.848579053721688,
+          "max_altitude_drop_m": 1.5821602612127919,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 6.682708847566823
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.134997939539776,
+          "beta_deg": -1.4447380884577796,
+          "airspeed_mps": 15.50535174244829
+        },
+        "simulated_T": 10.059999999999874,
+        "max_abs_alpha_deg": 15.134997939539776,
+        "max_abs_beta_deg": 2.824286119941975,
+        "min_airspeed_mps": 14.124460693515363,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 130,
+          "events": [
+            {
+              "t": 5.599999999999969,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.619999999999968,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.619999999999968,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.639999999999968,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.639999999999968,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.659999999999967,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.659999999999967,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.679999999999967,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.699999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.719999999999966,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.9799999999999605,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.99999999999996,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.01999999999996,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.01999999999996,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.039999999999959,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.039999999999959,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.059999999999959,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.059999999999959,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.079999999999958,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.079999999999958,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.8999999999999595,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -18.349579388301596,
+          "max_pitch_dev": 31.376581624337796,
+          "max_roll_dev": 1.1675834617837066,
+          "max_yaw_dev": 0.6830998408997465,
+          "rms_pitch_error": 16.02873690587478,
+          "rms_roll_error": 0.48786951787734895,
+          "rms_yaw_error": 0.30609756304007607,
+          "itae_pitch": 29.585923743519974,
+          "itae_roll": 0.794047430381753,
+          "itae_yaw": 0.5419501931972941,
+          "mean_elev": 9.578609137816473,
+          "mean_aileron": 2.316480551431621,
+          "mean_rudder": 1.39953949365655,
+          "mean_signed_elev": 0.41969416822651384,
+          "mean_signed_aileron": 0.32093464385318354,
+          "mean_signed_rudder": 0.8406427674243795,
+          "rms_elev": 11.107630033434246,
+          "rms_aileron": 2.7267640017138226,
+          "rms_rudder": 1.7340483176360233,
+          "elev_activity": 8324.922710933786,
+          "aileron_activity": 8725.132731966343,
+          "rudder_activity": 5933.847795922109,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 3.1262777550825533,
+          "max_altitude_drop_m": 1.6053042242299682,
+          "tail_mean_abs": 0.1268680662706104,
+          "tail_rms": 0.19879528708125954,
+          "tail_activity": 72.5208270889784,
+          "mean_drag": 6.2230085185060915
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.02649593527835,
+          "beta_deg": 1.6015479326409348,
+          "airspeed_mps": 16.842572731502653
+        },
+        "simulated_T": 5.899999999999962,
+        "max_abs_alpha_deg": 15.02649593527835,
+        "max_abs_beta_deg": 2.845300376187627,
+        "min_airspeed_mps": 16.4046684824817,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 24,
+          "events": [
+            {
+              "t": 4.499999999999992,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.999999999999981,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.359999999999974,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.379999999999973,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.379999999999973,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.399999999999973,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.399999999999973,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.419999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.419999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.439999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.439999999999972,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.4599999999999715,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.4599999999999715,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.479999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.499999999999971,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.799999999999964,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.819999999999964,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.839999999999963,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.859999999999963,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 15,
+      "seed": 300015,
+      "payload": 0.6831714383102172,
+      "airspeed": 13.27811157963002,
+      "gust_intensity": 1.2628331124497527,
+      "parameters": {
+        "rho": 1.2296605850761018,
+        "CL_alpha": 4.931529381198159,
+        "Cm_alpha": -0.5861580656877876,
+        "Cm_de": -1.0188687324273291,
+        "CD0": 0.03061996201497117,
+        "payload_mass_max": 1.4579709677019697,
+        "payload_x_m": -0.10180602775143052
+      },
+      "sampled_static_margin": 0.0073010051118544365,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": 0.17340595333110034,
+          "max_pitch_dev": 1.9446144842701596,
+          "max_roll_dev": 0.9175836920824946,
+          "max_yaw_dev": 2.0335862880289315,
+          "rms_pitch_error": 0.6700033061108711,
+          "rms_roll_error": 0.2852769841940654,
+          "rms_yaw_error": 1.045660032328163,
+          "itae_pitch": 27.207908190377943,
+          "itae_roll": 13.17764892554757,
+          "itae_yaw": 46.77598363272405,
+          "mean_elev": 2.937574168843097,
+          "mean_aileron": 1.5732000890018296,
+          "mean_rudder": 3.542127196729782,
+          "mean_signed_elev": 2.731992354063376,
+          "mean_signed_aileron": -0.8280385677760449,
+          "mean_signed_rudder": -2.7814823970229985,
+          "rms_elev": 3.4484960073398243,
+          "rms_aileron": 1.9347184287093087,
+          "rms_rudder": 4.093164334130396,
+          "elev_activity": 23859.814671258744,
+          "aileron_activity": 36735.44578540033,
+          "rudder_activity": 29535.733734284375,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.9554736375969396,
+          "max_altitude_drop_m": 3.6892245600547966,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 2.8401606006871445
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 7.721217403985401,
+        "max_abs_beta_deg": 10.360836101222299,
+        "min_airspeed_mps": 12.21702310326686,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.959999999999766,
+          "pitch_settled": 1.0,
+          "pitch_steady_state_error": -0.22340361954558235,
+          "max_pitch_dev": 1.8026536446704942,
+          "max_roll_dev": 0.7633492129166612,
+          "max_yaw_dev": 1.9977806188219622,
+          "rms_pitch_error": 0.5093211468946566,
+          "rms_roll_error": 0.26049467086192785,
+          "rms_yaw_error": 0.985853818907888,
+          "itae_pitch": 19.399412526667152,
+          "itae_roll": 11.924354842953514,
+          "itae_yaw": 44.13757013647405,
+          "mean_elev": 2.0872300312738465,
+          "mean_aileron": 1.5757365421250478,
+          "mean_rudder": 3.578397549894687,
+          "mean_signed_elev": 1.4824771734183582,
+          "mean_signed_aileron": -0.8113866774281815,
+          "mean_signed_rudder": -2.7399124939063464,
+          "rms_elev": 2.5903864713361946,
+          "rms_aileron": 1.9573360424490067,
+          "rms_rudder": 4.1306091169281025,
+          "elev_activity": 23691.684509089217,
+          "aileron_activity": 36975.74096229531,
+          "rudder_activity": 29797.1457528664,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.1523346412997115,
+          "max_altitude_drop_m": 4.172688192419656,
+          "tail_mean_abs": 0.9527217688681988,
+          "tail_rms": 1.0197974356182515,
+          "tail_activity": 405.17785418772115,
+          "mean_drag": 2.888662564515816
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 7.774977551833463,
+        "max_abs_beta_deg": 10.477227297994867,
+        "min_airspeed_mps": 12.253817002467722,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 16,
+      "seed": 300016,
+      "payload": 0.4987508335786901,
+      "airspeed": 16.675140574830102,
+      "gust_intensity": 0.7609936442309808,
+      "parameters": {
+        "rho": 1.192314213091524,
+        "CL_alpha": 4.674159918116052,
+        "Cm_alpha": -0.6596485335096919,
+        "Cm_de": -1.0532869176882909,
+        "CD0": 0.027517743152443097,
+        "payload_mass_max": 1.4372958334600072,
+        "payload_x_m": -0.10295785871671426
+      },
+      "sampled_static_margin": 0.05288272746152073,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 3.839999999999918,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -3.3457508803047604,
+          "max_pitch_dev": 25.491349003569965,
+          "max_roll_dev": 0.6912503700328543,
+          "max_yaw_dev": 1.28398509395998,
+          "rms_pitch_error": 13.708348264930974,
+          "rms_roll_error": 0.2387006904048437,
+          "rms_yaw_error": 0.5117343536217376,
+          "itae_pitch": 101.59065276078726,
+          "itae_roll": 1.2524621477811202,
+          "itae_yaw": 2.425159939238913,
+          "mean_elev": 9.68465337243114,
+          "mean_aileron": 1.7333269492692547,
+          "mean_rudder": 1.3372074285586033,
+          "mean_signed_elev": 1.688924476565818,
+          "mean_signed_aileron": -0.25754364465177826,
+          "mean_signed_rudder": -1.001898331968732,
+          "rms_elev": 11.300393297431734,
+          "rms_aileron": 2.1231787888193594,
+          "rms_rudder": 1.692017713187742,
+          "elev_activity": 16828.35236235548,
+          "aileron_activity": 15332.673971343334,
+          "rudder_activity": 10618.61298758661,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.5528612532029861,
+          "max_altitude_drop_m": 1.379905767428724,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 4.692481757558775
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.068901158362737,
+          "beta_deg": 0.24737848641850038,
+          "airspeed_mps": 14.88594865544757
+        },
+        "simulated_T": 7.839999999999921,
+        "max_abs_alpha_deg": 15.068901158362737,
+        "max_abs_beta_deg": 3.2014500746237053,
+        "min_airspeed_mps": 14.142461793760233,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 38,
+          "events": [
+            {
+              "t": 5.959999999999961,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.9799999999999605,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.9799999999999605,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.99999999999996,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.99999999999996,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.01999999999996,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.01999999999996,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.039999999999959,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.039999999999959,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.059999999999959,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.059999999999959,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.079999999999958,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.079999999999958,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.099999999999958,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.1199999999999575,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.499999999999949,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.519999999999949,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.859999999999942,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.879999999999941,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.899999999999941,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 3.6399999999999224,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -6.207398714068896,
+          "max_pitch_dev": 26.88570418160262,
+          "max_roll_dev": 0.6927255340183431,
+          "max_yaw_dev": 1.2308574184776289,
+          "rms_pitch_error": 12.98182665694545,
+          "rms_roll_error": 0.23643552288574968,
+          "rms_yaw_error": 0.512219999693819,
+          "itae_pitch": 87.97992121959078,
+          "itae_roll": 1.1949595948805398,
+          "itae_yaw": 2.40409551122291,
+          "mean_elev": 9.135693427281371,
+          "mean_aileron": 1.7341495590080904,
+          "mean_rudder": 1.391356293017649,
+          "mean_signed_elev": 1.3110312507293427,
+          "mean_signed_aileron": -0.33894543655423537,
+          "mean_signed_rudder": -1.1152293530583937,
+          "rms_elev": 10.727347897662526,
+          "rms_aileron": 2.1329021936844406,
+          "rms_rudder": 1.742872292377671,
+          "elev_activity": 15588.104709378942,
+          "aileron_activity": 14774.170236674396,
+          "rudder_activity": 9998.618650399714,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 0.7136946751507142,
+          "max_altitude_drop_m": 1.6555442024812663,
+          "tail_mean_abs": 0.21348888904083382,
+          "tail_rms": 0.30719987356522716,
+          "tail_activity": 147.2483940846556,
+          "mean_drag": 4.5773806964971095
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.646461448018925,
+          "beta_deg": -0.2703989165861898,
+          "airspeed_mps": 15.232194574464575
+        },
+        "simulated_T": 7.639999999999925,
+        "max_abs_alpha_deg": 15.646461448018925,
+        "max_abs_beta_deg": 3.265006958108067,
+        "min_airspeed_mps": 14.023229109646742,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 38,
+          "events": [
+            {
+              "t": 5.499999999999971,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 5.799999999999964,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.99999999999996,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 6.499999999999949,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 6.619999999999947,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.639999999999946,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.659999999999946,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.659999999999946,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.6799999999999455,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.6799999999999455,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.699999999999945,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.699999999999945,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.719999999999945,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.719999999999945,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.739999999999944,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.739999999999944,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.759999999999944,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.759999999999944,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.779999999999943,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 6.799999999999943,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 17,
+      "seed": 300017,
+      "payload": 0.24966112570938576,
+      "airspeed": 12.036139284883784,
+      "gust_intensity": 0.6453479489888556,
+      "parameters": {
+        "rho": 1.1824021801302589,
+        "CL_alpha": 5.076189442900299,
+        "Cm_alpha": -0.6273732500753452,
+        "Cm_de": -1.1712738157837757,
+        "CD0": 0.030876551551331566,
+        "payload_mass_max": 1.373886534358986,
+        "payload_x_m": -0.09701746563238073
+      },
+      "sampled_static_margin": 0.07857188703433571,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": 0.08190661879211217,
+          "max_pitch_dev": 0.8787920963726175,
+          "max_roll_dev": 0.6147412515680117,
+          "max_yaw_dev": 1.6849291160464763,
+          "rms_pitch_error": 0.324107040021285,
+          "rms_roll_error": 0.23858919644957796,
+          "rms_yaw_error": 0.8386843857778351,
+          "itae_pitch": 16.029475392833618,
+          "itae_roll": 13.856914508362808,
+          "itae_yaw": 43.37418052267428,
+          "mean_elev": 1.3773978209970341,
+          "mean_aileron": 1.3505146012797091,
+          "mean_rudder": 1.9699102782042468,
+          "mean_signed_elev": 0.713279844494715,
+          "mean_signed_aileron": -0.07456236136403674,
+          "mean_signed_rudder": -0.282054816764104,
+          "rms_elev": 1.7219685367177728,
+          "rms_aileron": 1.7057023273885066,
+          "rms_rudder": 2.3776686920743852,
+          "elev_activity": 22095.003608654697,
+          "aileron_activity": 38267.32480443253,
+          "rudder_activity": 31095.269183172797,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 2.0877577911875598,
+          "max_altitude_drop_m": 0.018327219234606673,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 2.356060375669145
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 5.244840930170822,
+        "max_abs_beta_deg": 4.235335717746462,
+        "min_airspeed_mps": 11.62394581570429,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": true,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 10.999999999999766,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -0.1791961210528093,
+          "max_pitch_dev": 0.9468534516066165,
+          "max_roll_dev": 0.6243392354919967,
+          "max_yaw_dev": 1.5707920835707498,
+          "rms_pitch_error": 0.27497412759226214,
+          "rms_roll_error": 0.23653975832521784,
+          "rms_yaw_error": 0.76420051417078,
+          "itae_pitch": 14.938810925391827,
+          "itae_roll": 13.615430110030701,
+          "itae_yaw": 39.31359088574403,
+          "mean_elev": 1.3291010288443346,
+          "mean_aileron": 1.442985207559011,
+          "mean_rudder": 2.0154264887953883,
+          "mean_signed_elev": -0.14855909973866724,
+          "mean_signed_aileron": -0.06949997304274391,
+          "mean_signed_rudder": -0.26879436772073134,
+          "rms_elev": 1.6165106186193783,
+          "rms_aileron": 1.8177881533828772,
+          "rms_rudder": 2.437530608639195,
+          "elev_activity": 22249.0534542878,
+          "aileron_activity": 39274.9661129951,
+          "rudder_activity": 31279.626633518896,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.883340520028851,
+          "max_altitude_drop_m": 0.02050579374572692,
+          "tail_mean_abs": 0.7252507510313201,
+          "tail_rms": 0.7533127484969322,
+          "tail_activity": 364.8032553284203,
+          "mean_drag": 2.3860362102388986
+        },
+        "terminated_reason": null,
+        "validity_detail": null,
+        "simulated_T": 14.999999999999769,
+        "max_abs_alpha_deg": 5.268494733855849,
+        "max_abs_beta_deg": 4.313886273054276,
+        "min_airspeed_mps": 11.638352948825375,
+        "requested_T": 15.0,
+        "completed_to_requested": true,
+        "supervisor": {
+          "enabled": true,
+          "triggered": false,
+          "fallback_active": false,
+          "first_reason": null,
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 0,
+          "events": [],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 18,
+      "seed": 300018,
+      "payload": 0.61168982156303,
+      "airspeed": 18.621604926745324,
+      "gust_intensity": 0.6274056110732399,
+      "parameters": {
+        "rho": 1.2163817490186648,
+        "CL_alpha": 5.1275550549300615,
+        "Cm_alpha": -0.6369658666227795,
+        "Cm_de": -1.1230854018848768,
+        "CD0": 0.02787972669939997,
+        "payload_mass_max": 1.634470017820749,
+        "payload_x_m": -0.10037140911999341
+      },
+      "sampled_static_margin": 0.013942489636454102,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.1199999999999761,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -27.56436563727466,
+          "max_pitch_dev": 35.822372431880396,
+          "max_roll_dev": 0.9077428986337472,
+          "max_yaw_dev": 0.5787489039094759,
+          "rms_pitch_error": 19.369117207339794,
+          "rms_roll_error": 0.42486924471851195,
+          "rms_yaw_error": 0.28565126717318506,
+          "itae_pitch": 12.964909375865581,
+          "itae_roll": 0.24446193028204768,
+          "itae_yaw": 0.15525028458936047,
+          "mean_elev": 9.71927474868129,
+          "mean_aileron": 2.4673873636546877,
+          "mean_rudder": 1.5946984424499984,
+          "mean_signed_elev": -0.17924151435041813,
+          "mean_signed_aileron": -0.13802484160038675,
+          "mean_signed_rudder": -0.5935650162018085,
+          "rms_elev": 11.484031670985612,
+          "rms_aileron": 2.867194604151306,
+          "rms_rudder": 1.9513751281051155,
+          "elev_activity": 4929.699718122543,
+          "aileron_activity": 5334.463477075034,
+          "rudder_activity": 3266.5587658715267,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.2658104377551076,
+          "max_altitude_drop_m": 1.513671336452731,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 6.819417952607505
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.449996308988162,
+          "beta_deg": -1.7402390505378234,
+          "airspeed_mps": 18.21419108449839
+        },
+        "simulated_T": 5.119999999999979,
+        "max_abs_alpha_deg": 15.449996308988162,
+        "max_abs_beta_deg": 2.1224286967911996,
+        "min_airspeed_mps": 17.40599386885081,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 16,
+          "events": [
+            {
+              "t": 4.699999999999988,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.719999999999987,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.739999999999987,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.739999999999987,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.7599999999999865,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.7599999999999865,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.779999999999986,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.779999999999986,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.799999999999986,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.799999999999986,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.819999999999985,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.819999999999985,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.839999999999985,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.859999999999984,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.07999999999998,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.099999999999979,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 1.0199999999999783,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -16.232495118876454,
+          "max_pitch_dev": 29.00025715317228,
+          "max_roll_dev": 0.7427666280504353,
+          "max_yaw_dev": 0.6342136310091916,
+          "rms_pitch_error": 16.14638880892269,
+          "rms_roll_error": 0.39466356163161737,
+          "rms_yaw_error": 0.28315282122275365,
+          "itae_pitch": 8.652076211267158,
+          "itae_roll": 0.1885613961377548,
+          "itae_yaw": 0.12178381601944256,
+          "mean_elev": 9.360038162292614,
+          "mean_aileron": 2.394435764659875,
+          "mean_rudder": 1.6595909932644604,
+          "mean_signed_elev": -0.36460133033686365,
+          "mean_signed_aileron": -0.07611885724852809,
+          "mean_signed_rudder": -0.6366850440078261,
+          "rms_elev": 10.804192116881422,
+          "rms_aileron": 2.7780124471038565,
+          "rms_rudder": 2.020457232972487,
+          "elev_activity": 4449.298361509612,
+          "aileron_activity": 4926.3669600338135,
+          "rudder_activity": 2982.236472589002,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.1513112297027512,
+          "max_altitude_drop_m": 1.1608586615250687,
+          "tail_mean_abs": 0.020287215303218396,
+          "tail_rms": 0.02265544812291362,
+          "tail_activity": 36.816045109573686,
+          "mean_drag": 6.476285001059827
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.319985696399717,
+          "beta_deg": -1.492394383977323,
+          "airspeed_mps": 18.173447774116376
+        },
+        "simulated_T": 5.019999999999981,
+        "max_abs_alpha_deg": 15.319985696399717,
+        "max_abs_beta_deg": 2.074187345419219,
+        "min_airspeed_mps": 17.553666684930153,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 7,
+          "events": [
+            {
+              "t": 3.5000000000000027,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.000000000000003,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.499999999999992,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.979999999999982,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 4.999999999999981,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 4.999999999999981,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 5.019999999999981,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    },
+    {
+      "trial": 19,
+      "seed": 300019,
+      "payload": 0.33460143411932664,
+      "airspeed": 12.94801366783023,
+      "gust_intensity": 0.5108519938768833,
+      "parameters": {
+        "rho": 1.245736556412201,
+        "CL_alpha": 4.856457405034566,
+        "Cm_alpha": -0.5557005357042375,
+        "Cm_de": -1.1773603182678298,
+        "CD0": 0.028235413776890265,
+        "payload_mass_max": 1.5902421552313115,
+        "payload_x_m": -0.10308805855194132
+      },
+      "sampled_static_margin": 0.044845319905238705,
+      "positive_static_margin": true,
+      "conventional": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 8.47999999999982,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -2.5708199235192453,
+          "max_pitch_dev": 25.775101444220567,
+          "max_roll_dev": 0.6576130733177701,
+          "max_yaw_dev": 0.5706307060122353,
+          "rms_pitch_error": 9.227862985695294,
+          "rms_roll_error": 0.20177304215557254,
+          "rms_yaw_error": 0.3014075194800126,
+          "itae_pitch": 337.02196953382804,
+          "itae_roll": 6.165034384860979,
+          "itae_yaw": 9.585211370376218,
+          "mean_elev": 7.114862419765656,
+          "mean_aileron": 1.499821443962199,
+          "mean_rudder": 1.0045176508867002,
+          "mean_signed_elev": 1.2244930410695154,
+          "mean_signed_aileron": -0.15081575674529485,
+          "mean_signed_rudder": -0.5492638368360453,
+          "rms_elev": 9.030864202494636,
+          "rms_aileron": 1.8856882542200861,
+          "rms_rudder": 1.2425853735280412,
+          "elev_activity": 33635.89582567513,
+          "aileron_activity": 29846.19437950248,
+          "rudder_activity": 23840.80807994442,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 2.009426100762659,
+          "max_altitude_drop_m": 0.0,
+          "tail_mean_abs": 0.0,
+          "tail_rms": 0.0,
+          "tail_activity": 0.0,
+          "mean_drag": 3.125522398814259
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.32497347868339,
+          "beta_deg": -0.4821570014015245,
+          "airspeed_mps": 12.703320872584612
+        },
+        "simulated_T": 12.479999999999823,
+        "max_abs_alpha_deg": 15.32497347868339,
+        "max_abs_beta_deg": 1.63875773114577,
+        "min_airspeed_mps": 11.853658372636954,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "angle_of_attack_envelope",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 26,
+          "events": [
+            {
+              "t": 10.659999999999862,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 10.679999999999861,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.439999999999845,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.459999999999845,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.479999999999844,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.479999999999844,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.499999999999844,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.499999999999844,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.519999999999843,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.519999999999843,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.539999999999843,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.539999999999843,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.559999999999842,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.559999999999842,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.579999999999842,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.579999999999842,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.599999999999842,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.599999999999842,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.619999999999841,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 11.619999999999841,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      },
+      "intelligent": {
+        "valid": false,
+        "finite_metrics": true,
+        "metrics": {
+          "pitch_settling_time_s": 5.5999999999998815,
+          "pitch_settled": 0.0,
+          "pitch_steady_state_error": -2.262530806733021,
+          "max_pitch_dev": 26.659515740879485,
+          "max_roll_dev": 0.6563600614868538,
+          "max_yaw_dev": 0.46825162092370565,
+          "rms_pitch_error": 8.961793867289424,
+          "rms_roll_error": 0.20130192632573485,
+          "rms_yaw_error": 0.26355609776467687,
+          "itae_pitch": 136.37513685155216,
+          "itae_roll": 2.762071937757337,
+          "itae_yaw": 3.3143530070041725,
+          "mean_elev": 6.303014625427196,
+          "mean_aileron": 1.502679366046233,
+          "mean_rudder": 0.9909544112590757,
+          "mean_signed_elev": 0.6254505592993815,
+          "mean_signed_aileron": -0.1338526910641707,
+          "mean_signed_rudder": -0.4976359497809865,
+          "rms_elev": 8.313960605959194,
+          "rms_aileron": 1.8733324140050531,
+          "rms_rudder": 1.2263361528593348,
+          "elev_activity": 21255.212100010758,
+          "aileron_activity": 19824.45387506159,
+          "rudder_activity": 16334.098334591285,
+          "elev_saturation_s": 0.0,
+          "aileron_saturation_s": 0.0,
+          "rudder_saturation_s": 0.0,
+          "rms_altitude_error": 1.8893303174371818,
+          "max_altitude_drop_m": 0.0,
+          "tail_mean_abs": 0.3787783155134607,
+          "tail_rms": 0.4210131766093944,
+          "tail_activity": 222.20525748389738,
+          "mean_drag": 3.1172586570471634
+        },
+        "terminated_reason": "aerodynamic_validity_limit",
+        "validity_detail": {
+          "alpha_deg": 15.928840386427538,
+          "beta_deg": -1.5847513131767004,
+          "airspeed_mps": 13.454201319835677
+        },
+        "simulated_T": 9.599999999999884,
+        "max_abs_alpha_deg": 15.928840386427538,
+        "max_abs_beta_deg": 1.5847513131767004,
+        "min_airspeed_mps": 12.688463139250205,
+        "requested_T": 15.0,
+        "completed_to_requested": false,
+        "supervisor": {
+          "enabled": true,
+          "triggered": true,
+          "fallback_active": true,
+          "first_reason": "estimator_out_of_distribution",
+          "alpha_protection_margin_deg": 1.0,
+          "alpha_recovery_pitch_deg": 2.0,
+          "alpha_recovery_elevator_deg": 5.0,
+          "estimator_ood_fraction": 0.2,
+          "event_count": 19,
+          "events": [
+            {
+              "t": 8.499999999999908,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 8.639999999999905,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.659999999999904,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.679999999999904,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.699999999999903,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.699999999999903,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.719999999999903,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.719999999999903,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.739999999999903,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.739999999999903,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.759999999999902,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.759999999999902,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.779999999999902,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.799999999999901,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 8.999999999999897,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 9.499999999999886,
+              "reason": "estimator_out_of_distribution"
+            },
+            {
+              "t": 9.559999999999885,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.579999999999885,
+              "reason": "angle_of_attack_envelope"
+            },
+            {
+              "t": 9.599999999999884,
+              "reason": "angle_of_attack_envelope"
+            }
+          ],
+          "terminate_on_violation": false
+        }
+      }
+    }
+  ]
+}

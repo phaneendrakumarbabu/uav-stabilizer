@@ -1,0 +1,1441 @@
+payload,gust,airspeed,regime,config,metric,n_valid,invalid_count,invalid_reasons,mean,sd,wilcoxon_p_vs_conventional
+0.2,0.5,12.0,main_stable_margin,conventional,max_pitch_dev,30,0,{},0.4641031693907302,0.0683090887483846,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,max_roll_dev,30,0,{},0.2006875559044658,0.05184057170497327,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,max_yaw_dev,30,0,{},0.8534763250011596,0.20751173487037117,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,rms_pitch_error,30,0,{},0.249872799291698,0.04841512714086403,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,rms_roll_error,30,0,{},0.09654340025969337,0.030464752297707183,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,rms_yaw_error,30,0,{},0.4005024143204047,0.11304243502194727,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,itae_pitch,30,0,{},9.925165083406773,2.6408501539323375,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,itae_roll,30,0,{},4.778981554002346,1.870007454347945,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,itae_yaw,30,0,{},20.262917403252054,6.824047794405147,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,rms_altitude_error,30,0,{},1.5899204571893841,1.0372622613777231,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,max_altitude_drop_m,30,0,{},1.3451340189967094,1.261102747148936,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,mean_elev,30,0,{},0.5135343168412619,0.1712332065435065,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,mean_aileron,30,0,{},0.261427131572645,0.08584318714391803,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,mean_rudder,30,0,{},0.9593747907157272,0.2874287026699599,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,rms_elev,30,0,{},0.5752516323794961,0.16374123932818402,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,rms_aileron,30,0,{},0.31369261585856223,0.09353252417618262,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,rms_rudder,30,0,{},1.1619028497700683,0.3181255847270812,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,elev_activity,30,0,{},3706.4020577609317,220.9630979809658,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,aileron_activity,30,0,{},1190.9065450832115,79.30885740477403,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,rudder_activity,30,0,{},1468.1345694144918,98.7511656548722,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,tail_mean_abs,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,tail_rms,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,tail_activity,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,mean_drag,30,0,{},2.1943378693583058,0.05275118480686269,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,pitch_settling_time_s,30,0,{},10.171333333333116,1.2828382684455728,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,pitch_settled,30,0,{},0.5666666666666667,0.5040069329937308,1.0
+0.2,0.5,12.0,main_stable_margin,conventional,pitch_steady_state_error,30,0,{},0.08402886506749162,0.07158666356549356,1.0
+0.2,0.5,12.0,main_stable_margin,nn,max_pitch_dev,30,0,{},0.42908004343427436,0.07445780951980892,0.0006084088236093521
+0.2,0.5,12.0,main_stable_margin,nn,max_roll_dev,30,0,{},0.19201046093521912,0.04916160941355923,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,max_yaw_dev,30,0,{},0.8228638374233079,0.20050819005809384,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,rms_pitch_error,30,0,{},0.2023755225267435,0.05550150579646714,1.597777009010315e-05
+0.2,0.5,12.0,main_stable_margin,nn,rms_roll_error,30,0,{},0.091999775296784,0.028857386293954273,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,rms_yaw_error,30,0,{},0.3840777438835718,0.10828201078680304,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,itae_pitch,30,0,{},9.428853274826015,3.82999832398819,0.5291051845997572
+0.2,0.5,12.0,main_stable_margin,nn,itae_roll,30,0,{},4.550156657519529,1.76941202007548,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,itae_yaw,30,0,{},19.40966921164218,6.550088229651699,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,rms_altitude_error,30,0,{},1.611941542178624,1.034778470040361,0.370740607380867
+0.2,0.5,12.0,main_stable_margin,nn,max_altitude_drop_m,30,0,{},1.4655621747738474,1.3363439641660602,2.7015948487105512e-05
+0.2,0.5,12.0,main_stable_margin,nn,mean_elev,30,0,{},0.40853997908491535,0.14079502414296793,0.01283373311161995
+0.2,0.5,12.0,main_stable_margin,nn,mean_aileron,30,0,{},0.2633384294182623,0.08589450755858163,5.587935447692871e-09
+0.2,0.5,12.0,main_stable_margin,nn,mean_rudder,30,0,{},0.9655523014285012,0.2880195823900035,3.725290298461914e-09
+0.2,0.5,12.0,main_stable_margin,nn,rms_elev,30,0,{},0.5017325905670309,0.15767073220150038,0.044907208532094955
+0.2,0.5,12.0,main_stable_margin,nn,rms_aileron,30,0,{},0.31624078533872574,0.09365505798068954,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,rms_rudder,30,0,{},1.1698185112137327,0.3189318641297517,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,elev_activity,30,0,{},3720.591661932866,218.82430223378094,6.910413503646851e-07
+0.2,0.5,12.0,main_stable_margin,nn,aileron_activity,30,0,{},1202.61541613998,80.49964130364253,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,rudder_activity,30,0,{},1490.5978245181022,99.25198757183031,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,nn,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,nn,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,nn,tail_mean_abs,30,0,{},0.4951184514683969,0.08131260321198508,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,tail_rms,30,0,{},0.5506741914613358,0.0929177332880236,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,tail_activity,30,0,{},125.57268690955243,14.272134244190632,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,mean_drag,30,0,{},2.213348148674334,0.05418345066642612,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,nn,pitch_settling_time_s,30,0,{},10.9053333333331,0.29058482450031947,0.007585492879725213
+0.2,0.5,12.0,main_stable_margin,nn,pitch_settled,30,0,{},0.1,0.30512857662936466,0.001745118699528905
+0.2,0.5,12.0,main_stable_margin,nn,pitch_steady_state_error,30,0,{},-0.1788816994521544,0.12904920451395105,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,max_pitch_dev,30,0,{},0.418969364235226,0.07180425960536242,8.326023817062378e-07
+0.2,0.5,12.0,main_stable_margin,elev_ff,max_roll_dev,30,0,{},0.2003209218179448,0.05167561905306835,4.6566128730773926e-08
+0.2,0.5,12.0,main_stable_margin,elev_ff,max_yaw_dev,30,0,{},0.8514370624185631,0.20682433588624163,1.30385160446167e-08
+0.2,0.5,12.0,main_stable_margin,elev_ff,rms_pitch_error,30,0,{},0.20423026151064505,0.051917633123029217,4.421919584274292e-06
+0.2,0.5,12.0,main_stable_margin,elev_ff,rms_roll_error,30,0,{},0.09635080957663497,0.030390908574061674,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,rms_yaw_error,30,0,{},0.39964789608819135,0.1127949845773475,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,itae_pitch,30,0,{},9.849095029225959,3.5124378224120765,0.8235769439488649
+0.2,0.5,12.0,main_stable_margin,elev_ff,itae_roll,30,0,{},4.768716621509213,1.865310026552995,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,itae_yaw,30,0,{},20.214193311557384,6.807533913384333,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,rms_altitude_error,30,0,{},1.6004898297855685,1.0336393117196447,0.5291051845997572
+0.2,0.5,12.0,main_stable_margin,elev_ff,max_altitude_drop_m,30,0,{},1.408796360876192,1.297442441279424,2.7015948487105512e-05
+0.2,0.5,12.0,main_stable_margin,elev_ff,mean_elev,30,0,{},0.5657779336071024,0.1697753056762207,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,mean_aileron,30,0,{},0.2609109233866283,0.08561435374020945,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,mean_rudder,30,0,{},0.9572521935663403,0.2867557995677406,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,rms_elev,30,0,{},0.641297484656095,0.16732863856676924,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,rms_aileron,30,0,{},0.3130932253109315,0.09327899973374677,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,rms_rudder,30,0,{},1.1593727615582543,0.3173377820037968,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,elev_activity,30,0,{},3726.1241636772925,213.05611266457882,7.994472980499268e-06
+0.2,0.5,12.0,main_stable_margin,elev_ff,aileron_activity,30,0,{},1193.7596389273526,79.642385122238,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,elev_ff,rudder_activity,30,0,{},1467.541249195537,98.40936224093788,6.910413503646851e-07
+0.2,0.5,12.0,main_stable_margin,elev_ff,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,elev_ff,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,elev_ff,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,elev_ff,tail_mean_abs,30,0,{},0.1253644574753072,0.0,4.320463057827488e-08
+0.2,0.5,12.0,main_stable_margin,elev_ff,tail_rms,30,0,{},0.14754353569422832,0.0,4.320463057827488e-08
+0.2,0.5,12.0,main_stable_margin,elev_ff,tail_activity,30,0,{},55.24758677879769,1.4453792906454277e-14,4.320463057827488e-08
+0.2,0.5,12.0,main_stable_margin,elev_ff,mean_drag,30,0,{},2.1954433796535797,0.05373441735668387,4.6566128730773926e-08
+0.2,0.5,12.0,main_stable_margin,elev_ff,pitch_settling_time_s,30,0,{},10.799999999999772,0.864136004621221,0.01061654849135836
+0.2,0.5,12.0,main_stable_margin,elev_ff,pitch_settled,30,0,{},0.13333333333333333,0.34574590364176044,0.004556349803185131
+0.2,0.5,12.0,main_stable_margin,elev_ff,pitch_steady_state_error,30,0,{},-0.1914007982508636,0.10600267074582927,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,max_pitch_dev,30,0,{},0.3181899365665837,0.06527562593479785,1.30385160446167e-08
+0.2,0.5,12.0,main_stable_margin,oracle,max_roll_dev,30,0,{},0.1918973228602174,0.04928617866848897,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,max_yaw_dev,30,0,{},0.8226544356969063,0.20105849884061477,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,rms_pitch_error,30,0,{},0.13963628096599373,0.03886433470210521,5.587935447692871e-09
+0.2,0.5,12.0,main_stable_margin,oracle,rms_roll_error,30,0,{},0.09195729246164344,0.02887599839785995,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,rms_yaw_error,30,0,{},0.38393798517022776,0.10831744458789952,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,itae_pitch,30,0,{},6.900625089551627,2.3084105741353333,5.5925920605659485e-05
+0.2,0.5,12.0,main_stable_margin,oracle,itae_roll,30,0,{},4.5532997269612165,1.7728143129195517,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,itae_yaw,30,0,{},19.4284019008138,6.556557455336857,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,rms_altitude_error,30,0,{},1.6213731148371595,1.0489487367239592,0.17059839516878128
+0.2,0.5,12.0,main_stable_margin,oracle,max_altitude_drop_m,30,0,{},1.5029427616037396,1.3367195252013548,2.7015948487105512e-05
+0.2,0.5,12.0,main_stable_margin,oracle,mean_elev,30,0,{},0.4678824048716128,0.19111113553336545,0.3817984350025654
+0.2,0.5,12.0,main_stable_margin,oracle,mean_aileron,30,0,{},0.263143799363249,0.08586134582288861,1.30385160446167e-08
+0.2,0.5,12.0,main_stable_margin,oracle,mean_rudder,30,0,{},0.9650318558095343,0.28791704425244885,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,rms_elev,30,0,{},0.5491963527848891,0.1878228772707013,0.5698575973510742
+0.2,0.5,12.0,main_stable_margin,oracle,rms_aileron,30,0,{},0.31602292922050323,0.0936559209979285,3.725290298461914e-09
+0.2,0.5,12.0,main_stable_margin,oracle,rms_rudder,30,0,{},1.1691944812590118,0.3189969102203587,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,elev_activity,30,0,{},3705.4612271494693,223.8276931800683,0.8078304156661034
+0.2,0.5,12.0,main_stable_margin,oracle,aileron_activity,30,0,{},1202.5274627479569,80.15739979083418,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,rudder_activity,30,0,{},1490.3426170864907,99.21361029925639,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,oracle,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,oracle,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,12.0,main_stable_margin,oracle,tail_mean_abs,30,0,{},0.6666711100052354,0.05537112683736879,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,tail_rms,30,0,{},0.6838914981931676,0.05346586372463496,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,tail_activity,30,0,{},138.38196906462323,11.473473665117599,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,mean_drag,30,0,{},2.2199725638064747,0.051069727857767165,1.862645149230957e-09
+0.2,0.5,12.0,main_stable_margin,oracle,pitch_settling_time_s,30,0,{},10.727999999999772,0.7743045823233069,0.05027199789481508
+0.2,0.5,12.0,main_stable_margin,oracle,pitch_settled,30,0,{},0.23333333333333334,0.4301830671520762,0.041226833337163676
+0.2,0.5,12.0,main_stable_margin,oracle,pitch_steady_state_error,30,0,{},-0.08978728142644335,0.09282252134909519,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,conventional,max_pitch_dev,30,0,{},0.1792179023479199,0.019896382944427568,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,max_roll_dev,30,0,{},0.3627739347164866,0.12775864972533682,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,max_yaw_dev,30,0,{},0.5724085606307352,0.124133812519363,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,rms_pitch_error,30,0,{},0.0859473690893303,0.007978109340748225,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,rms_roll_error,30,0,{},0.13071109303126818,0.04830184187488214,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,rms_yaw_error,30,0,{},0.2673287509573831,0.070706432321195,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,itae_pitch,30,0,{},3.4349981084204684,0.4782335490781071,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,itae_roll,30,0,{},6.4841407503204085,2.5092942200831034,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,itae_yaw,30,0,{},13.47495179951498,3.944438890949498,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,rms_altitude_error,30,0,{},0.9164954182364987,0.488030935638305,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,max_altitude_drop_m,30,0,{},0.9127720000159163,0.6270101845812368,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,mean_elev,30,0,{},2.020402445250854,0.02990591669845227,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,mean_aileron,30,0,{},1.1102564405249273,0.18752880403258512,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,mean_rudder,30,0,{},0.628264020471502,0.158164950754832,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,rms_elev,30,0,{},2.0807343857355938,0.031007626284526104,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,rms_aileron,30,0,{},1.3925698134415545,0.30210901620359865,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,rms_rudder,30,0,{},0.7620552127186025,0.1788611041026903,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,elev_activity,30,0,{},11400.959723455202,692.9465448015727,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,aileron_activity,30,0,{},53803.94314199812,11615.574948305748,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,rudder_activity,30,0,{},2972.9274244572985,663.5520091463333,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,tail_mean_abs,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,tail_rms,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,tail_activity,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,mean_drag,30,0,{},4.31100002124539,0.1263040384175345,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,pitch_settling_time_s,30,0,{},6.447333333333196,1.7320546565663582,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,pitch_settled,30,0,{},1.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,conventional,pitch_steady_state_error,30,0,{},0.03207384626294053,0.017829457453794106,1.0
+0.2,0.5,20.0,main_stable_margin,nn,max_pitch_dev,30,0,{},0.23228043723484607,0.02396194133402433,3.725290298461914e-09
+0.2,0.5,20.0,main_stable_margin,nn,max_roll_dev,30,0,{},0.3774902589359922,0.10683306179839938,0.9838335812091827
+0.2,0.5,20.0,main_stable_margin,nn,max_yaw_dev,30,0,{},0.543609529466109,0.11058169888578764,9.220093488693237e-06
+0.2,0.5,20.0,main_stable_margin,nn,rms_pitch_error,30,0,{},0.10428323312653794,0.012763598974139671,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,nn,rms_roll_error,30,0,{},0.13949200682842613,0.040400654280977076,0.7456546742469072
+0.2,0.5,20.0,main_stable_margin,nn,rms_yaw_error,30,0,{},0.2511419423818693,0.06582539934029603,5.587935447692871e-09
+0.2,0.5,20.0,main_stable_margin,nn,itae_pitch,30,0,{},4.994509454193012,0.8712019843876875,5.587935447692871e-09
+0.2,0.5,20.0,main_stable_margin,nn,itae_roll,30,0,{},6.971414645293154,2.0995930699511796,0.42795460671186447
+0.2,0.5,20.0,main_stable_margin,nn,itae_yaw,30,0,{},12.67828656193597,3.788640407366136,9.313225746154785e-09
+0.2,0.5,20.0,main_stable_margin,nn,rms_altitude_error,30,0,{},0.9227573347925725,0.4883445508838077,0.31839608028531075
+0.2,0.5,20.0,main_stable_margin,nn,max_altitude_drop_m,30,0,{},0.9244650723358769,0.6332531820018601,0.08351810256109068
+0.2,0.5,20.0,main_stable_margin,nn,mean_elev,30,0,{},1.8263931280100294,0.03519047378873194,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,nn,mean_aileron,30,0,{},1.194192841811922,0.15935295368537195,0.0001528710126876831
+0.2,0.5,20.0,main_stable_margin,nn,mean_rudder,30,0,{},0.6415092728220839,0.16078242722138186,3.453157842159271e-05
+0.2,0.5,20.0,main_stable_margin,nn,rms_elev,30,0,{},1.901341342480708,0.036637081180493934,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,nn,rms_aileron,30,0,{},1.5289646802951216,0.25638709699348533,0.004031794145703316
+0.2,0.5,20.0,main_stable_margin,nn,rms_rudder,30,0,{},0.7791228532059619,0.18143123164234892,1.991167664527893e-06
+0.2,0.5,20.0,main_stable_margin,nn,elev_activity,30,0,{},11397.305531795375,689.3136532881493,0.2710056286305189
+0.2,0.5,20.0,main_stable_margin,nn,aileron_activity,30,0,{},58737.374929034224,9848.542000855203,0.0037444327026605606
+0.2,0.5,20.0,main_stable_margin,nn,rudder_activity,30,0,{},3290.172664860543,574.3642213860783,0.0005548261106014252
+0.2,0.5,20.0,main_stable_margin,nn,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,nn,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,nn,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,nn,tail_mean_abs,30,0,{},0.17116813409817871,0.015662933519514192,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,nn,tail_rms,30,0,{},0.2038001362164161,0.017096640097900642,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,nn,tail_activity,30,0,{},69.66757353417321,2.657679834807169,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,nn,mean_drag,30,0,{},4.312783811433011,0.12663801337479466,3.725290298461914e-09
+0.2,0.5,20.0,main_stable_margin,nn,pitch_settling_time_s,30,0,{},10.9993333333331,0.0036514837167010293,1.732216233144114e-06
+0.2,0.5,20.0,main_stable_margin,nn,pitch_settled,30,0,{},0.03333333333333333,0.18257418583505533,7.237829871739995e-08
+0.2,0.5,20.0,main_stable_margin,nn,pitch_steady_state_error,30,0,{},-0.08100724825364307,0.03348574138457316,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,elev_ff,max_pitch_dev,30,0,{},0.23651882618252912,0.025377813809826972,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,elev_ff,max_roll_dev,30,0,{},0.3594802580669412,0.13384432434888097,0.871207794174552
+0.2,0.5,20.0,main_stable_margin,elev_ff,max_yaw_dev,30,0,{},0.5726534172350111,0.11924645244186541,0.7151329666376114
+0.2,0.5,20.0,main_stable_margin,elev_ff,rms_pitch_error,30,0,{},0.1069018513091771,0.015003096192489953,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,elev_ff,rms_roll_error,30,0,{},0.1253191575120017,0.0430467470366869,0.5027610473334789
+0.2,0.5,20.0,main_stable_margin,elev_ff,rms_yaw_error,30,0,{},0.2680201638639964,0.07119883750069467,0.7765688337385654
+0.2,0.5,20.0,main_stable_margin,elev_ff,itae_pitch,30,0,{},5.160817798000713,0.9605307817665357,3.725290298461914e-09
+0.2,0.5,20.0,main_stable_margin,elev_ff,itae_roll,30,0,{},6.016995786743089,2.346341007912707,0.370740607380867
+0.2,0.5,20.0,main_stable_margin,elev_ff,itae_yaw,30,0,{},13.546580354674719,4.101648681293761,0.4521643426269293
+0.2,0.5,20.0,main_stable_margin,elev_ff,rms_altitude_error,30,0,{},0.9170583006158075,0.490698415361157,0.8552717231214046
+0.2,0.5,20.0,main_stable_margin,elev_ff,max_altitude_drop_m,30,0,{},0.8867697469410923,0.6268215988125145,0.0014326089528015902
+0.2,0.5,20.0,main_stable_margin,elev_ff,mean_elev,30,0,{},2.0554090668016793,0.030005904772812574,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,elev_ff,mean_aileron,30,0,{},1.1182645029263059,0.17997069941299412,0.9838335812091827
+0.2,0.5,20.0,main_stable_margin,elev_ff,mean_rudder,30,0,{},0.6302834275546989,0.1610721504389135,0.40449450351297855
+0.2,0.5,20.0,main_stable_margin,elev_ff,rms_elev,30,0,{},2.1229018016108343,0.03110870699424603,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,elev_ff,rms_aileron,30,0,{},1.395714074546965,0.2895802751481118,0.9838335812091827
+0.2,0.5,20.0,main_stable_margin,elev_ff,rms_rudder,30,0,{},0.7637916019318037,0.1814131855595025,0.5698575973510742
+0.2,0.5,20.0,main_stable_margin,elev_ff,elev_activity,30,0,{},11393.034123615706,688.7053819155126,0.034536734223365784
+0.2,0.5,20.0,main_stable_margin,elev_ff,aileron_activity,30,0,{},53857.83931834412,11047.307496359073,0.9838335812091827
+0.2,0.5,20.0,main_stable_margin,elev_ff,rudder_activity,30,0,{},2954.0679062778286,626.3515896447486,0.7303419969975948
+0.2,0.5,20.0,main_stable_margin,elev_ff,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,elev_ff,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,elev_ff,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,elev_ff,tail_mean_abs,30,0,{},0.1253644574753072,0.0,4.320463057827488e-08
+0.2,0.5,20.0,main_stable_margin,elev_ff,tail_rms,30,0,{},0.14754353569422832,0.0,4.320463057827488e-08
+0.2,0.5,20.0,main_stable_margin,elev_ff,tail_activity,30,0,{},55.24758677879769,1.4453792906454277e-14,4.320463057827488e-08
+0.2,0.5,20.0,main_stable_margin,elev_ff,mean_drag,30,0,{},4.308418919378401,0.12647554111705628,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,elev_ff,pitch_settling_time_s,30,0,{},10.9993333333331,0.0036514837167010293,1.732216233144114e-06
+0.2,0.5,20.0,main_stable_margin,elev_ff,pitch_settled,30,0,{},0.03333333333333333,0.18257418583505533,7.237829871739995e-08
+0.2,0.5,20.0,main_stable_margin,elev_ff,pitch_steady_state_error,30,0,{},-0.08570853371305659,0.036755791120137146,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,max_pitch_dev,30,0,{},0.2245475245077671,0.02066178827191215,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,max_roll_dev,30,0,{},0.3911503478938221,0.09239822931641042,0.761065473780036
+0.2,0.5,20.0,main_stable_margin,oracle,max_yaw_dev,30,0,{},0.5383619398801416,0.10978308351271499,3.855675458908081e-07
+0.2,0.5,20.0,main_stable_margin,oracle,rms_pitch_error,30,0,{},0.0952354151204497,0.008415393458531381,2.0489096641540527e-07
+0.2,0.5,20.0,main_stable_margin,oracle,rms_roll_error,30,0,{},0.1386933433412198,0.035418632409850916,0.5561132747679949
+0.2,0.5,20.0,main_stable_margin,oracle,rms_yaw_error,30,0,{},0.25013551817945906,0.06509519152692418,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,itae_pitch,30,0,{},4.4846293412258715,0.5027402854272489,3.5390257835388184e-08
+0.2,0.5,20.0,main_stable_margin,oracle,itae_roll,30,0,{},6.892927725842244,1.9870135663856827,0.5561132747679949
+0.2,0.5,20.0,main_stable_margin,oracle,itae_yaw,30,0,{},12.66973193932592,3.7343637600537254,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,rms_altitude_error,30,0,{},0.9245858704804583,0.4911845394349447,0.5291051845997572
+0.2,0.5,20.0,main_stable_margin,oracle,max_altitude_drop_m,30,0,{},0.9491111008789536,0.6331463261271307,0.000269031200173088
+0.2,0.5,20.0,main_stable_margin,oracle,mean_elev,30,0,{},1.6980901143363787,0.03955685352210831,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,mean_aileron,30,0,{},1.1928348493769814,0.1389005431886385,0.00046010687947273254
+0.2,0.5,20.0,main_stable_margin,oracle,mean_rudder,30,0,{},0.6385889590876453,0.15793371143900004,0.0002562887966632843
+0.2,0.5,20.0,main_stable_margin,oracle,rms_elev,30,0,{},1.7792591641330984,0.04050479718255102,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,rms_aileron,30,0,{},1.5271887250034695,0.22968198218624067,0.0009517744183540344
+0.2,0.5,20.0,main_stable_margin,oracle,rms_rudder,30,0,{},0.7749967758393586,0.17945267461197,0.00018860027194023132
+0.2,0.5,20.0,main_stable_margin,oracle,elev_activity,30,0,{},11407.520919227994,693.516313925263,0.4399667661637068
+0.2,0.5,20.0,main_stable_margin,oracle,aileron_activity,30,0,{},58713.1785612273,8518.42455987567,0.0012321043759584427
+0.2,0.5,20.0,main_stable_margin,oracle,rudder_activity,30,0,{},3285.2127604112115,555.6078665032904,9.90256667137146e-05
+0.2,0.5,20.0,main_stable_margin,oracle,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,oracle,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,oracle,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,0.5,20.0,main_stable_margin,oracle,tail_mean_abs,30,0,{},0.25187616389950607,0.007111347556176628,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,tail_rms,30,0,{},0.2904743762515922,0.006382454607951988,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,tail_activity,30,0,{},74.1628092862251,1.5954402513876236,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,mean_drag,30,0,{},4.315435978072474,0.1259425543750847,1.862645149230957e-09
+0.2,0.5,20.0,main_stable_margin,oracle,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,1.732216233144114e-06
+0.2,0.5,20.0,main_stable_margin,oracle,pitch_settled,30,0,{},0.0,0.0,4.320463057827488e-08
+0.2,0.5,20.0,main_stable_margin,oracle,pitch_steady_state_error,30,0,{},-0.07051637205311437,0.02256603162976349,1.862645149230957e-09
+0.2,1.5,12.0,main_stable_margin,conventional,max_pitch_dev,29,1,"{""aerodynamic_validity_limit"": 1}",0.6631846668321483,0.11531215194643872,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,max_roll_dev,29,1,"{""aerodynamic_validity_limit"": 1}",0.5817362171645356,0.15618462714361708,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,max_yaw_dev,29,1,"{""aerodynamic_validity_limit"": 1}",2.494275630940686,0.62575258420606,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,rms_pitch_error,29,1,"{""aerodynamic_validity_limit"": 1}",0.32892198285210916,0.08092771006634206,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,rms_roll_error,29,1,"{""aerodynamic_validity_limit"": 1}",0.2808829770646888,0.08988379231351265,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,rms_yaw_error,29,1,"{""aerodynamic_validity_limit"": 1}",1.1694529926858284,0.33552692964121744,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,itae_pitch,29,1,"{""aerodynamic_validity_limit"": 1}",14.875061387082607,3.566363401906802,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,itae_roll,29,1,"{""aerodynamic_validity_limit"": 1}",13.872038601784215,5.415069344294844,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,itae_yaw,29,1,"{""aerodynamic_validity_limit"": 1}",58.91307968714903,19.261493570515725,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,rms_altitude_error,29,1,"{""aerodynamic_validity_limit"": 1}",4.47907978108337,2.8148021961146936,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,max_altitude_drop_m,29,1,"{""aerodynamic_validity_limit"": 1}",3.380618006213534,3.5483057346995808,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,mean_elev,29,1,"{""aerodynamic_validity_limit"": 1}",0.9074853825390009,0.23160554788270182,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,mean_aileron,29,1,"{""aerodynamic_validity_limit"": 1}",0.7642359106800991,0.2562842373846775,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,mean_rudder,29,1,"{""aerodynamic_validity_limit"": 1}",2.807971326329044,0.8614068334736151,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,rms_elev,29,1,"{""aerodynamic_validity_limit"": 1}",1.0958195779136688,0.24383977846726143,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,rms_aileron,29,1,"{""aerodynamic_validity_limit"": 1}",0.9151167302346019,0.2742177523376921,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,rms_rudder,29,1,"{""aerodynamic_validity_limit"": 1}",3.3962571904642203,0.9473023465639572,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,elev_activity,29,1,"{""aerodynamic_validity_limit"": 1}",11354.108302234132,1658.991958223248,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,aileron_activity,29,1,"{""aerodynamic_validity_limit"": 1}",3755.3577929104026,618.1465766635704,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,rudder_activity,29,1,"{""aerodynamic_validity_limit"": 1}",4415.413310315124,331.07525965729235,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,elev_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,aileron_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,rudder_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,tail_mean_abs,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,tail_rms,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,tail_activity,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,mean_drag,29,1,"{""aerodynamic_validity_limit"": 1}",2.3090563176288565,0.18348133073508394,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,pitch_settling_time_s,29,1,"{""aerodynamic_validity_limit"": 1}",10.977931034482527,0.0519188453498625,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,pitch_settled,29,1,"{""aerodynamic_validity_limit"": 1}",0.20689655172413793,0.4122508203948855,1.0
+0.2,1.5,12.0,main_stable_margin,conventional,pitch_steady_state_error,29,1,"{""aerodynamic_validity_limit"": 1}",0.052891337826775214,0.20554737406380802,1.0
+0.2,1.5,12.0,main_stable_margin,nn,max_pitch_dev,29,1,"{""aerodynamic_validity_limit"": 1}",0.8122806798884351,0.22895436430006175,0.00516427680850029
+0.2,1.5,12.0,main_stable_margin,nn,max_roll_dev,29,1,"{""aerodynamic_validity_limit"": 1}",0.5294440102166801,0.1409961288355027,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,max_yaw_dev,29,1,"{""aerodynamic_validity_limit"": 1}",2.2953321681421732,0.5796918855144069,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,rms_pitch_error,29,1,"{""aerodynamic_validity_limit"": 1}",0.34197100349036175,0.10161286810588986,0.6544641703367233
+0.2,1.5,12.0,main_stable_margin,nn,rms_roll_error,29,1,"{""aerodynamic_validity_limit"": 1}",0.2525533965596284,0.07952179830762451,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,rms_yaw_error,29,1,"{""aerodynamic_validity_limit"": 1}",1.0640965348792506,0.30397648592589394,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,itae_pitch,29,1,"{""aerodynamic_validity_limit"": 1}",17.72123087656391,7.951861573486215,0.16216303035616875
+0.2,1.5,12.0,main_stable_margin,nn,itae_roll,29,1,"{""aerodynamic_validity_limit"": 1}",12.422749273151693,4.756305518124282,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,itae_yaw,29,1,"{""aerodynamic_validity_limit"": 1}",53.349919467399936,17.53981550215831,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,rms_altitude_error,29,1,"{""aerodynamic_validity_limit"": 1}",4.4742388219415075,2.7768636961367617,1.0
+0.2,1.5,12.0,main_stable_margin,nn,max_altitude_drop_m,29,1,"{""aerodynamic_validity_limit"": 1}",3.5719509921003407,3.6472893882259023,6.898751069615867e-05
+0.2,1.5,12.0,main_stable_margin,nn,mean_elev,29,1,"{""aerodynamic_validity_limit"": 1}",1.0113014001792515,0.29113417305080935,0.2053302302956581
+0.2,1.5,12.0,main_stable_margin,nn,mean_aileron,29,1,"{""aerodynamic_validity_limit"": 1}",0.7774181438476627,0.2566315177408574,7.450580596923828e-09
+0.2,1.5,12.0,main_stable_margin,nn,mean_rudder,29,1,"{""aerodynamic_validity_limit"": 1}",2.850245889941201,0.8670339792072531,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,rms_elev,29,1,"{""aerodynamic_validity_limit"": 1}",1.2409315032699841,0.3341813156404643,0.1008644811809063
+0.2,1.5,12.0,main_stable_margin,nn,rms_aileron,29,1,"{""aerodynamic_validity_limit"": 1}",0.932440213234418,0.27588126581944417,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,rms_rudder,29,1,"{""aerodynamic_validity_limit"": 1}",3.450072514447567,0.9562930038860102,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,elev_activity,29,1,"{""aerodynamic_validity_limit"": 1}",11430.703951772932,1726.116568220356,6.4782798290252686e-06
+0.2,1.5,12.0,main_stable_margin,nn,aileron_activity,29,1,"{""aerodynamic_validity_limit"": 1}",3846.7277976098644,652.6866615290919,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,rudder_activity,29,1,"{""aerodynamic_validity_limit"": 1}",4569.234540676954,346.1947467935156,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,elev_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,nn,aileron_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,nn,rudder_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,nn,tail_mean_abs,29,1,"{""aerodynamic_validity_limit"": 1}",0.7650549173212323,0.16739546786162374,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,tail_rms,29,1,"{""aerodynamic_validity_limit"": 1}",0.8424821870722434,0.18330825444541599,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,tail_activity,29,1,"{""aerodynamic_validity_limit"": 1}",339.8724730172321,88.70131863137973,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,mean_drag,29,1,"{""aerodynamic_validity_limit"": 1}",2.3398608662810756,0.18436394051060642,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,nn,pitch_settling_time_s,29,1,"{""aerodynamic_validity_limit"": 1}",10.968275862068733,0.08044825157991771,0.6560051321908611
+0.2,1.5,12.0,main_stable_margin,nn,pitch_settled,29,1,"{""aerodynamic_validity_limit"": 1}",0.1724137931034483,0.3844258722192447,0.763024600552995
+0.2,1.5,12.0,main_stable_margin,nn,pitch_steady_state_error,29,1,"{""aerodynamic_validity_limit"": 1}",-0.3269343496035142,0.29787643757254434,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,max_pitch_dev,29,1,"{""aerodynamic_validity_limit"": 1}",0.7474312230972179,0.23402664619399893,0.1154516153037548
+0.2,1.5,12.0,main_stable_margin,elev_ff,max_roll_dev,29,1,"{""aerodynamic_validity_limit"": 1}",0.5799511255172836,0.1553409931601858,4.0978193283081055e-07
+0.2,1.5,12.0,main_stable_margin,elev_ff,max_yaw_dev,29,1,"{""aerodynamic_validity_limit"": 1}",2.4848319475360263,0.6221218272017455,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,rms_pitch_error,29,1,"{""aerodynamic_validity_limit"": 1}",0.3192997742333667,0.08856660769718544,0.4946499206125736
+0.2,1.5,12.0,main_stable_margin,elev_ff,rms_roll_error,29,1,"{""aerodynamic_validity_limit"": 1}",0.27994424407691015,0.08951077338668685,7.450580596923828e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,rms_yaw_error,29,1,"{""aerodynamic_validity_limit"": 1}",1.165290403343377,0.3341101735204839,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,itae_pitch,29,1,"{""aerodynamic_validity_limit"": 1}",15.928762252707829,5.994214662913261,0.522130947560072
+0.2,1.5,12.0,main_stable_margin,elev_ff,itae_roll,29,1,"{""aerodynamic_validity_limit"": 1}",13.822557407403368,5.393820055958817,7.450580596923828e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,itae_yaw,29,1,"{""aerodynamic_validity_limit"": 1}",58.69265673426115,19.19357175898621,7.450580596923828e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,rms_altitude_error,29,1,"{""aerodynamic_validity_limit"": 1}",4.466628688759956,2.7940615143093566,0.3692382462322712
+0.2,1.5,12.0,main_stable_margin,elev_ff,max_altitude_drop_m,29,1,"{""aerodynamic_validity_limit"": 1}",3.455401778137752,3.5734726104235284,5.956977907456359e-05
+0.2,1.5,12.0,main_stable_margin,elev_ff,mean_elev,29,1,"{""aerodynamic_validity_limit"": 1}",0.9357409865690762,0.24067519428480505,0.00012406706809997559
+0.2,1.5,12.0,main_stable_margin,elev_ff,mean_aileron,29,1,"{""aerodynamic_validity_limit"": 1}",0.7617198926264896,0.2551631020005413,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,mean_rudder,29,1,"{""aerodynamic_validity_limit"": 1}",2.797683792623548,0.8577490597297625,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,rms_elev,29,1,"{""aerodynamic_validity_limit"": 1}",1.1298532496038287,0.2541075353820814,5.336105823516846e-05
+0.2,1.5,12.0,main_stable_margin,elev_ff,rms_aileron,29,1,"{""aerodynamic_validity_limit"": 1}",0.9121663020297783,0.2729571382819983,7.450580596923828e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,rms_rudder,29,1,"{""aerodynamic_validity_limit"": 1}",3.38366783766038,0.9427545747320957,7.450580596923828e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,elev_activity,29,1,"{""aerodynamic_validity_limit"": 1}",11404.275644664345,1675.9527001627464,4.0978193283081055e-07
+0.2,1.5,12.0,main_stable_margin,elev_ff,aileron_activity,29,1,"{""aerodynamic_validity_limit"": 1}",3769.6228571922125,623.7740280614405,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,elev_ff,rudder_activity,29,1,"{""aerodynamic_validity_limit"": 1}",4412.470233442321,328.3674249867545,2.8386712074279785e-06
+0.2,1.5,12.0,main_stable_margin,elev_ff,elev_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,elev_ff,aileron_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,elev_ff,rudder_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,elev_ff,tail_mean_abs,29,1,"{""aerodynamic_validity_limit"": 1}",0.1253644574753072,0.0,7.237829871739995e-08
+0.2,1.5,12.0,main_stable_margin,elev_ff,tail_rms,29,1,"{""aerodynamic_validity_limit"": 1}",0.14754353569422832,0.0,7.237829871739995e-08
+0.2,1.5,12.0,main_stable_margin,elev_ff,tail_activity,29,1,"{""aerodynamic_validity_limit"": 1}",55.24758677879769,1.4462393795585838e-14,7.237829871739995e-08
+0.2,1.5,12.0,main_stable_margin,elev_ff,mean_drag,29,1,"{""aerodynamic_validity_limit"": 1}",2.311407286611538,0.18600857488422926,0.00026926398277282715
+0.2,1.5,12.0,main_stable_margin,elev_ff,pitch_settling_time_s,29,1,"{""aerodynamic_validity_limit"": 1}",10.946206896551493,0.1725525549983307,0.44126813332892967
+0.2,1.5,12.0,main_stable_margin,elev_ff,pitch_settled,29,1,"{""aerodynamic_validity_limit"": 1}",0.1724137931034483,0.3844258722192448,0.7054569861112734
+0.2,1.5,12.0,main_stable_margin,elev_ff,pitch_steady_state_error,29,1,"{""aerodynamic_validity_limit"": 1}",-0.2032827983384152,0.2544267950553854,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,max_pitch_dev,29,1,"{""aerodynamic_validity_limit"": 1}",0.6997409493474913,0.1980517297562757,0.38083895295858383
+0.2,1.5,12.0,main_stable_margin,oracle,max_roll_dev,29,1,"{""aerodynamic_validity_limit"": 1}",0.5295137193623807,0.14081823129075133,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,max_yaw_dev,29,1,"{""aerodynamic_validity_limit"": 1}",2.2962868192965167,0.5780870402574588,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,rms_pitch_error,29,1,"{""aerodynamic_validity_limit"": 1}",0.3009454305401755,0.08825224757837373,0.08367564529180527
+0.2,1.5,12.0,main_stable_margin,oracle,rms_roll_error,29,1,"{""aerodynamic_validity_limit"": 1}",0.2527642912887602,0.07959562236877538,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,rms_yaw_error,29,1,"{""aerodynamic_validity_limit"": 1}",1.06521145885819,0.3040379767068764,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,itae_pitch,29,1,"{""aerodynamic_validity_limit"": 1}",14.898996079350143,5.20768482220797,0.8647311441600323
+0.2,1.5,12.0,main_stable_margin,oracle,itae_roll,29,1,"{""aerodynamic_validity_limit"": 1}",12.452650236812215,4.7741690253838405,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,itae_yaw,29,1,"{""aerodynamic_validity_limit"": 1}",53.495940578547014,17.579471982909013,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,rms_altitude_error,29,1,"{""aerodynamic_validity_limit"": 1}",4.483039324309663,2.8085651193216363,0.522130947560072
+0.2,1.5,12.0,main_stable_margin,oracle,max_altitude_drop_m,29,1,"{""aerodynamic_validity_limit"": 1}",3.534237569683534,3.627389795394626,5.956977907456359e-05
+0.2,1.5,12.0,main_stable_margin,oracle,mean_elev,29,1,"{""aerodynamic_validity_limit"": 1}",0.9660376552156784,0.3718686794878539,0.8147765882313251
+0.2,1.5,12.0,main_stable_margin,oracle,mean_aileron,29,1,"{""aerodynamic_validity_limit"": 1}",0.7780272639439841,0.2568213929414021,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,mean_rudder,29,1,"{""aerodynamic_validity_limit"": 1}",2.8534799771206503,0.8675394001854325,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,rms_elev,29,1,"{""aerodynamic_validity_limit"": 1}",1.1679877244632302,0.37531056889132686,0.6391207613050938
+0.2,1.5,12.0,main_stable_margin,oracle,rms_aileron,29,1,"{""aerodynamic_validity_limit"": 1}",0.9332117486782195,0.27611277094858144,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,rms_rudder,29,1,"{""aerodynamic_validity_limit"": 1}",3.454086549149872,0.9568025230397552,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,elev_activity,29,1,"{""aerodynamic_validity_limit"": 1}",11396.020596028291,1702.224034005595,1.8388032913208008e-05
+0.2,1.5,12.0,main_stable_margin,oracle,aileron_activity,29,1,"{""aerodynamic_validity_limit"": 1}",3839.3793981080885,646.7462804855985,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,rudder_activity,29,1,"{""aerodynamic_validity_limit"": 1}",4570.496797398565,347.23092541317874,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,elev_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,oracle,aileron_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,oracle,rudder_saturation_s,29,1,"{""aerodynamic_validity_limit"": 1}",0.0,0.0,1.0
+0.2,1.5,12.0,main_stable_margin,oracle,tail_mean_abs,29,1,"{""aerodynamic_validity_limit"": 1}",0.6601237905311398,0.13465633842822328,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,tail_rms,29,1,"{""aerodynamic_validity_limit"": 1}",0.6833557881027008,0.1298743630466455,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,tail_activity,29,1,"{""aerodynamic_validity_limit"": 1}",275.8524806997069,65.22237845997128,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,mean_drag,29,1,"{""aerodynamic_validity_limit"": 1}",2.3338874087729797,0.17990918505823925,3.725290298461914e-09
+0.2,1.5,12.0,main_stable_margin,oracle,pitch_settling_time_s,29,1,"{""aerodynamic_validity_limit"": 1}",10.904827586206666,0.24122634139589472,0.208612728310704
+0.2,1.5,12.0,main_stable_margin,oracle,pitch_settled,29,1,"{""aerodynamic_validity_limit"": 1}",0.27586206896551724,0.4548588261473421,0.5929800980174267
+0.2,1.5,12.0,main_stable_margin,oracle,pitch_steady_state_error,29,1,"{""aerodynamic_validity_limit"": 1}",-0.12223366076976282,0.25766982151046947,3.725290298461914e-09
+0.2,1.5,20.0,main_stable_margin,conventional,max_pitch_dev,30,0,{},3.5303811450149016,2.1582973763658555,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,max_roll_dev,30,0,{},0.5693949674545368,0.12433528592479537,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,max_yaw_dev,30,0,{},1.739612196629508,0.40037125325098394,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,rms_pitch_error,30,0,{},0.8435733024936236,0.629408483454897,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,rms_roll_error,30,0,{},0.21951994767459468,0.056240846723886524,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,rms_yaw_error,30,0,{},0.8111963842896515,0.22254709186374005,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,itae_pitch,30,0,{},29.918635298872346,29.17703403074203,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,itae_roll,30,0,{},10.728638296413282,3.3382204940915443,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,itae_yaw,30,0,{},41.00908837053244,12.378129219169706,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,rms_altitude_error,30,0,{},2.8373229104587567,1.5977076260012089,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,max_altitude_drop_m,30,0,{},2.4849166054802416,1.9090258828744595,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,mean_elev,30,0,{},2.625167925616915,0.5143531373508599,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,mean_aileron,30,0,{},1.0784216404322577,0.21322748932438168,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,mean_rudder,30,0,{},1.8969555307335282,0.5014547661289426,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,rms_elev,30,0,{},3.209779657743165,0.6747837718800941,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,rms_aileron,30,0,{},1.3479381750057526,0.2618314043944597,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,rms_rudder,30,0,{},2.300962524466558,0.5727024672423557,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,elev_activity,30,0,{},36838.59167303719,5425.876686310915,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,aileron_activity,30,0,{},43308.533988864925,13313.060824743257,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,rudder_activity,30,0,{},6143.519180227203,498.3741532604461,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,tail_mean_abs,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,tail_rms,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,tail_activity,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,mean_drag,30,0,{},4.388659184478536,0.4308697104830324,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,pitch_settling_time_s,30,0,{},10.542666666666442,0.8045342766463234,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,pitch_settled,30,0,{},0.6333333333333333,0.4901325178535609,1.0
+0.2,1.5,20.0,main_stable_margin,conventional,pitch_steady_state_error,30,0,{},0.01105839507123142,0.13994198922189893,1.0
+0.2,1.5,20.0,main_stable_margin,nn,max_pitch_dev,30,0,{},3.397321121091633,2.3229750714427535,0.4161298982799053
+0.2,1.5,20.0,main_stable_margin,nn,max_roll_dev,30,0,{},0.5326106830732684,0.10837634825480537,0.01283373311161995
+0.2,1.5,20.0,main_stable_margin,nn,max_yaw_dev,30,0,{},1.5896479074780352,0.36033726605142785,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,nn,rms_pitch_error,30,0,{},0.8527084676523587,0.6420963662472366,0.9676735773682594
+0.2,1.5,20.0,main_stable_margin,nn,rms_roll_error,30,0,{},0.20070460698028944,0.045837517205354054,7.994472980499268e-06
+0.2,1.5,20.0,main_stable_margin,nn,rms_yaw_error,30,0,{},0.7353143992770108,0.20068857098860504,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,nn,itae_pitch,30,0,{},34.05043017376089,26.58144788309947,0.15794767439365387
+0.2,1.5,20.0,main_stable_margin,nn,itae_roll,30,0,{},9.77934309633065,2.6204316535384504,7.910653948783875e-05
+0.2,1.5,20.0,main_stable_margin,nn,itae_yaw,30,0,{},37.20060989730402,11.325849021289544,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,nn,rms_altitude_error,30,0,{},2.8081120465348905,1.5764258850022606,0.7303419969975948
+0.2,1.5,20.0,main_stable_margin,nn,max_altitude_drop_m,30,0,{},2.439145438281919,1.904330572144945,0.35049563131847306
+0.2,1.5,20.0,main_stable_margin,nn,mean_elev,30,0,{},2.5944453152224134,0.5682727283731571,0.3284698575735092
+0.2,1.5,20.0,main_stable_margin,nn,mean_aileron,30,0,{},1.1451178299116735,0.21392971846898196,0.0002562887966632843
+0.2,1.5,20.0,main_stable_margin,nn,mean_rudder,30,0,{},1.932538833380302,0.5087422283296117,6.146728992462158e-08
+0.2,1.5,20.0,main_stable_margin,nn,rms_elev,30,0,{},3.1831265098975097,0.7437512611180511,0.4399667661637068
+0.2,1.5,20.0,main_stable_margin,nn,rms_aileron,30,0,{},1.434129922904017,0.25415241828354973,0.0011314544826745987
+0.2,1.5,20.0,main_stable_margin,nn,rms_rudder,30,0,{},2.3440087088877766,0.5819047021546206,5.587935447692871e-09
+0.2,1.5,20.0,main_stable_margin,nn,elev_activity,30,0,{},37066.61893359177,6252.695838014401,0.7303419969975948
+0.2,1.5,20.0,main_stable_margin,nn,aileron_activity,30,0,{},46667.92063677629,13035.68353721002,0.0015832837671041489
+0.2,1.5,20.0,main_stable_margin,nn,rudder_activity,30,0,{},6340.0683169539,500.5209691285449,1.597777009010315e-05
+0.2,1.5,20.0,main_stable_margin,nn,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,nn,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,nn,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,nn,tail_mean_abs,30,0,{},0.15763045571909182,0.027837358820962773,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,nn,tail_rms,30,0,{},0.18857928098088136,0.03153362637552491,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,nn,tail_activity,30,0,{},83.54145764013975,10.998824879709383,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,nn,mean_drag,30,0,{},4.390159451760668,0.4294887758224646,0.9838335812091827
+0.2,1.5,20.0,main_stable_margin,nn,pitch_settling_time_s,30,0,{},10.859333333333105,0.36857538725740796,0.0030989127072942675
+0.2,1.5,20.0,main_stable_margin,nn,pitch_settled,30,0,{},0.3333333333333333,0.4794633014853841,0.012554918596966547
+0.2,1.5,20.0,main_stable_margin,nn,pitch_steady_state_error,30,0,{},-0.0465462339916731,0.14904408569331776,0.026228994131088257
+0.2,1.5,20.0,main_stable_margin,elev_ff,max_pitch_dev,30,0,{},3.3773288316979375,2.2221629183123013,0.4399667661637068
+0.2,1.5,20.0,main_stable_margin,elev_ff,max_roll_dev,30,0,{},0.577643464410519,0.1372894252956754,0.3817984350025654
+0.2,1.5,20.0,main_stable_margin,elev_ff,max_yaw_dev,30,0,{},1.739990161134003,0.40006325859611563,0.6263462882488966
+0.2,1.5,20.0,main_stable_margin,elev_ff,rms_pitch_error,30,0,{},0.8699462961523218,0.6518804990406961,0.7921590935438871
+0.2,1.5,20.0,main_stable_margin,elev_ff,rms_roll_error,30,0,{},0.22254510779852332,0.054134584141190725,0.4771064817905426
+0.2,1.5,20.0,main_stable_margin,elev_ff,rms_yaw_error,30,0,{},0.8114912799042053,0.22231507736253175,0.5561132747679949
+0.2,1.5,20.0,main_stable_margin,elev_ff,itae_pitch,30,0,{},35.15931673010901,31.297371864585763,0.23665234446525574
+0.2,1.5,20.0,main_stable_margin,elev_ff,itae_roll,30,0,{},10.77206322855321,3.141758767459266,0.7151329666376114
+0.2,1.5,20.0,main_stable_margin,elev_ff,itae_yaw,30,0,{},41.04364887721422,12.424182575589203,0.4521643426269293
+0.2,1.5,20.0,main_stable_margin,elev_ff,rms_altitude_error,30,0,{},2.827440597194467,1.610579141127317,0.583757072687149
+0.2,1.5,20.0,main_stable_margin,elev_ff,max_altitude_drop_m,30,0,{},2.426777285152957,1.87250665241105,0.08351810256109068
+0.2,1.5,20.0,main_stable_margin,elev_ff,mean_elev,30,0,{},2.6885639115326834,0.5634107963190802,0.4161298982799053
+0.2,1.5,20.0,main_stable_margin,elev_ff,mean_aileron,30,0,{},1.1176486539831318,0.22913246463377365,0.034536734223365784
+0.2,1.5,20.0,main_stable_margin,elev_ff,mean_rudder,30,0,{},1.8971466256373082,0.5007294171549462,0.7921590935438871
+0.2,1.5,20.0,main_stable_margin,elev_ff,rms_elev,30,0,{},3.2732090259718793,0.7390041156141682,0.5158484429121017
+0.2,1.5,20.0,main_stable_margin,elev_ff,rms_aileron,30,0,{},1.3921658608010439,0.2696669041380386,0.11907656863331795
+0.2,1.5,20.0,main_stable_margin,elev_ff,rms_rudder,30,0,{},2.300498705656142,0.5722268326300225,0.7303419969975948
+0.2,1.5,20.0,main_stable_margin,elev_ff,elev_activity,30,0,{},36887.90413439032,6203.425825085058,0.5027610473334789
+0.2,1.5,20.0,main_stable_margin,elev_ff,aileron_activity,30,0,{},44997.76010249005,14096.956382370603,0.15794767439365387
+0.2,1.5,20.0,main_stable_margin,elev_ff,rudder_activity,30,0,{},6182.03610559036,501.10611614838194,0.28008678182959557
+0.2,1.5,20.0,main_stable_margin,elev_ff,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,elev_ff,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,elev_ff,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,elev_ff,tail_mean_abs,30,0,{},0.1253644574753072,0.0,4.320463057827488e-08
+0.2,1.5,20.0,main_stable_margin,elev_ff,tail_rms,30,0,{},0.14754353569422832,0.0,4.320463057827488e-08
+0.2,1.5,20.0,main_stable_margin,elev_ff,tail_activity,30,0,{},55.24758677879769,1.4453792906454277e-14,4.320463057827488e-08
+0.2,1.5,20.0,main_stable_margin,elev_ff,mean_drag,30,0,{},4.389216416469751,0.4333672261339031,0.5027610473334789
+0.2,1.5,20.0,main_stable_margin,elev_ff,pitch_settling_time_s,30,0,{},10.950666666666434,0.15631386051308666,0.00041597024589711635
+0.2,1.5,20.0,main_stable_margin,elev_ff,pitch_settled,30,0,{},0.26666666666666666,0.4497764451088036,0.007632881787792299
+0.2,1.5,20.0,main_stable_margin,elev_ff,pitch_steady_state_error,30,0,{},-0.11225373724300393,0.16184781221017155,8.856505155563354e-05
+0.2,1.5,20.0,main_stable_margin,oracle,max_pitch_dev,30,0,{},3.0156566351262346,1.756968619693677,0.03098480962216854
+0.2,1.5,20.0,main_stable_margin,oracle,max_roll_dev,30,0,{},0.5289938723248049,0.10920914380066517,0.09194962680339813
+0.2,1.5,20.0,main_stable_margin,oracle,max_yaw_dev,30,0,{},1.5902136353452707,0.3601908290191572,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,oracle,rms_pitch_error,30,0,{},0.7863399740954887,0.6130705099711529,0.4898460879921913
+0.2,1.5,20.0,main_stable_margin,oracle,rms_roll_error,30,0,{},0.20265210411563697,0.04461868366628952,9.90256667137146e-05
+0.2,1.5,20.0,main_stable_margin,oracle,rms_yaw_error,30,0,{},0.7349582003990023,0.2003360742058816,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,oracle,itae_pitch,30,0,{},30.76064727083492,29.42854095746462,0.4771064817905426
+0.2,1.5,20.0,main_stable_margin,oracle,itae_roll,30,0,{},10.00430769633301,2.6995978251415926,0.016431212425231934
+0.2,1.5,20.0,main_stable_margin,oracle,itae_yaw,30,0,{},37.16343774283784,11.271175488788888,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,oracle,rms_altitude_error,30,0,{},2.813962012726691,1.5839417420630035,0.39305018074810505
+0.2,1.5,20.0,main_stable_margin,oracle,max_altitude_drop_m,30,0,{},2.488879005123872,1.9049388635330646,0.30549813024041295
+0.2,1.5,20.0,main_stable_margin,oracle,mean_elev,30,0,{},2.393825686931711,0.5893497915265077,0.002560090273618698
+0.2,1.5,20.0,main_stable_margin,oracle,mean_aileron,30,0,{},1.148353008998445,0.2033827719738738,1.8244609236717224e-05
+0.2,1.5,20.0,main_stable_margin,oracle,mean_rudder,30,0,{},1.9326718212063188,0.5072782089146743,4.7124922275543213e-07
+0.2,1.5,20.0,main_stable_margin,oracle,rms_elev,30,0,{},2.969856852125683,0.7330839410963785,0.009301122277975082
+0.2,1.5,20.0,main_stable_margin,oracle,rms_aileron,30,0,{},1.4374882584920377,0.23792777557136136,7.056817412376404e-05
+0.2,1.5,20.0,main_stable_margin,oracle,rms_rudder,30,0,{},2.3436371152602664,0.5809358018617726,4.6566128730773926e-08
+0.2,1.5,20.0,main_stable_margin,oracle,elev_activity,30,0,{},36537.8806756144,5700.638705101342,0.6263462882488966
+0.2,1.5,20.0,main_stable_margin,oracle,aileron_activity,30,0,{},46638.42612167693,12741.809776971208,0.0005054883658885956
+0.2,1.5,20.0,main_stable_margin,oracle,rudder_activity,30,0,{},6373.007660811805,488.0265203802842,1.0244548320770264e-07
+0.2,1.5,20.0,main_stable_margin,oracle,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,oracle,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,oracle,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.2,1.5,20.0,main_stable_margin,oracle,tail_mean_abs,30,0,{},0.2577938061757584,0.022510644442173648,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,oracle,tail_rms,30,0,{},0.29569485513987354,0.02106131859476949,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,oracle,tail_activity,30,0,{},105.95963471923294,12.456009905959611,1.862645149230957e-09
+0.2,1.5,20.0,main_stable_margin,oracle,mean_drag,30,0,{},4.392290268441095,0.431208547433949,0.22855282202363014
+0.2,1.5,20.0,main_stable_margin,oracle,pitch_settling_time_s,30,0,{},10.9173333333331,0.17583168545286168,0.003907444840854261
+0.2,1.5,20.0,main_stable_margin,oracle,pitch_settled,30,0,{},0.3,0.466091599699399,0.012419330651552265
+0.2,1.5,20.0,main_stable_margin,oracle,pitch_steady_state_error,30,0,{},-0.06675134613510277,0.1967427149612364,0.00016989745199680328
+0.5,0.5,12.0,main_stable_margin,conventional,max_pitch_dev,30,0,{},1.0480413674554712,0.029537331454101482,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,max_roll_dev,30,0,{},0.20629377595555187,0.05435257165601734,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,max_yaw_dev,30,0,{},0.8753754812586142,0.21769709441555177,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,rms_pitch_error,30,0,{},0.5967763574866795,0.024013320091752315,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,rms_roll_error,30,0,{},0.0999244639454949,0.032195060985916006,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,rms_yaw_error,30,0,{},0.4114357024355007,0.1182499220722289,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,itae_pitch,30,0,{},24.62137331967597,1.5432586470055767,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,itae_roll,30,0,{},4.988530839964822,1.9931956574760523,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,itae_yaw,30,0,{},20.884007903092353,7.214185497320358,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,rms_altitude_error,30,0,{},1.7260685729929282,1.1114577103803749,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,max_altitude_drop_m,30,0,{},1.8605356786694538,1.565108322433184,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,mean_elev,30,0,{},1.7904571612425786,0.10428324024339838,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,mean_aileron,30,0,{},0.27222397698284595,0.09245499235049282,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,mean_rudder,30,0,{},0.9973530212815155,0.3099480226044137,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,rms_elev,30,0,{},1.8103898009439,0.10435903060272111,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,rms_aileron,30,0,{},0.325470578692638,0.10019062500176805,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,rms_rudder,30,0,{},1.2050815759349411,0.34089400310639134,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,elev_activity,30,0,{},3402.204961526547,204.12805408770012,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,aileron_activity,30,0,{},1158.8376952511403,78.71054697951072,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,rudder_activity,30,0,{},1452.276389254304,102.3501146760618,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,tail_mean_abs,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,tail_rms,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,tail_activity,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,mean_drag,30,0,{},2.4631278797319114,0.031007505259642583,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,pitch_settled,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,conventional,pitch_steady_state_error,30,0,{},0.24530879093065242,0.03313932591074125,1.0
+0.5,0.5,12.0,main_stable_margin,nn,max_pitch_dev,30,0,{},0.9784845627442623,0.0311144303715614,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,max_roll_dev,30,0,{},0.19637585787017411,0.05102739038174172,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,max_yaw_dev,30,0,{},0.8395765728550377,0.20838042362526724,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,rms_pitch_error,30,0,{},0.38105911971677614,0.029544502663787834,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,rms_roll_error,30,0,{},0.09469984601533085,0.030298563684839557,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,rms_yaw_error,30,0,{},0.3926601557064711,0.11264771559479764,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,itae_pitch,30,0,{},14.92690558217424,2.6700432010419353,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,itae_roll,30,0,{},4.725628006649742,1.876589153741156,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,itae_yaw,30,0,{},19.912773407351242,6.882694557002505,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,rms_altitude_error,30,0,{},1.8567492765455247,1.1899498964191713,0.004031794145703316
+0.5,0.5,12.0,main_stable_margin,nn,max_altitude_drop_m,30,0,{},2.3275222833052083,1.7122227317697312,2.848903312076321e-06
+0.5,0.5,12.0,main_stable_margin,nn,mean_elev,30,0,{},0.6353661721698844,0.08185793833193289,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,mean_aileron,30,0,{},0.27254850703707056,0.09188706334888527,0.17719271034002304
+0.5,0.5,12.0,main_stable_margin,nn,mean_rudder,30,0,{},0.9971639516617379,0.30853971541145975,0.7921590935438871
+0.5,0.5,12.0,main_stable_margin,nn,rms_elev,30,0,{},0.7836419522236453,0.07905736642571262,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,rms_aileron,30,0,{},0.3262330024792971,0.09969628748918934,0.0009517744183540344
+0.5,0.5,12.0,main_stable_margin,nn,rms_rudder,30,0,{},1.2054914832807735,0.33954701471285853,0.4161298982799053
+0.5,0.5,12.0,main_stable_margin,nn,elev_activity,30,0,{},3454.966411250852,200.893614599247,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,aileron_activity,30,0,{},1176.693000129011,80.34589810722782,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,rudder_activity,30,0,{},1472.6674810415368,101.54519002863115,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,nn,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,nn,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,nn,tail_mean_abs,30,0,{},1.3574968565911822,0.0801221689042212,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,tail_rms,30,0,{},1.468625946709893,0.08364266228238373,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,tail_activity,30,0,{},280.80103990554437,20.857885385569077,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,mean_drag,30,0,{},2.524822640542601,0.031076033384978115,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,nn,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,1.0
+0.5,0.5,12.0,main_stable_margin,nn,pitch_settled,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,nn,pitch_steady_state_error,30,0,{},-0.31942510987506145,0.07560382296407346,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,max_pitch_dev,30,0,{},0.9783307238218291,0.031274547141844536,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,max_roll_dev,30,0,{},0.20522955349409908,0.05388475527196458,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,max_yaw_dev,30,0,{},0.8699523499369214,0.21550706238894193,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,rms_pitch_error,30,0,{},0.3467961625840766,0.036913312227175005,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,rms_roll_error,30,0,{},0.0993487458331563,0.03197592850293255,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,rms_yaw_error,30,0,{},0.40891036319981533,0.1174325624020175,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,itae_pitch,30,0,{},9.12219748257804,2.603811549705493,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,itae_roll,30,0,{},4.954002500320042,1.9775261062738008,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,itae_yaw,30,0,{},20.739227409624235,7.159804864901172,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,rms_altitude_error,30,0,{},1.783685227107664,1.1510575640153726,0.01283373311161995
+0.5,0.5,12.0,main_stable_margin,elev_ff,max_altitude_drop_m,30,0,{},2.0409216474089065,1.6335000810702074,1.3898014093789906e-05
+0.5,0.5,12.0,main_stable_margin,elev_ff,mean_elev,30,0,{},1.8390785913853478,0.10037785250713997,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,mean_aileron,30,0,{},0.2706120117168141,0.09178455632692549,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,mean_rudder,30,0,{},0.9908690358104191,0.3077440700559,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,rms_elev,30,0,{},1.8665926199627525,0.10024437056141541,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,rms_aileron,30,0,{},0.32363966878829564,0.09946567495353827,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,rms_rudder,30,0,{},1.1973593743380146,0.3384342552958587,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,elev_activity,30,0,{},3486.1478513940438,191.8317792057279,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,aileron_activity,30,0,{},1166.2523263985388,79.01059578378856,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,elev_ff,rudder_activity,30,0,{},1450.2391241972384,101.05691424232663,2.60770320892334e-08
+0.5,0.5,12.0,main_stable_margin,elev_ff,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,elev_ff,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,elev_ff,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,elev_ff,tail_mean_abs,30,0,{},0.1253644574753072,0.0,4.320463057827488e-08
+0.5,0.5,12.0,main_stable_margin,elev_ff,tail_rms,30,0,{},0.14754353569422832,0.0,4.320463057827488e-08
+0.5,0.5,12.0,main_stable_margin,elev_ff,tail_activity,30,0,{},55.24758677879769,1.4453792906454277e-14,4.320463057827488e-08
+0.5,0.5,12.0,main_stable_margin,elev_ff,mean_drag,30,0,{},2.4649247001805557,0.032989117220005804,0.00031275488436222076
+0.5,0.5,12.0,main_stable_margin,elev_ff,pitch_settling_time_s,30,0,{},10.780666666666438,0.9887154094680116,0.10880943004054568
+0.5,0.5,12.0,main_stable_margin,elev_ff,pitch_settled,30,0,{},0.1,0.30512857662936466,0.0832645166635504
+0.5,0.5,12.0,main_stable_margin,elev_ff,pitch_steady_state_error,30,0,{},-0.1405102177280598,0.0884671237174545,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,max_pitch_dev,30,0,{},0.31187216780033133,0.07291902476862995,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,max_roll_dev,30,0,{},0.1962757795373853,0.051285366439335976,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,max_yaw_dev,30,0,{},0.8394650548233631,0.20955290168645319,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,rms_pitch_error,30,0,{},0.13818957570789425,0.04035750676541809,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,rms_roll_error,30,0,{},0.09464959919579187,0.03036590292341891,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,rms_yaw_error,30,0,{},0.3924967471387475,0.11275297192076468,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,itae_pitch,30,0,{},6.94348341121541,2.409962202436609,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,itae_roll,30,0,{},4.734971782656473,1.8865229820560276,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,itae_yaw,30,0,{},19.9641398843819,6.903517971780378,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,rms_altitude_error,30,0,{},1.8989292522285368,1.2333157631245206,0.008142979815602303
+0.5,0.5,12.0,main_stable_margin,oracle,max_altitude_drop_m,30,0,{},2.388375551115346,1.714009359477637,2.5630832507250074e-06
+0.5,0.5,12.0,main_stable_margin,oracle,mean_elev,30,0,{},0.45534077514512444,0.19676857428793224,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,mean_aileron,30,0,{},0.2720762601489563,0.09179540100472332,0.4898460879921913
+0.5,0.5,12.0,main_stable_margin,oracle,mean_rudder,30,0,{},0.9959325761179321,0.30823194346544125,0.04048972204327583
+0.5,0.5,12.0,main_stable_margin,oracle,rms_elev,30,0,{},0.5345317463517053,0.19477339249795947,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,rms_aileron,30,0,{},0.32570836468693726,0.0996594484816656,0.6408254038542509
+0.5,0.5,12.0,main_stable_margin,oracle,rms_rudder,30,0,{},1.2040594679288792,0.33949179232406923,0.22855282202363014
+0.5,0.5,12.0,main_stable_margin,oracle,elev_activity,30,0,{},3365.9735403102854,209.04119311273593,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,aileron_activity,30,0,{},1176.3619203513347,80.00951540569625,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,rudder_activity,30,0,{},1471.902580872117,101.36077333857004,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,oracle,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,oracle,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,12.0,main_stable_margin,oracle,tail_mean_abs,30,0,{},1.7392064390499224,0.15211939219802917,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,tail_rms,30,0,{},1.7504355022140854,0.15136383209853183,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,tail_activity,30,0,{},322.54672863359485,34.12970456680233,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,mean_drag,30,0,{},2.543249042294483,0.027623618170982373,1.862645149230957e-09
+0.5,0.5,12.0,main_stable_margin,oracle,pitch_settling_time_s,30,0,{},10.839333333333105,0.566452562662676,0.027707849358079864
+0.5,0.5,12.0,main_stable_margin,oracle,pitch_settled,30,0,{},0.2,0.4068381021724863,0.014305878435429648
+0.5,0.5,12.0,main_stable_margin,oracle,pitch_steady_state_error,30,0,{},-0.10369219374996223,0.09191127760851649,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,conventional,max_pitch_dev,30,0,{},0.3646805183076073,0.00921593771404644,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,max_roll_dev,30,0,{},0.32860196605544434,0.13797312443274834,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,max_yaw_dev,30,0,{},0.5914283193454183,0.12155449256696875,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,rms_pitch_error,30,0,{},0.20471255576598965,0.0046429452443763845,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,rms_roll_error,30,0,{},0.11571631242291495,0.046029729799904856,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,rms_yaw_error,30,0,{},0.27728872711291064,0.07390257576496959,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,itae_pitch,30,0,{},8.51141360587207,0.3079957724146275,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,itae_roll,30,0,{},5.697387143745861,2.3899364412923436,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,itae_yaw,30,0,{},14.044539462576969,4.309305832580285,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,rms_altitude_error,30,0,{},0.9648877547434153,0.4949471098892815,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,max_altitude_drop_m,30,0,{},1.1426345966935576,0.671604126813845,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,mean_elev,30,0,{},2.4700615831785386,0.015023954586050785,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,mean_aileron,30,0,{},1.0590132476356449,0.22469786651173784,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,mean_rudder,30,0,{},0.6542017923009525,0.17123385607345265,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,rms_elev,30,0,{},2.509300852708492,0.016181608599453813,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,rms_aileron,30,0,{},1.3142261666658341,0.3306132420017347,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,rms_rudder,30,0,{},0.7928571104269645,0.1927947424360509,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,elev_activity,30,0,{},9782.658009940391,577.0030725337202,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,aileron_activity,30,0,{},50469.77867067564,13278.174986718832,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,rudder_activity,30,0,{},2679.5160962907257,605.3914638226872,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,tail_mean_abs,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,tail_rms,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,tail_activity,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,mean_drag,30,0,{},4.385117358339333,0.13940308365180093,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,pitch_settling_time_s,30,0,{},10.166666666666451,0.611889855613151,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,pitch_settled,30,0,{},1.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,conventional,pitch_steady_state_error,30,0,{},0.08622553752380673,0.007449073047007267,1.0
+0.5,0.5,20.0,main_stable_margin,nn,max_pitch_dev,30,0,{},0.3206161158157123,0.012646587588247224,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,max_roll_dev,30,0,{},0.37289723118258533,0.10662535726317629,0.09194962680339813
+0.5,0.5,20.0,main_stable_margin,nn,max_yaw_dev,30,0,{},0.5539121613635297,0.11412258377876588,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,rms_pitch_error,30,0,{},0.1439597113361391,0.013261989262663509,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,rms_roll_error,30,0,{},0.1354278807917699,0.03776914782170561,0.05768792890012264
+0.5,0.5,20.0,main_stable_margin,nn,rms_yaw_error,30,0,{},0.259284490464574,0.06924638613558223,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,itae_pitch,30,0,{},6.317072651720684,0.9808308247505165,1.862645149230957e-08
+0.5,0.5,20.0,main_stable_margin,nn,itae_roll,30,0,{},6.702329332240836,2.126094892648942,0.0635564886033535
+0.5,0.5,20.0,main_stable_margin,nn,itae_yaw,30,0,{},13.17031958500083,4.037318104898658,2.60770320892334e-08
+0.5,0.5,20.0,main_stable_margin,nn,rms_altitude_error,30,0,{},1.0175113432219,0.5229751513219784,0.013663241639733315
+0.5,0.5,20.0,main_stable_margin,nn,max_altitude_drop_m,30,0,{},1.30206178531755,0.7156545509682789,3.789619441580871e-06
+0.5,0.5,20.0,main_stable_margin,nn,mean_elev,30,0,{},1.9223067376216467,0.035635348229695586,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,mean_aileron,30,0,{},1.1636470745841139,0.2025332393144077,0.0005054883658885956
+0.5,0.5,20.0,main_stable_margin,nn,mean_rudder,30,0,{},0.6624145321779262,0.17141043535473516,0.004338232800364494
+0.5,0.5,20.0,main_stable_margin,nn,rms_elev,30,0,{},1.9874297638043752,0.035728405127919804,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,rms_aileron,30,0,{},1.4893420911014565,0.29664209993152213,0.0020201820880174637
+0.5,0.5,20.0,main_stable_margin,nn,rms_rudder,30,0,{},0.8026334908132216,0.1938022831627854,0.0023674946278333664
+0.5,0.5,20.0,main_stable_margin,nn,elev_activity,30,0,{},9804.973462457621,575.8078576347292,1.991167664527893e-06
+0.5,0.5,20.0,main_stable_margin,nn,aileron_activity,30,0,{},56979.49647793432,12012.122913039479,0.0015832837671041489
+0.5,0.5,20.0,main_stable_margin,nn,rudder_activity,30,0,{},3038.7773841822695,549.2099601601665,0.001340603455901146
+0.5,0.5,20.0,main_stable_margin,nn,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,nn,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,nn,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,nn,tail_mean_abs,30,0,{},0.4428186316466306,0.02098086049329195,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,tail_rms,30,0,{},0.48512672265102663,0.018601806559697384,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,tail_activity,30,0,{},99.74584735101806,2.9445467701392927,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,mean_drag,30,0,{},4.402740173020397,0.1385751968565289,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,nn,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,1.7278603148724103e-06
+0.5,0.5,20.0,main_stable_margin,nn,pitch_settled,30,0,{},0.0,0.0,4.320463057827488e-08
+0.5,0.5,20.0,main_stable_margin,nn,pitch_steady_state_error,30,0,{},-0.12741432065021766,0.024264526475112843,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,elev_ff,max_pitch_dev,30,0,{},0.32147416749422303,0.012221005870853717,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,elev_ff,max_roll_dev,30,0,{},0.3410246263883497,0.11675226346854324,0.6120056137442589
+0.5,0.5,20.0,main_stable_margin,elev_ff,max_yaw_dev,30,0,{},0.5899519367621564,0.12468786223123775,0.6120056137442589
+0.5,0.5,20.0,main_stable_margin,elev_ff,rms_pitch_error,30,0,{},0.14515730246054978,0.01413262498502774,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,elev_ff,rms_roll_error,30,0,{},0.12162254113456401,0.039214755692256284,0.5978077705949545
+0.5,0.5,20.0,main_stable_margin,elev_ff,rms_yaw_error,30,0,{},0.2778364599148054,0.07492418869138016,0.871207794174552
+0.5,0.5,20.0,main_stable_margin,elev_ff,itae_pitch,30,0,{},5.523612416487564,0.9456291600845064,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,elev_ff,itae_roll,30,0,{},6.065688557057905,2.111840435495445,0.2621222734451294
+0.5,0.5,20.0,main_stable_margin,elev_ff,itae_yaw,30,0,{},14.141011685332277,4.345505182494931,0.39305018074810505
+0.5,0.5,20.0,main_stable_margin,elev_ff,rms_altitude_error,30,0,{},0.9866175590930484,0.5089415489787672,0.06666470877826214
+0.5,0.5,20.0,main_stable_margin,elev_ff,max_altitude_drop_m,30,0,{},1.1892004770682196,0.6876278726891909,4.228408847246097e-06
+0.5,0.5,20.0,main_stable_margin,elev_ff,mean_elev,30,0,{},2.504269467923982,0.014955821566229498,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,elev_ff,mean_aileron,30,0,{},1.1027955368242721,0.20268767807794802,0.24494642950594425
+0.5,0.5,20.0,main_stable_margin,elev_ff,mean_rudder,30,0,{},0.6585693848222051,0.17427277279265133,0.20540969260036945
+0.5,0.5,20.0,main_stable_margin,elev_ff,rms_elev,30,0,{},2.549499957449158,0.016017200953461954,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,elev_ff,rms_aileron,30,0,{},1.3832723823639694,0.3121315004455538,0.15188691951334476
+0.5,0.5,20.0,main_stable_margin,elev_ff,rms_rudder,30,0,{},0.7963341570572721,0.19590678218779312,0.39305018074810505
+0.5,0.5,20.0,main_stable_margin,elev_ff,elev_activity,30,0,{},9794.537179464272,576.8670641957534,0.029325857758522034
+0.5,0.5,20.0,main_stable_margin,elev_ff,aileron_activity,30,0,{},53124.77632615658,12518.598471350197,0.1641840822994709
+0.5,0.5,20.0,main_stable_margin,elev_ff,rudder_activity,30,0,{},2790.6605598201268,588.9137070120441,0.09610157273709774
+0.5,0.5,20.0,main_stable_margin,elev_ff,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,elev_ff,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,elev_ff,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,elev_ff,tail_mean_abs,30,0,{},0.1253644574753072,0.0,4.320463057827488e-08
+0.5,0.5,20.0,main_stable_margin,elev_ff,tail_rms,30,0,{},0.14754353569422832,0.0,4.320463057827488e-08
+0.5,0.5,20.0,main_stable_margin,elev_ff,tail_activity,30,0,{},55.24758677879769,1.4453792906454277e-14,4.320463057827488e-08
+0.5,0.5,20.0,main_stable_margin,elev_ff,mean_drag,30,0,{},4.386774938198887,0.13913811182495753,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,elev_ff,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,1.7278603148724103e-06
+0.5,0.5,20.0,main_stable_margin,elev_ff,pitch_settled,30,0,{},0.0,0.0,4.320463057827488e-08
+0.5,0.5,20.0,main_stable_margin,elev_ff,pitch_steady_state_error,30,0,{},-0.09571582799801429,0.02585257825438481,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,max_pitch_dev,30,0,{},0.19734191927073125,0.02032257981526326,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,max_roll_dev,30,0,{},0.3674536437413661,0.11229189809001297,0.12413446232676506
+0.5,0.5,20.0,main_stable_margin,oracle,max_yaw_dev,30,0,{},0.556830490745378,0.1202614276959754,3.5390257835388184e-08
+0.5,0.5,20.0,main_stable_margin,oracle,rms_pitch_error,30,0,{},0.08932253898232735,0.007735450684401647,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,rms_roll_error,30,0,{},0.1343281812722025,0.040206674154377856,0.047259049490094185
+0.5,0.5,20.0,main_stable_margin,oracle,rms_yaw_error,30,0,{},0.2590638366583716,0.07053251481726398,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,itae_pitch,30,0,{},4.202996295401878,0.5691308583464603,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,itae_roll,30,0,{},6.760564321255515,2.1784896677487158,0.027741437777876854
+0.5,0.5,20.0,main_stable_margin,oracle,itae_yaw,30,0,{},13.182801987869547,4.0806596008768645,8.009374141693115e-08
+0.5,0.5,20.0,main_stable_margin,oracle,rms_altitude_error,30,0,{},1.042247150685753,0.5498140344652274,0.03272089920938015
+0.5,0.5,20.0,main_stable_margin,oracle,max_altitude_drop_m,30,0,{},1.3645946189849003,0.7117053738049259,2.5630832507250074e-06
+0.5,0.5,20.0,main_stable_margin,oracle,mean_elev,30,0,{},1.6350252379419667,0.041948543603720835,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,mean_aileron,30,0,{},1.162866057463621,0.1996283692324676,0.0009517744183540344
+0.5,0.5,20.0,main_stable_margin,oracle,mean_rudder,30,0,{},0.6628480471926729,0.17520446954844784,0.016431212425231934
+0.5,0.5,20.0,main_stable_margin,oracle,rms_elev,30,0,{},1.7027966062661666,0.04274299900742691,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,rms_aileron,30,0,{},1.4868017786029712,0.29791036043629326,0.0023674946278333664
+0.5,0.5,20.0,main_stable_margin,oracle,rms_rudder,30,0,{},0.8032664149982887,0.19744703370260938,0.010598260909318924
+0.5,0.5,20.0,main_stable_margin,oracle,elev_activity,30,0,{},9823.09779057722,584.1619257850684,0.00466480478644371
+0.5,0.5,20.0,main_stable_margin,oracle,aileron_activity,30,0,{},56949.21738321347,11956.413315385775,0.0050126127898693085
+0.5,0.5,20.0,main_stable_margin,oracle,rudder_activity,30,0,{},3036.963082338369,564.8585784561624,0.0015832837671041489
+0.5,0.5,20.0,main_stable_margin,oracle,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,oracle,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,oracle,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,0.5,20.0,main_stable_margin,oracle,tail_mean_abs,30,0,{},0.6746899585276515,0.02216360843501381,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,tail_rms,30,0,{},0.6910797522449843,0.02123363205038851,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,tail_activity,30,0,{},118.19530884250695,4.310057346123224,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,mean_drag,30,0,{},4.411291417083435,0.13765016344967246,1.862645149230957e-09
+0.5,0.5,20.0,main_stable_margin,oracle,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,1.7278603148724103e-06
+0.5,0.5,20.0,main_stable_margin,oracle,pitch_settled,30,0,{},0.0,0.0,4.320463057827488e-08
+0.5,0.5,20.0,main_stable_margin,oracle,pitch_steady_state_error,30,0,{},-0.0772240607661164,0.0199996093717839,1.862645149230957e-09
+0.5,1.5,12.0,main_stable_margin,conventional,max_pitch_dev,28,2,"{""aerodynamic_validity_limit"": 2}",1.1179149883736252,0.06691699981599397,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,max_roll_dev,28,2,"{""aerodynamic_validity_limit"": 2}",0.5923465012214562,0.16162359793102857,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,max_yaw_dev,28,2,"{""aerodynamic_validity_limit"": 2}",2.5108135639786497,0.6357885603716793,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,rms_pitch_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.60695699792542,0.05986915918272626,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,rms_roll_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.28813034326930703,0.09641316704496308,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,rms_yaw_error,28,2,"{""aerodynamic_validity_limit"": 2}",1.1883172285759156,0.35327429094116247,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,itae_pitch,28,2,"{""aerodynamic_validity_limit"": 2}",24.353565344494374,4.089667881721423,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,itae_roll,28,2,"{""aerodynamic_validity_limit"": 2}",14.381352680290211,5.904192095441635,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,itae_yaw,28,2,"{""aerodynamic_validity_limit"": 2}",60.128308611316,20.65687865576625,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,rms_altitude_error,28,2,"{""aerodynamic_validity_limit"": 2}",4.359220047529754,2.6116605431217037,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,max_altitude_drop_m,28,2,"{""aerodynamic_validity_limit"": 2}",3.757844992603139,3.976507977132365,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,mean_elev,28,2,"{""aerodynamic_validity_limit"": 2}",1.814519664345777,0.24684831009190752,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,mean_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.7892072931254374,0.28094745937380905,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,mean_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",2.8965981168808526,0.9458868556940973,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,rms_elev,28,2,"{""aerodynamic_validity_limit"": 2}",1.9466403050852317,0.24234032541962247,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,rms_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.9413613055795568,0.29854535892317774,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,rms_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",3.487958093943781,1.028263039291853,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,elev_activity,28,2,"{""aerodynamic_validity_limit"": 2}",10331.07540956186,1632.515241898824,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,aileron_activity,28,2,"{""aerodynamic_validity_limit"": 2}",3719.202470472958,614.8107517696843,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,rudder_activity,28,2,"{""aerodynamic_validity_limit"": 2}",4351.453988093199,342.94224408887294,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,elev_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,aileron_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,rudder_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,tail_mean_abs,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,tail_rms,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,tail_activity,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,mean_drag,28,2,"{""aerodynamic_validity_limit"": 2}",2.5885836612931734,0.14913849622388942,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,pitch_settling_time_s,28,2,"{""aerodynamic_validity_limit"": 2}",10.932142857142626,0.2295463665395995,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,pitch_settled,28,2,"{""aerodynamic_validity_limit"": 2}",0.21428571428571427,0.4178554470186725,1.0
+0.5,1.5,12.0,main_stable_margin,conventional,pitch_steady_state_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.23281594387127977,0.09171981682387084,1.0
+0.5,1.5,12.0,main_stable_margin,nn,max_pitch_dev,28,2,"{""aerodynamic_validity_limit"": 2}",1.0106754684295587,0.08311210969453803,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,max_roll_dev,28,2,"{""aerodynamic_validity_limit"": 2}",0.5374186933152648,0.1447863176681274,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,max_yaw_dev,28,2,"{""aerodynamic_validity_limit"": 2}",2.307831844872758,0.5887825306407245,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,rms_pitch_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.4378750069954029,0.07089952757459679,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,rms_roll_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.2584960017633179,0.08517406311631819,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,rms_yaw_error,28,2,"{""aerodynamic_validity_limit"": 2}",1.080414931486971,0.32052252664583764,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,itae_pitch,28,2,"{""aerodynamic_validity_limit"": 2}",17.580275923926923,6.607589651285174,0.0018673688173294067
+0.5,1.5,12.0,main_stable_margin,nn,itae_roll,28,2,"{""aerodynamic_validity_limit"": 2}",12.835411842710545,5.183631504409651,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,itae_yaw,28,2,"{""aerodynamic_validity_limit"": 2}",54.3774938037029,18.795182916729775,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,rms_altitude_error,28,2,"{""aerodynamic_validity_limit"": 2}",4.399915874501127,2.5693574977920552,0.21827305853366852
+0.5,1.5,12.0,main_stable_margin,nn,max_altitude_drop_m,28,2,"{""aerodynamic_validity_limit"": 2}",4.107138054644607,4.182146743475797,8.857457687863547e-05
+0.5,1.5,12.0,main_stable_margin,nn,mean_elev,28,2,"{""aerodynamic_validity_limit"": 2}",0.9631081938328043,0.16321695849120058,1.4901161193847656e-08
+0.5,1.5,12.0,main_stable_margin,nn,mean_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.7992785088846758,0.2799442641191539,7.450580596923828e-08
+0.5,1.5,12.0,main_stable_margin,nn,mean_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",2.9245789284741206,0.9460249828956385,5.21540641784668e-08
+0.5,1.5,12.0,main_stable_margin,nn,rms_elev,28,2,"{""aerodynamic_validity_limit"": 2}",1.1762784612676518,0.17175605361741547,1.4901161193847656e-08
+0.5,1.5,12.0,main_stable_margin,nn,rms_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.9548729518069633,0.2985051394917518,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,rms_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",3.5252191855936474,1.0301635849893045,1.4901161193847656e-08
+0.5,1.5,12.0,main_stable_margin,nn,elev_activity,28,2,"{""aerodynamic_validity_limit"": 2}",10425.210030875516,1710.1768620605972,0.00027351081371307373
+0.5,1.5,12.0,main_stable_margin,nn,aileron_activity,28,2,"{""aerodynamic_validity_limit"": 2}",3825.86789470672,653.7187800990189,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,rudder_activity,28,2,"{""aerodynamic_validity_limit"": 2}",4495.697559363527,349.54533967218396,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,elev_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,nn,aileron_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,nn,rudder_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,nn,tail_mean_abs,28,2,"{""aerodynamic_validity_limit"": 2}",1.3206230079924652,0.23421252130531997,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,tail_rms,28,2,"{""aerodynamic_validity_limit"": 2}",1.4402504885053544,0.2500244328008135,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,tail_activity,28,2,"{""aerodynamic_validity_limit"": 2}",558.5632070098794,122.27201865234818,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,mean_drag,28,2,"{""aerodynamic_validity_limit"": 2}",2.64662948130942,0.1461216258537417,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,nn,pitch_settling_time_s,28,2,"{""aerodynamic_validity_limit"": 2}",10.972142857142623,0.11093398580393962,0.28418977486767805
+0.5,1.5,12.0,main_stable_margin,nn,pitch_settled,28,2,"{""aerodynamic_validity_limit"": 2}",0.14285714285714285,0.3563483225498992,0.5270892568655381
+0.5,1.5,12.0,main_stable_margin,nn,pitch_steady_state_error,28,2,"{""aerodynamic_validity_limit"": 2}",-0.31701268126538046,0.20750571190540704,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,max_pitch_dev,28,2,"{""aerodynamic_validity_limit"": 2}",1.0071591083761275,0.08528706863028393,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,max_roll_dev,28,2,"{""aerodynamic_validity_limit"": 2}",0.5889400089249591,0.16028003808230845,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,max_yaw_dev,28,2,"{""aerodynamic_validity_limit"": 2}",2.4929324145015985,0.6281900777756355,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,rms_pitch_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.3947892323488523,0.07479505881109036,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,rms_roll_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.2861372292753822,0.09548440304873802,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,rms_yaw_error,28,2,"{""aerodynamic_validity_limit"": 2}",1.1793735557287464,0.3495707712513475,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,itae_pitch,28,2,"{""aerodynamic_validity_limit"": 2}",14.169723383645453,5.138282115533088,2.7641654014587402e-06
+0.5,1.5,12.0,main_stable_margin,elev_ff,itae_roll,28,2,"{""aerodynamic_validity_limit"": 2}",14.262812530650326,5.841847446920546,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,itae_yaw,28,2,"{""aerodynamic_validity_limit"": 2}",59.61486395433435,20.449812852386014,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,rms_altitude_error,28,2,"{""aerodynamic_validity_limit"": 2}",4.371985943491043,2.585111357042688,0.4247525781393051
+0.5,1.5,12.0,main_stable_margin,elev_ff,max_altitude_drop_m,28,2,"{""aerodynamic_validity_limit"": 2}",3.9080953540816106,4.043510747440042,8.857457687863547e-05
+0.5,1.5,12.0,main_stable_margin,elev_ff,mean_elev,28,2,"{""aerodynamic_validity_limit"": 2}",1.8660834694817685,0.23727496946166934,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,mean_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.783645265189545,0.27807374625552095,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,mean_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",2.873519145570737,0.9356906691014485,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,rms_elev,28,2,"{""aerodynamic_validity_limit"": 2}",2.001219836338751,0.23469527142348104,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,rms_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.9349892896138643,0.2954767731025883,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,rms_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",3.4604213882655954,1.0166220111737274,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,elev_activity,28,2,"{""aerodynamic_validity_limit"": 2}",10441.813581239741,1625.8346198706715,1.862645149230957e-07
+0.5,1.5,12.0,main_stable_margin,elev_ff,aileron_activity,28,2,"{""aerodynamic_validity_limit"": 2}",3746.9885748319925,617.8019548249462,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,elev_ff,rudder_activity,28,2,"{""aerodynamic_validity_limit"": 2}",4343.752124652727,335.62103945191353,1.0207295417785645e-06
+0.5,1.5,12.0,main_stable_margin,elev_ff,elev_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,elev_ff,aileron_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,elev_ff,rudder_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,elev_ff,tail_mean_abs,28,2,"{""aerodynamic_validity_limit"": 2}",0.1253644574753072,0.0,1.2131545083660686e-07
+0.5,1.5,12.0,main_stable_margin,elev_ff,tail_rms,28,2,"{""aerodynamic_validity_limit"": 2}",0.14754353569422832,0.0,1.2131545083660686e-07
+0.5,1.5,12.0,main_stable_margin,elev_ff,tail_activity,28,2,"{""aerodynamic_validity_limit"": 2}",55.24758677879769,1.4471626093874067e-14,1.2131545083660686e-07
+0.5,1.5,12.0,main_stable_margin,elev_ff,mean_drag,28,2,"{""aerodynamic_validity_limit"": 2}",2.589729759707704,0.1533375783662266,0.13751810044050217
+0.5,1.5,12.0,main_stable_margin,elev_ff,pitch_settling_time_s,28,2,"{""aerodynamic_validity_limit"": 2}",10.93142857142834,0.2550484962702832,0.8752340238797087
+0.5,1.5,12.0,main_stable_margin,elev_ff,pitch_settled,28,2,"{""aerodynamic_validity_limit"": 2}",0.21428571428571427,0.4178554470186725,1.0
+0.5,1.5,12.0,main_stable_margin,elev_ff,pitch_steady_state_error,28,2,"{""aerodynamic_validity_limit"": 2}",-0.16477515348832159,0.2035034216449646,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,max_pitch_dev,28,2,"{""aerodynamic_validity_limit"": 2}",0.6173502928394876,0.15941649473243394,1.4901161193847656e-08
+0.5,1.5,12.0,main_stable_margin,oracle,max_roll_dev,28,2,"{""aerodynamic_validity_limit"": 2}",0.5356682927650824,0.1438767928224558,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,max_yaw_dev,28,2,"{""aerodynamic_validity_limit"": 2}",2.300381376706684,0.5848266871510015,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,rms_pitch_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.2682683628865661,0.08029191466848601,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,rms_roll_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.2579041147585975,0.0849211975586474,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,rms_yaw_error,28,2,"{""aerodynamic_validity_limit"": 2}",1.0784372104468702,0.31937846384428237,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,itae_pitch,28,2,"{""aerodynamic_validity_limit"": 2}",13.611011073360045,5.107091844424297,1.259148120880127e-06
+0.5,1.5,12.0,main_stable_margin,oracle,itae_roll,28,2,"{""aerodynamic_validity_limit"": 2}",12.841776980651955,5.1964235788309665,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,itae_yaw,28,2,"{""aerodynamic_validity_limit"": 2}",54.45970883493833,18.82551600081796,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,rms_altitude_error,28,2,"{""aerodynamic_validity_limit"": 2}",4.403694053311155,2.5764939489760517,0.2842133492231369
+0.5,1.5,12.0,main_stable_margin,oracle,max_altitude_drop_m,28,2,"{""aerodynamic_validity_limit"": 2}",4.190599083390583,4.190252017264609,5.956977907456359e-05
+0.5,1.5,12.0,main_stable_margin,oracle,mean_elev,28,2,"{""aerodynamic_validity_limit"": 2}",0.8663881813686649,0.25930327626670324,5.21540641784668e-08
+0.5,1.5,12.0,main_stable_margin,oracle,mean_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.7974386866756342,0.27904451382721884,5.677342414855957e-06
+0.5,1.5,12.0,main_stable_margin,oracle,mean_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",2.9189094706629946,0.9427342727966228,2.0518898963928223e-05
+0.5,1.5,12.0,main_stable_margin,oracle,rms_elev,28,2,"{""aerodynamic_validity_limit"": 2}",1.0513078836904686,0.2646899249517276,5.21540641784668e-08
+0.5,1.5,12.0,main_stable_margin,oracle,rms_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.9527580909940905,0.2975558351510617,1.043081283569336e-07
+0.5,1.5,12.0,main_stable_margin,oracle,rms_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",3.518437971244269,1.0266210369181998,4.0978193283081055e-07
+0.5,1.5,12.0,main_stable_margin,oracle,elev_activity,28,2,"{""aerodynamic_validity_limit"": 2}",10372.409695572218,1708.1947842470815,0.0003814026713371277
+0.5,1.5,12.0,main_stable_margin,oracle,aileron_activity,28,2,"{""aerodynamic_validity_limit"": 2}",3827.0208409764914,651.9662418185253,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,rudder_activity,28,2,"{""aerodynamic_validity_limit"": 2}",4494.418563296497,348.935770008953,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,elev_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,oracle,aileron_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,oracle,rudder_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.5,1.5,12.0,main_stable_margin,oracle,tail_mean_abs,28,2,"{""aerodynamic_validity_limit"": 2}",1.6888913046154033,0.3370130524659976,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,tail_rms,28,2,"{""aerodynamic_validity_limit"": 2}",1.713581015002347,0.33549315927526535,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,tail_activity,28,2,"{""aerodynamic_validity_limit"": 2}",698.2002404222469,158.72158965837332,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,mean_drag,28,2,"{""aerodynamic_validity_limit"": 2}",2.664390019199787,0.14116827389776987,7.450580596923828e-09
+0.5,1.5,12.0,main_stable_margin,oracle,pitch_settling_time_s,28,2,"{""aerodynamic_validity_limit"": 2}",10.857857142856913,0.3068762223975847,0.10870426173327793
+0.5,1.5,12.0,main_stable_margin,oracle,pitch_settled,28,2,"{""aerodynamic_validity_limit"": 2}",0.35714285714285715,0.4879500364742666,0.31731050786291415
+0.5,1.5,12.0,main_stable_margin,oracle,pitch_steady_state_error,28,2,"{""aerodynamic_validity_limit"": 2}",-0.11502906020863735,0.2355638054232905,7.450580596923828e-09
+0.5,1.5,20.0,main_stable_margin,conventional,max_pitch_dev,30,0,{},4.5220318913458915,5.121351681345245,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,max_roll_dev,30,0,{},0.571656776030077,0.14551097225624143,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,max_yaw_dev,30,0,{},1.798524740539684,0.4180120805660073,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,rms_pitch_error,30,0,{},1.491387542743717,2.0624883048610814,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,rms_roll_error,30,0,{},0.2280822814327848,0.05984330159606427,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,rms_yaw_error,30,0,{},0.8425440042599647,0.23703847776556952,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,itae_pitch,30,0,{},63.07238977214924,112.94445307970017,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,itae_roll,30,0,{},11.285701302375568,3.7467554957575935,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,itae_yaw,30,0,{},42.90877812181711,13.580495134944714,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,rms_altitude_error,30,0,{},2.893837826929205,1.646825489823402,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,max_altitude_drop_m,30,0,{},2.742139916459172,1.9987399025915107,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,mean_elev,30,0,{},3.2128211687970825,1.0923837251163457,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,mean_aileron,30,0,{},1.0729634202890077,0.25392355677358774,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,mean_rudder,30,0,{},1.9857261905043548,0.548356185010586,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,rms_elev,30,0,{},3.7948286007006815,1.3975010127459675,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,rms_aileron,30,0,{},1.34030867293088,0.30988167335918093,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,rms_rudder,30,0,{},2.40248015666438,0.6212086188433407,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,elev_activity,30,0,{},34274.49667920719,7445.008020749137,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,aileron_activity,30,0,{},41468.56159076789,15325.751070497736,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,rudder_activity,30,0,{},5990.127394021555,497.70040045286885,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,tail_mean_abs,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,tail_rms,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,tail_activity,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,mean_drag,30,0,{},4.560988894596909,0.5997381502182801,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,pitch_settling_time_s,30,0,{},10.296666666666448,1.3833999430023003,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,pitch_settled,30,0,{},0.6333333333333333,0.4901325178535609,1.0
+0.5,1.5,20.0,main_stable_margin,conventional,pitch_steady_state_error,30,0,{},0.06801864577964935,0.2369072901296896,1.0
+0.5,1.5,20.0,main_stable_margin,nn,max_pitch_dev,30,0,{},4.60704104762991,5.9510626383867145,0.4161298982799053
+0.5,1.5,20.0,main_stable_margin,nn,max_roll_dev,30,0,{},0.5517729318455532,0.13295256727762672,0.13473508320748806
+0.5,1.5,20.0,main_stable_margin,nn,max_yaw_dev,30,0,{},1.647122493869342,0.382573241715165,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,nn,rms_pitch_error,30,0,{},1.4164432817452852,2.183604421306647,0.370740607380867
+0.5,1.5,20.0,main_stable_margin,nn,rms_roll_error,30,0,{},0.20679742551396998,0.053453386341941876,1.30385160446167e-07
+0.5,1.5,20.0,main_stable_margin,nn,rms_yaw_error,30,0,{},0.7651803104777394,0.213788907473823,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,nn,itae_pitch,30,0,{},68.87665543278023,117.8232521291095,0.3598779272288084
+0.5,1.5,20.0,main_stable_margin,nn,itae_roll,30,0,{},10.020800793537955,3.065755452555452,1.1920928955078125e-06
+0.5,1.5,20.0,main_stable_margin,nn,itae_yaw,30,0,{},38.958127182641185,12.350780071080523,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,nn,rms_altitude_error,30,0,{},2.8954198617547773,1.632096806676255,0.46454504504799843
+0.5,1.5,20.0,main_stable_margin,nn,max_altitude_drop_m,30,0,{},2.823323236885578,2.016125982918001,0.0026485886669625706
+0.5,1.5,20.0,main_stable_margin,nn,mean_elev,30,0,{},2.8144161832864305,1.233850894201859,0.00466480478644371
+0.5,1.5,20.0,main_stable_margin,nn,mean_aileron,30,0,{},1.126715006758133,0.23275072298599514,0.0005548261106014252
+0.5,1.5,20.0,main_stable_margin,nn,mean_rudder,30,0,{},2.023831233510745,0.5531594151651905,8.009374141693115e-08
+0.5,1.5,20.0,main_stable_margin,nn,rms_elev,30,0,{},3.3548777194903887,1.5303963234852536,0.0050126127898693085
+0.5,1.5,20.0,main_stable_margin,nn,rms_aileron,30,0,{},1.4116741025281228,0.2777683016426283,0.001718590036034584
+0.5,1.5,20.0,main_stable_margin,nn,rms_rudder,30,0,{},2.4479698562539203,0.6289510183101691,1.6391277313232422e-07
+0.5,1.5,20.0,main_stable_margin,nn,elev_activity,30,0,{},32690.631549953752,7731.053784468249,0.05768792890012264
+0.5,1.5,20.0,main_stable_margin,nn,aileron_activity,30,0,{},44422.37772898439,14115.996256580494,0.0029870010912418365
+0.5,1.5,20.0,main_stable_margin,nn,rudder_activity,30,0,{},6146.521140490895,442.9437881276536,0.000283263623714447
+0.5,1.5,20.0,main_stable_margin,nn,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,nn,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,nn,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,nn,tail_mean_abs,30,0,{},0.32351756201635756,0.05346736407195839,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,nn,tail_rms,30,0,{},0.37770047955547426,0.0551337952424496,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,nn,tail_activity,30,0,{},138.25788589559517,22.118554976493982,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,nn,mean_drag,30,0,{},4.583832123772496,0.6442810446750458,0.2988441474735737
+0.5,1.5,20.0,main_stable_margin,nn,pitch_settling_time_s,30,0,{},10.865999999999769,0.5898252225053057,0.0013982786575580809
+0.5,1.5,20.0,main_stable_margin,nn,pitch_settled,30,0,{},0.13333333333333333,0.34574590364176044,0.0002747267638079423
+0.5,1.5,20.0,main_stable_margin,nn,pitch_steady_state_error,30,0,{},-0.08331381709842119,0.3592982533729921,0.00016989745199680328
+0.5,1.5,20.0,main_stable_margin,elev_ff,max_pitch_dev,30,0,{},5.467893394897308,5.816166488439154,0.9676735773682594
+0.5,1.5,20.0,main_stable_margin,elev_ff,max_roll_dev,30,0,{},0.5777511935599198,0.12222991899364578,0.871207794174552
+0.5,1.5,20.0,main_stable_margin,elev_ff,max_yaw_dev,30,0,{},1.8030995371289233,0.4230706614879718,0.4898460879921913
+0.5,1.5,20.0,main_stable_margin,elev_ff,rms_pitch_error,30,0,{},1.7641599155454122,2.1045505087661107,0.6263462882488966
+0.5,1.5,20.0,main_stable_margin,elev_ff,rms_roll_error,30,0,{},0.22687249577239085,0.05442396467749422,0.7921590935438871
+0.5,1.5,20.0,main_stable_margin,elev_ff,rms_yaw_error,30,0,{},0.8445988040902168,0.23820426476761977,0.46454504504799843
+0.5,1.5,20.0,main_stable_margin,elev_ff,itae_pitch,30,0,{},79.66493066748421,106.30857845572203,0.8393927440047264
+0.5,1.5,20.0,main_stable_margin,elev_ff,itae_roll,30,0,{},11.337743286534531,3.4908097898198305,0.6120056137442589
+0.5,1.5,20.0,main_stable_margin,elev_ff,itae_yaw,30,0,{},43.021257824021994,13.684126856888383,0.5158484429121017
+0.5,1.5,20.0,main_stable_margin,elev_ff,rms_altitude_error,30,0,{},2.8958711004083635,1.6300165158491826,0.22064675763249397
+0.5,1.5,20.0,main_stable_margin,elev_ff,max_altitude_drop_m,30,0,{},2.751286163258305,1.9746485155050009,0.09644985057638178
+0.5,1.5,20.0,main_stable_margin,elev_ff,mean_elev,30,0,{},3.3805188058736224,1.1188579032468489,0.31839608028531075
+0.5,1.5,20.0,main_stable_margin,elev_ff,mean_aileron,30,0,{},1.0801263810926867,0.2400040735409261,0.6408254038542509
+0.5,1.5,20.0,main_stable_margin,elev_ff,mean_rudder,30,0,{},1.9923487235139532,0.5517423210707542,0.17059839516878128
+0.5,1.5,20.0,main_stable_margin,elev_ff,rms_elev,30,0,{},4.006320375196855,1.4638707060386587,0.3492113798856735
+0.5,1.5,20.0,main_stable_margin,elev_ff,rms_aileron,30,0,{},1.356958166482026,0.28239517796044905,0.5158484429121017
+0.5,1.5,20.0,main_stable_margin,elev_ff,rms_rudder,30,0,{},2.4091001830111773,0.6275982622370457,0.19807579927146435
+0.5,1.5,20.0,main_stable_margin,elev_ff,elev_activity,30,0,{},34977.578115880635,8639.505994173567,0.3598779272288084
+0.5,1.5,20.0,main_stable_margin,elev_ff,aileron_activity,30,0,{},41766.215689733006,14650.23433147569,0.7456546742469072
+0.5,1.5,20.0,main_stable_margin,elev_ff,rudder_activity,30,0,{},5967.340507179555,409.7238867853572,0.7921590935438871
+0.5,1.5,20.0,main_stable_margin,elev_ff,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,elev_ff,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,elev_ff,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,elev_ff,tail_mean_abs,30,0,{},0.1253644574753072,0.0,4.320463057827488e-08
+0.5,1.5,20.0,main_stable_margin,elev_ff,tail_rms,30,0,{},0.14754353569422832,0.0,4.320463057827488e-08
+0.5,1.5,20.0,main_stable_margin,elev_ff,tail_activity,30,0,{},55.24758677879769,1.4453792906454277e-14,4.320463057827488e-08
+0.5,1.5,20.0,main_stable_margin,elev_ff,mean_drag,30,0,{},4.5788638600589415,0.5971962195464315,0.2988441474735737
+0.5,1.5,20.0,main_stable_margin,elev_ff,pitch_settling_time_s,30,0,{},10.79599999999977,0.5310860700424097,0.0018280626925597484
+0.5,1.5,20.0,main_stable_margin,elev_ff,pitch_settled,30,0,{},0.3333333333333333,0.47946330148538413,0.03894745574202538
+0.5,1.5,20.0,main_stable_margin,elev_ff,pitch_steady_state_error,30,0,{},-0.05328260385123454,0.25826396939941276,0.034536734223365784
+0.5,1.5,20.0,main_stable_margin,oracle,max_pitch_dev,30,0,{},4.683544023728644,6.079340419466487,0.22855282202363014
+0.5,1.5,20.0,main_stable_margin,oracle,max_roll_dev,30,0,{},0.5523149013682278,0.12151829168240826,0.23665234446525574
+0.5,1.5,20.0,main_stable_margin,oracle,max_yaw_dev,30,0,{},1.6427173492333578,0.3827808043424695,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,oracle,rms_pitch_error,30,0,{},1.411355141751101,2.097695503484928,0.052263347432017326
+0.5,1.5,20.0,main_stable_margin,oracle,rms_roll_error,30,0,{},0.21089194738141595,0.04951501317748505,0.0008718203753232956
+0.5,1.5,20.0,main_stable_margin,oracle,rms_yaw_error,30,0,{},0.7635003930332019,0.21386748092885385,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,oracle,itae_pitch,30,0,{},68.7259042549443,114.1646087846192,0.11417667381465435
+0.5,1.5,20.0,main_stable_margin,oracle,itae_roll,30,0,{},10.352246739759787,3.0014165766335625,0.0009517744183540344
+0.5,1.5,20.0,main_stable_margin,oracle,itae_yaw,30,0,{},38.90910294239529,12.365499170302844,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,oracle,rms_altitude_error,30,0,{},2.930442715387736,1.6557544540310323,0.28936620615422726
+0.5,1.5,20.0,main_stable_margin,oracle,max_altitude_drop_m,30,0,{},2.95562496262695,2.07762475538865,9.977698887788448e-06
+0.5,1.5,20.0,main_stable_margin,oracle,mean_elev,30,0,{},2.5396302857729847,1.2900805537196482,0.00023163668811321259
+0.5,1.5,20.0,main_stable_margin,oracle,mean_aileron,30,0,{},1.1320225177812486,0.2103367252372212,0.01283373311161995
+0.5,1.5,20.0,main_stable_margin,oracle,mean_rudder,30,0,{},2.0176714477949917,0.5524446141975944,9.98377799987793e-07
+0.5,1.5,20.0,main_stable_margin,oracle,rms_elev,30,0,{},3.1136616199730374,1.5927804802530978,0.003475155681371689
+0.5,1.5,20.0,main_stable_margin,oracle,rms_aileron,30,0,{},1.4217204353071038,0.25329896023574466,0.013663241639733315
+0.5,1.5,20.0,main_stable_margin,oracle,rms_rudder,30,0,{},2.44196258424069,0.6289113968698549,3.1478703022003174e-07
+0.5,1.5,20.0,main_stable_margin,oracle,elev_activity,30,0,{},33430.553817993976,7864.820257840852,0.23665234446525574
+0.5,1.5,20.0,main_stable_margin,oracle,aileron_activity,30,0,{},44748.59138787978,13602.370297069801,0.024786051362752914
+0.5,1.5,20.0,main_stable_margin,oracle,rudder_activity,30,0,{},6175.025825016793,457.8872349701358,1.218356192111969e-05
+0.5,1.5,20.0,main_stable_margin,oracle,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,oracle,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,oracle,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.5,1.5,20.0,main_stable_margin,oracle,tail_mean_abs,30,0,{},0.6921933608891605,0.06634173904711078,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,oracle,tail_rms,30,0,{},0.7112183014709976,0.06545573558831747,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,oracle,tail_activity,30,0,{},234.96273527933803,42.27648546276682,1.862645149230957e-09
+0.5,1.5,20.0,main_stable_margin,oracle,mean_drag,30,0,{},4.596433328033166,0.6055023593773895,0.10039735585451126
+0.5,1.5,20.0,main_stable_margin,oracle,pitch_settling_time_s,30,0,{},10.793999999999771,0.7873158241115982,0.013530005821094905
+0.5,1.5,20.0,main_stable_margin,oracle,pitch_settled,30,0,{},0.2,0.4068381021724863,0.0028599382084640934
+0.5,1.5,20.0,main_stable_margin,oracle,pitch_steady_state_error,30,0,{},-0.10622746009126506,0.20347623185126085,0.00013739429414272308
+0.7,0.5,12.0,main_stable_margin,conventional,max_pitch_dev,30,0,{},1.4489824670951952,0.028196869152652012,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,max_roll_dev,30,0,{},0.2094511337198584,0.05586701870158194,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,max_yaw_dev,30,0,{},0.8875251041847773,0.223740523964911,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,rms_pitch_error,30,0,{},0.83258385479728,0.013746014527215168,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,rms_roll_error,30,0,{},0.10183413148876497,0.03320598351252031,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,rms_yaw_error,30,0,{},0.41753680561357215,0.12118224244603187,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,itae_pitch,30,0,{},34.80951026846948,0.6974097363998546,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,itae_roll,30,0,{},5.107876107317813,2.065158211115172,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,itae_yaw,30,0,{},21.23061388893814,7.426051386911206,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,rms_altitude_error,30,0,{},1.8458766899349444,1.1994861360351499,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,max_altitude_drop_m,30,0,{},2.260317683259538,1.745264359324927,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,mean_elev,30,0,{},2.659177315406692,0.02334068319650981,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,mean_aileron,30,0,{},0.2783776571139309,0.09637966158217778,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,mean_rudder,30,0,{},1.0190299669137786,0.323170203305903,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,rms_elev,30,0,{},2.676969768948323,0.02384253480209394,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,rms_aileron,30,0,{},0.3321786435856046,0.10413426627597953,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,rms_rudder,30,0,{},1.2298005243436045,0.3543238789187927,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,elev_activity,30,0,{},3268.145899582931,198.45724880582756,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,aileron_activity,30,0,{},1138.7912592574623,77.98447093155626,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,rudder_activity,30,0,{},1442.4875524916765,104.58301085290897,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,tail_mean_abs,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,tail_rms,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,tail_activity,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,mean_drag,30,0,{},2.6703846787188796,0.021331876400994633,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,pitch_settled,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,conventional,pitch_steady_state_error,30,0,{},0.3561437698659859,0.009543451762452825,1.0
+0.7,0.5,12.0,main_stable_margin,nn,max_pitch_dev,30,0,{},1.3664310283430618,0.029536329217521706,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,max_roll_dev,30,0,{},0.19884085918850175,0.052063514445679145,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,max_yaw_dev,30,0,{},0.8493555882253264,0.21302163337589108,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,rms_pitch_error,30,0,{},0.5016737357698515,0.02459331740099675,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,rms_roll_error,30,0,{},0.09621846052419494,0.031138919062710872,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,rms_yaw_error,30,0,{},0.39749242130267076,0.115098661052808,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,itae_pitch,30,0,{},14.264743966323975,2.462923941970431,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,itae_roll,30,0,{},4.828253742679668,1.941072054613119,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,itae_yaw,30,0,{},20.205617173132417,7.069596656593561,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,rms_altitude_error,30,0,{},2.0825799807550034,1.3062538765616323,0.00020912662148475647
+0.7,0.5,12.0,main_stable_margin,nn,max_altitude_drop_m,30,0,{},2.9087738725222954,1.8445449195723334,3.725290298461914e-09
+0.7,0.5,12.0,main_stable_margin,nn,mean_elev,30,0,{},0.7766337401405266,0.10058364868722956,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,mean_aileron,30,0,{},0.27798542677485377,0.09552178896951247,0.19807579927146435
+0.7,0.5,12.0,main_stable_margin,nn,mean_rudder,30,0,{},1.0159117364011856,0.32078081270848063,0.00012333691120147705
+0.7,0.5,12.0,main_stable_margin,nn,rms_elev,30,0,{},1.0423586672943068,0.08789166730306675,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,rms_aileron,30,0,{},0.3321278216465001,0.1033534952718583,0.9192965272814035
+0.7,0.5,12.0,main_stable_margin,nn,rms_rudder,30,0,{},1.2268183573309044,0.3519487504270833,0.0020201820880174637
+0.7,0.5,12.0,main_stable_margin,nn,elev_activity,30,0,{},3341.142897039485,193.76353299528614,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,aileron_activity,30,0,{},1159.1171092425482,79.56518013852768,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,rudder_activity,30,0,{},1462.1475122388179,103.06539012658683,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,nn,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,nn,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,nn,tail_mean_abs,30,0,{},1.726631074006441,0.14203620081569246,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,tail_rms,30,0,{},1.85277094937025,0.14530274053385675,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,tail_activity,30,0,{},347.74127786670937,33.973310670743786,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,mean_drag,30,0,{},2.7524940091229633,0.019397045456242025,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,nn,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,1.0
+0.7,0.5,12.0,main_stable_margin,nn,pitch_settled,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,nn,pitch_steady_state_error,30,0,{},-0.22561143167515532,0.07224710704542919,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,max_pitch_dev,30,0,{},1.3661806490716157,0.029585183856636617,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,max_roll_dev,30,0,{},0.20820725050148708,0.055303313043945174,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,max_yaw_dev,30,0,{},0.881032028137605,0.22114909982385778,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,rms_pitch_error,30,0,{},0.5050738338948169,0.03143110572800627,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,rms_roll_error,30,0,{},0.10116041583343417,0.032951664664646545,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,rms_yaw_error,30,0,{},0.41459231841870114,0.12021961570796645,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,itae_pitch,30,0,{},12.3179913763372,1.6113910214184264,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,itae_roll,30,0,{},5.067877925895777,2.0472154286438586,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,itae_yaw,30,0,{},21.064840155473558,7.362794325604993,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,rms_altitude_error,30,0,{},1.9282218027884066,1.251628961608417,0.0027663204818964005
+0.7,0.5,12.0,main_stable_margin,elev_ff,max_altitude_drop_m,30,0,{},2.4692008479372376,1.7866282650516132,2.848903312076321e-06
+0.7,0.5,12.0,main_stable_margin,elev_ff,mean_elev,30,0,{},2.6969569156159063,0.022253394765086285,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,mean_aileron,30,0,{},0.2764797037122398,0.09560076121139377,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,mean_rudder,30,0,{},1.0114460928143363,0.32062013939208756,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,rms_elev,30,0,{},2.7194936849351725,0.02237436342407289,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,rms_aileron,30,0,{},0.3300270434544334,0.10329590188534052,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,rms_rudder,30,0,{},1.2207703079065442,0.35147468838434137,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,elev_activity,30,0,{},3373.054178216921,181.34763799085036,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,aileron_activity,30,0,{},1146.955534017959,78.2065491705471,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,elev_ff,rudder_activity,30,0,{},1440.0405287204824,102.95831874852473,6.146728992462158e-08
+0.7,0.5,12.0,main_stable_margin,elev_ff,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,elev_ff,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,elev_ff,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,elev_ff,tail_mean_abs,30,0,{},0.1253644574753072,0.0,4.320463057827488e-08
+0.7,0.5,12.0,main_stable_margin,elev_ff,tail_rms,30,0,{},0.14754353569422832,0.0,4.320463057827488e-08
+0.7,0.5,12.0,main_stable_margin,elev_ff,tail_activity,30,0,{},55.24758677879769,1.4453792906454277e-14,4.320463057827488e-08
+0.7,0.5,12.0,main_stable_margin,elev_ff,mean_drag,30,0,{},2.6694654222090626,0.021325105020425266,0.40449450351297855
+0.7,0.5,12.0,main_stable_margin,elev_ff,pitch_settling_time_s,30,0,{},10.517999999999777,0.8658478005937713,0.005033508200606249
+0.7,0.5,12.0,main_stable_margin,elev_ff,pitch_settled,30,0,{},0.3333333333333333,0.4794633014853841,0.001565402258002548
+0.7,0.5,12.0,main_stable_margin,elev_ff,pitch_steady_state_error,30,0,{},-0.018764825291690903,0.06463527135127242,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,max_pitch_dev,30,0,{},0.3224552315590112,0.08017204084885232,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,max_roll_dev,30,0,{},0.19848498358117908,0.05231859589487745,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,max_yaw_dev,30,0,{},0.8476193345821004,0.21444818030808532,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,rms_pitch_error,30,0,{},0.14080215788531641,0.04032084019019814,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,rms_roll_error,30,0,{},0.0960436251882326,0.03119433280751511,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,rms_yaw_error,30,0,{},0.39676204566629164,0.11512347041128819,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,itae_pitch,30,0,{},7.105072149439018,2.3766582703787593,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,itae_roll,30,0,{},4.832642473953265,1.9505046259559202,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,itae_yaw,30,0,{},20.238757996219146,7.085393382240634,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,rms_altitude_error,30,0,{},2.1796444204660688,1.3792526658465378,0.0004183966666460037
+0.7,0.5,12.0,main_stable_margin,oracle,max_altitude_drop_m,30,0,{},3.0753363371279208,1.8733352423753442,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,mean_elev,30,0,{},0.4480297175430197,0.19500147878199306,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,mean_aileron,30,0,{},0.2769633271960832,0.0952424337105999,0.0005054883658885956
+0.7,0.5,12.0,main_stable_margin,oracle,mean_rudder,30,0,{},1.0126808429986824,0.319896862260114,3.855675458908081e-07
+0.7,0.5,12.0,main_stable_margin,oracle,rms_elev,30,0,{},0.5289429419712824,0.19545168550444464,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,rms_aileron,30,0,{},0.33098323638261906,0.10313437881807742,0.00577649287879467
+0.7,0.5,12.0,main_stable_margin,oracle,rms_rudder,30,0,{},1.2230192106149436,0.3513341930785534,1.597777009010315e-05
+0.7,0.5,12.0,main_stable_margin,oracle,elev_activity,30,0,{},3221.503941861158,199.79521643095697,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,aileron_activity,30,0,{},1160.436109020258,79.52252907572012,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,rudder_activity,30,0,{},1460.614815525598,102.57268507904475,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,oracle,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,oracle,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,12.0,main_stable_margin,oracle,tail_mean_abs,30,0,{},2.4641738433560674,0.22222688877364774,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,tail_rms,30,0,{},2.4769685888270825,0.2221592390049156,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,tail_activity,30,0,{},451.6900478006307,49.741955115099714,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,mean_drag,30,0,{},2.7933218018372017,0.019630087864393086,1.862645149230957e-09
+0.7,0.5,12.0,main_stable_margin,oracle,pitch_settling_time_s,30,0,{},10.859333333333103,0.5611437417013233,0.06788915486182899
+0.7,0.5,12.0,main_stable_margin,oracle,pitch_settled,30,0,{},0.13333333333333333,0.34574590364176044,0.04550026389635839
+0.7,0.5,12.0,main_stable_margin,oracle,pitch_steady_state_error,30,0,{},-0.11138032903752361,0.09240469249535314,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,conventional,max_pitch_dev,30,0,{},0.49884787678997206,0.007729029384930148,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,max_roll_dev,30,0,{},0.3042107517762681,0.1350497640529766,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,max_yaw_dev,30,0,{},0.6008321208602612,0.12797824829760074,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,rms_pitch_error,30,0,{},0.2855968548769859,0.003703990356203069,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,rms_roll_error,30,0,{},0.10915921514547472,0.04374390011721215,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,rms_yaw_error,30,0,{},0.2825484799594976,0.07766469123061467,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,itae_pitch,30,0,{},11.960049315957722,0.16218810743851877,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,itae_roll,30,0,{},5.354738929888639,2.2251684119709374,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,itae_yaw,30,0,{},14.393133886274926,4.5860737961374305,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,rms_altitude_error,30,0,{},1.0086852229075358,0.5150455056433207,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,max_altitude_drop_m,30,0,{},1.2988032548558295,0.7093354847450007,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,mean_elev,30,0,{},2.768666426198411,0.005488870955920591,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,mean_aileron,30,0,{},1.0120106352144655,0.25137718071070797,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,mean_rudder,30,0,{},0.6709411778211193,0.1830916214426817,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,rms_elev,30,0,{},2.800655730697403,0.0066046693785353355,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,rms_aileron,30,0,{},1.242595746743744,0.34991631887768776,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,rms_rudder,30,0,{},0.8101627415151271,0.20553363576657394,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,elev_activity,30,0,{},9020.59971515383,531.7411213751972,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,aileron_activity,30,0,{},47709.41274551787,14376.61286528563,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,rudder_activity,30,0,{},2493.353262583708,547.0326535930337,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,tail_mean_abs,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,tail_rms,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,tail_activity,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,mean_drag,30,0,{},4.443620762717724,0.14629611515820598,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,pitch_settling_time_s,30,0,{},10.981999999999767,0.026444476641211037,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,pitch_settled,30,0,{},0.43333333333333335,0.5040069329937309,1.0
+0.7,0.5,20.0,main_stable_margin,conventional,pitch_steady_state_error,30,0,{},0.12262939994249408,0.0019042360130088996,1.0
+0.7,0.5,20.0,main_stable_margin,nn,max_pitch_dev,30,0,{},0.4501601738040584,0.010146328007662629,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,max_roll_dev,30,0,{},0.3489278396969482,0.1087995718968398,0.140283040702343
+0.7,0.5,20.0,main_stable_margin,nn,max_yaw_dev,30,0,{},0.5646255372192017,0.12298683614450677,9.313225746154785e-09
+0.7,0.5,20.0,main_stable_margin,nn,rms_pitch_error,30,0,{},0.18900266791165368,0.010599140627001487,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,rms_roll_error,30,0,{},0.13078065497676417,0.040349853701470914,0.027741437777876854
+0.7,0.5,20.0,main_stable_margin,nn,rms_yaw_error,30,0,{},0.264491978577921,0.0734505554866477,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,itae_pitch,30,0,{},7.440246880982416,0.8108136452681337,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,itae_roll,30,0,{},6.639469282653604,2.2323611233679963,0.011303061619400978
+0.7,0.5,20.0,main_stable_margin,nn,itae_yaw,30,0,{},13.477913796171773,4.332509343338758,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,rms_altitude_error,30,0,{},1.1013649928713138,0.5733739060084084,0.0011314544826745987
+0.7,0.5,20.0,main_stable_margin,nn,max_altitude_drop_m,30,0,{},1.5388978500061952,0.7782241279438414,3.789619441580871e-06
+0.7,0.5,20.0,main_stable_margin,nn,mean_elev,30,0,{},2.04305644832507,0.033632894641244124,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,mean_aileron,30,0,{},1.1280729115522115,0.23216608319805712,0.0004183966666460037
+0.7,0.5,20.0,main_stable_margin,nn,mean_rudder,30,0,{},0.677840669875009,0.18471548115857503,0.0007978975772857666
+0.7,0.5,20.0,main_stable_margin,nn,rms_elev,30,0,{},2.1077781777391924,0.033216533541140146,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,rms_aileron,30,0,{},1.4425316640418904,0.33375338540392424,0.00020912662148475647
+0.7,0.5,20.0,main_stable_margin,nn,rms_rudder,30,0,{},0.8188616065208195,0.2080808625988721,0.0001528710126876831
+0.7,0.5,20.0,main_stable_margin,nn,elev_activity,30,0,{},9054.834628936083,528.5249198062274,1.991167664527893e-06
+0.7,0.5,20.0,main_stable_margin,nn,aileron_activity,30,0,{},55029.359929271486,13851.561827006033,0.00023163668811321259
+0.7,0.5,20.0,main_stable_margin,nn,rudder_activity,30,0,{},2873.9026658057355,579.4605708378183,9.90256667137146e-05
+0.7,0.5,20.0,main_stable_margin,nn,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,nn,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,nn,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,nn,tail_mean_abs,30,0,{},0.5971131763484081,0.026350186712268384,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,tail_rms,30,0,{},0.6488587972181115,0.024564399605313942,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,tail_activity,30,0,{},120.38882469160563,4.183283208366292,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,mean_drag,30,0,{},4.472134604690826,0.1445830288505284,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,nn,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,0.0012848219813501943
+0.7,0.5,20.0,main_stable_margin,nn,pitch_settled,30,0,{},0.0,0.0,0.0003114909767673833
+0.7,0.5,20.0,main_stable_margin,nn,pitch_steady_state_error,30,0,{},-0.14622952728145885,0.020287886068128362,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,elev_ff,max_pitch_dev,30,0,{},0.45080215879390356,0.009453524730735562,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,elev_ff,max_roll_dev,30,0,{},0.338161141498641,0.1290098943732576,0.13473508320748806
+0.7,0.5,20.0,main_stable_margin,elev_ff,max_yaw_dev,30,0,{},0.5949110143535521,0.13238211738116842,0.027741437777876854
+0.7,0.5,20.0,main_stable_margin,elev_ff,rms_pitch_error,30,0,{},0.1899836466719432,0.01261140860278497,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,elev_ff,rms_roll_error,30,0,{},0.12417284416226411,0.040742024336631315,0.1459994912147522
+0.7,0.5,20.0,main_stable_margin,elev_ff,rms_yaw_error,30,0,{},0.2811267054749919,0.07826197738860209,0.10943205840885639
+0.7,0.5,20.0,main_stable_margin,elev_ff,itae_pitch,30,0,{},6.183969449684847,0.9053909089238129,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,elev_ff,itae_roll,30,0,{},6.158369488686275,2.193197237071476,0.08793856762349606
+0.7,0.5,20.0,main_stable_margin,elev_ff,itae_yaw,30,0,{},14.33974798822157,4.54444425649226,0.3284698575735092
+0.7,0.5,20.0,main_stable_margin,elev_ff,rms_altitude_error,30,0,{},1.0492541098834642,0.5455990224705664,0.008705463260412216
+0.7,0.5,20.0,main_stable_margin,elev_ff,max_altitude_drop_m,30,0,{},1.384790596078443,0.736351143878891,3.789619441580871e-06
+0.7,0.5,20.0,main_stable_margin,elev_ff,mean_elev,30,0,{},2.8019287179480177,0.005428154950425162,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,elev_ff,mean_aileron,30,0,{},1.0749152222595748,0.24061399696248734,0.049710121005773544
+0.7,0.5,20.0,main_stable_margin,elev_ff,mean_rudder,30,0,{},0.6696335793438497,0.18438015902804,0.4521643426269293
+0.7,0.5,20.0,main_stable_margin,elev_ff,rms_elev,30,0,{},2.8392678125101485,0.006510740662507995,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,elev_ff,rms_aileron,30,0,{},1.3460584418437322,0.35417621212000844,0.15188691951334476
+0.7,0.5,20.0,main_stable_margin,elev_ff,rms_rudder,30,0,{},0.8081248446670534,0.20715973785797162,0.46454504504799843
+0.7,0.5,20.0,main_stable_margin,elev_ff,elev_activity,30,0,{},9044.55359577153,529.2161333984424,0.0008718203753232956
+0.7,0.5,20.0,main_stable_margin,elev_ff,aileron_activity,30,0,{},51625.42137445869,14285.881055381888,0.22064675763249397
+0.7,0.5,20.0,main_stable_margin,elev_ff,rudder_activity,30,0,{},2672.847490127812,599.4344800675781,0.08406547829508781
+0.7,0.5,20.0,main_stable_margin,elev_ff,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,elev_ff,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,elev_ff,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,elev_ff,tail_mean_abs,30,0,{},0.1253644574753072,0.0,4.320463057827488e-08
+0.7,0.5,20.0,main_stable_margin,elev_ff,tail_rms,30,0,{},0.14754353569422832,0.0,4.320463057827488e-08
+0.7,0.5,20.0,main_stable_margin,elev_ff,tail_activity,30,0,{},55.24758677879769,1.4453792906454277e-14,4.320463057827488e-08
+0.7,0.5,20.0,main_stable_margin,elev_ff,mean_drag,30,0,{},4.447786458206866,0.14576940040688513,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,elev_ff,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,0.0012848219813501943
+0.7,0.5,20.0,main_stable_margin,elev_ff,pitch_settled,30,0,{},0.0,0.0,0.0003114909767673833
+0.7,0.5,20.0,main_stable_margin,elev_ff,pitch_steady_state_error,30,0,{},-0.098196604736799,0.023437109891993876,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,max_pitch_dev,30,0,{},0.19181440806051614,0.02229669273883209,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,max_roll_dev,30,0,{},0.3377629361566458,0.11060056386933845,0.25343610532581806
+0.7,0.5,20.0,main_stable_margin,oracle,max_yaw_dev,30,0,{},0.564920856716332,0.119804067680668,9.313225746154785e-09
+0.7,0.5,20.0,main_stable_margin,oracle,rms_pitch_error,30,0,{},0.08785365523131515,0.007448108668030345,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,rms_roll_error,30,0,{},0.12682448377669503,0.04157690547419311,0.11907656863331795
+0.7,0.5,20.0,main_stable_margin,oracle,rms_yaw_error,30,0,{},0.26465675786636106,0.07238266230903836,3.725290298461914e-09
+0.7,0.5,20.0,main_stable_margin,oracle,itae_pitch,30,0,{},4.117398606925888,0.5992602667681921,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,itae_roll,30,0,{},6.203133461324721,2.2479209288541973,0.24494642950594425
+0.7,0.5,20.0,main_stable_margin,oracle,itae_yaw,30,0,{},13.547332672182572,4.256870112048907,1.30385160446167e-08
+0.7,0.5,20.0,main_stable_margin,oracle,rms_altitude_error,30,0,{},1.160335901524649,0.6192025050813451,0.0018640067428350449
+0.7,0.5,20.0,main_stable_margin,oracle,max_altitude_drop_m,30,0,{},1.6484361708641373,0.765446958754881,2.5630832507250074e-06
+0.7,0.5,20.0,main_stable_margin,oracle,mean_elev,30,0,{},1.6026389929897036,0.043361509523191774,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,mean_aileron,30,0,{},1.1267173029237714,0.2270714640803492,0.0007978975772857666
+0.7,0.5,20.0,main_stable_margin,oracle,mean_rudder,30,0,{},0.6776943206759712,0.18231826803207152,0.0020201820880174637
+0.7,0.5,20.0,main_stable_margin,oracle,rms_elev,30,0,{},1.6646583324700233,0.04400910812287901,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,rms_aileron,30,0,{},1.4276984566043518,0.33031203508604007,0.0027663204818964005
+0.7,0.5,20.0,main_stable_margin,oracle,rms_rudder,30,0,{},0.8180343318966096,0.20544378282087927,0.0012321043759584427
+0.7,0.5,20.0,main_stable_margin,oracle,elev_activity,30,0,{},9048.080258163045,532.3990387590824,0.0635564886033535
+0.7,0.5,20.0,main_stable_margin,oracle,aileron_activity,30,0,{},54593.43497010418,13432.00951555345,0.004338232800364494
+0.7,0.5,20.0,main_stable_margin,oracle,rudder_activity,30,0,{},2837.022898768379,568.4736399437713,0.0011314544826745987
+0.7,0.5,20.0,main_stable_margin,oracle,elev_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,oracle,aileron_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,oracle,rudder_saturation_s,30,0,{},0.0,0.0,1.0
+0.7,0.5,20.0,main_stable_margin,oracle,tail_mean_abs,30,0,{},0.9594720605990253,0.03375378333204794,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,tail_rms,30,0,{},0.9719477164105498,0.03287859729055005,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,tail_activity,30,0,{},154.21370092762874,6.551502495391621,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,mean_drag,30,0,{},4.489028878657736,0.1433204802033651,1.862645149230957e-09
+0.7,0.5,20.0,main_stable_margin,oracle,pitch_settling_time_s,30,0,{},10.999999999999767,1.8067241133067846e-15,0.0012848219813501943
+0.7,0.5,20.0,main_stable_margin,oracle,pitch_settled,30,0,{},0.0,0.0,0.0003114909767673833
+0.7,0.5,20.0,main_stable_margin,oracle,pitch_steady_state_error,30,0,{},-0.08103015573962866,0.018752234057397954,1.862645149230957e-09
+0.7,1.5,12.0,main_stable_margin,conventional,max_pitch_dev,27,3,"{""aerodynamic_validity_limit"": 3}",1.5075136397639868,0.08732368780603234,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,max_roll_dev,27,3,"{""aerodynamic_validity_limit"": 3}",0.6032012671085266,0.1670030183501717,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,max_yaw_dev,27,3,"{""aerodynamic_validity_limit"": 3}",2.5395823192474336,0.6642630734768962,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,rms_pitch_error,27,3,"{""aerodynamic_validity_limit"": 3}",0.8328034712834858,0.04022011550379621,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,rms_roll_error,27,3,"{""aerodynamic_validity_limit"": 3}",0.29534432523441057,0.10121895559824637,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,rms_yaw_error,27,3,"{""aerodynamic_validity_limit"": 3}",1.210103305564517,0.3690307714761688,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,itae_pitch,27,3,"{""aerodynamic_validity_limit"": 3}",34.6426506344016,1.922187236893021,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,itae_roll,27,3,"{""aerodynamic_validity_limit"": 3}",14.905419855719458,6.193974854649687,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,itae_yaw,27,3,"{""aerodynamic_validity_limit"": 3}",61.53603963309154,21.623989203542255,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,rms_altitude_error,27,3,"{""aerodynamic_validity_limit"": 3}",4.318865689676785,2.600410305637189,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,max_altitude_drop_m,27,3,"{""aerodynamic_validity_limit"": 3}",3.751289671700363,3.9145048798620494,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,mean_elev,27,3,"{""aerodynamic_validity_limit"": 3}",2.6661313244390863,0.05781842104117106,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,mean_aileron,27,3,"{""aerodynamic_validity_limit"": 3}",0.8137883074768426,0.2971785778243872,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,mean_rudder,27,3,"{""aerodynamic_validity_limit"": 3}",2.9759771485610287,1.0055813854875513,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,rms_elev,27,3,"{""aerodynamic_validity_limit"": 3}",2.757688669978898,0.06395421741945528,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,rms_aileron,27,3,"{""aerodynamic_validity_limit"": 3}",0.966606598420673,0.3157815963146457,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,rms_rudder,27,3,"{""aerodynamic_validity_limit"": 3}",3.5734872587962707,1.0920385396500139,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,elev_activity,27,3,"{""aerodynamic_validity_limit"": 3}",9865.151522783039,1646.401197635427,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,aileron_activity,27,3,"{""aerodynamic_validity_limit"": 3}",3688.1988413871713,637.2952775366124,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,rudder_activity,27,3,"{""aerodynamic_validity_limit"": 3}",4304.781237135158,347.0691502129123,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,elev_saturation_s,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,aileron_saturation_s,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,rudder_saturation_s,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,tail_mean_abs,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,tail_rms,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,tail_activity,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,mean_drag,27,3,"{""aerodynamic_validity_limit"": 3}",2.8008090346932413,0.1260559966794844,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,pitch_settling_time_s,27,3,"{""aerodynamic_validity_limit"": 3}",10.999999999999766,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,pitch_settled,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,conventional,pitch_steady_state_error,27,3,"{""aerodynamic_validity_limit"": 3}",0.3566237437010241,0.026435384438219075,1.0
+0.7,1.5,12.0,main_stable_margin,nn,max_pitch_dev,28,2,"{""aerodynamic_validity_limit"": 2}",1.3805172996824566,0.10250501415286695,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,max_roll_dev,28,2,"{""aerodynamic_validity_limit"": 2}",0.5449108540559756,0.1474964629682337,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,max_yaw_dev,28,2,"{""aerodynamic_validity_limit"": 2}",2.3356129840914224,0.6014950892038806,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,rms_pitch_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.5560145303485055,0.056309409669907474,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,rms_roll_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.2632614100676472,0.08824534887986027,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,rms_yaw_error,28,2,"{""aerodynamic_validity_limit"": 2}",1.0958517524810034,0.3300908443890193,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,itae_pitch,28,2,"{""aerodynamic_validity_limit"": 2}",17.4166181418987,4.8823056241772536,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,itae_roll,28,2,"{""aerodynamic_validity_limit"": 2}",13.1376245303985,5.406398331946767,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,itae_yaw,28,2,"{""aerodynamic_validity_limit"": 2}",55.23303684821059,19.451782612707916,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,rms_altitude_error,28,2,"{""aerodynamic_validity_limit"": 2}",4.511472455860893,2.6110255153544424,0.1348898708820343
+0.7,1.5,12.0,main_stable_margin,nn,max_altitude_drop_m,28,2,"{""aerodynamic_validity_limit"": 2}",4.528381372818211,4.50596865785173,8.857457687863547e-05
+0.7,1.5,12.0,main_stable_margin,nn,mean_elev,28,2,"{""aerodynamic_validity_limit"": 2}",1.1411159436175666,0.20099466662085075,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,mean_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.8153065522408003,0.2921361903254642,2.041459083557129e-06
+0.7,1.5,12.0,main_stable_margin,nn,mean_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",2.980934930375928,0.9882236078286735,9.5367431640625e-06
+0.7,1.5,12.0,main_stable_margin,nn,rms_elev,28,2,"{""aerodynamic_validity_limit"": 2}",1.3896024931415991,0.2007017049581777,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,rms_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.9720537600771345,0.3107337500168897,4.470348358154297e-08
+0.7,1.5,12.0,main_stable_margin,nn,rms_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",3.587424841463594,1.0731944453135955,3.725290298461914e-07
+0.7,1.5,12.0,main_stable_margin,nn,elev_activity,28,2,"{""aerodynamic_validity_limit"": 2}",9848.905530701732,1792.025757577189,2.2083520889282227e-05
+0.7,1.5,12.0,main_stable_margin,nn,aileron_activity,28,2,"{""aerodynamic_validity_limit"": 2}",3779.687499080101,676.8847285904832,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,rudder_activity,28,2,"{""aerodynamic_validity_limit"": 2}",4461.904756643058,355.7641415517684,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,elev_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,nn,aileron_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,nn,rudder_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,nn,tail_mean_abs,28,2,"{""aerodynamic_validity_limit"": 2}",1.55385798349346,0.31761976726926056,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,tail_rms,28,2,"{""aerodynamic_validity_limit"": 2}",1.6937480356651324,0.3405309164960799,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,tail_activity,28,2,"{""aerodynamic_validity_limit"": 2}",650.9737672185303,162.47651384018016,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,mean_drag,28,2,"{""aerodynamic_validity_limit"": 2}",2.8690843361192964,0.11842119632978663,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,nn,pitch_settling_time_s,28,2,"{""aerodynamic_validity_limit"": 2}",10.932857142856912,0.20068137898921803,0.043114446783075355
+0.7,1.5,12.0,main_stable_margin,nn,pitch_settled,28,2,"{""aerodynamic_validity_limit"": 2}",0.17857142857142858,0.3900210277874798,0.025347318677468252
+0.7,1.5,12.0,main_stable_margin,nn,pitch_steady_state_error,28,2,"{""aerodynamic_validity_limit"": 2}",-0.2490859559651685,0.15626473394799478,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,max_pitch_dev,28,2,"{""aerodynamic_validity_limit"": 2}",1.3762657469079518,0.10425813229442335,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,max_roll_dev,28,2,"{""aerodynamic_validity_limit"": 2}",0.5965959325269061,0.162853009414662,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,max_yaw_dev,28,2,"{""aerodynamic_validity_limit"": 2}",2.5173724821579633,0.6421528983264329,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,rms_pitch_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.5161357747142468,0.07324663643601123,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,rms_roll_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.29113023959921785,0.09866454958851725,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,rms_yaw_error,28,2,"{""aerodynamic_validity_limit"": 2}",1.1943481388518598,0.3585442628383787,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,itae_pitch,28,2,"{""aerodynamic_validity_limit"": 2}",14.62755591532709,3.982397303781737,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,itae_roll,28,2,"{""aerodynamic_validity_limit"": 2}",14.585410826663038,6.075450042884616,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,itae_yaw,28,2,"{""aerodynamic_validity_limit"": 2}",60.46881757572107,21.108858245316892,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,rms_altitude_error,28,2,"{""aerodynamic_validity_limit"": 2}",4.461919579536759,2.612921536451017,0.3864929676055908
+0.7,1.5,12.0,main_stable_margin,elev_ff,max_altitude_drop_m,28,2,"{""aerodynamic_validity_limit"": 2}",4.2680664714702585,4.34109372171374,8.857457687863547e-05
+0.7,1.5,12.0,main_stable_margin,elev_ff,mean_elev,28,2,"{""aerodynamic_validity_limit"": 2}",2.7010719252032076,0.056776095593633925,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,mean_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.8000985729518355,0.2904863893715873,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,mean_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",2.931581322516568,0.9783313516221052,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,rms_elev,28,2,"{""aerodynamic_validity_limit"": 2}",2.7948428077338,0.06294991583355576,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,rms_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.9526928667093537,0.30789843853606175,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,rms_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",3.524968249794611,1.0603484015631628,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,elev_activity,28,2,"{""aerodynamic_validity_limit"": 2}",9891.436786315897,1679.0105872745346,2.9802322387695312e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,aileron_activity,28,2,"{""aerodynamic_validity_limit"": 2}",3699.043882176164,638.3971392702197,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,elev_ff,rudder_activity,28,2,"{""aerodynamic_validity_limit"": 2}",4311.908733329584,343.0557196610957,6.407499313354492e-07
+0.7,1.5,12.0,main_stable_margin,elev_ff,elev_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,elev_ff,aileron_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,elev_ff,rudder_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,elev_ff,tail_mean_abs,28,2,"{""aerodynamic_validity_limit"": 2}",0.1253644574753072,0.0,2.0345546145444244e-07
+0.7,1.5,12.0,main_stable_margin,elev_ff,tail_rms,28,2,"{""aerodynamic_validity_limit"": 2}",0.14754353569422832,0.0,2.0345546145444244e-07
+0.7,1.5,12.0,main_stable_margin,elev_ff,tail_activity,28,2,"{""aerodynamic_validity_limit"": 2}",55.24758677879769,1.4471626093874067e-14,2.0345546145444244e-07
+0.7,1.5,12.0,main_stable_margin,elev_ff,mean_drag,28,2,"{""aerodynamic_validity_limit"": 2}",2.7969643699198237,0.12779444203237325,0.7495975196361542
+0.7,1.5,12.0,main_stable_margin,elev_ff,pitch_settling_time_s,28,2,"{""aerodynamic_validity_limit"": 2}",10.94785714285691,0.1460937583998212,0.027281171477617997
+0.7,1.5,12.0,main_stable_margin,elev_ff,pitch_settled,28,2,"{""aerodynamic_validity_limit"": 2}",0.21428571428571427,0.4178554470186725,0.014305878435429648
+0.7,1.5,12.0,main_stable_margin,elev_ff,pitch_steady_state_error,28,2,"{""aerodynamic_validity_limit"": 2}",-0.059231709442579994,0.15200724746666974,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,max_pitch_dev,28,2,"{""aerodynamic_validity_limit"": 2}",0.605627944226181,0.15338934932319642,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,max_roll_dev,28,2,"{""aerodynamic_validity_limit"": 2}",0.5416832108944944,0.1458586035380326,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,max_yaw_dev,28,2,"{""aerodynamic_validity_limit"": 2}",2.3211663265190867,0.5954441457946793,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,rms_pitch_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.2616814748969992,0.07844888966606756,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,rms_roll_error,28,2,"{""aerodynamic_validity_limit"": 2}",0.26186157008551014,0.08766410226151275,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,rms_yaw_error,28,2,"{""aerodynamic_validity_limit"": 2}",1.090408062610673,0.32759379659760723,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,itae_pitch,28,2,"{""aerodynamic_validity_limit"": 2}",13.227660451243812,4.860847291277353,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,itae_roll,28,2,"{""aerodynamic_validity_limit"": 2}",13.107209392567913,5.405054622326516,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,itae_yaw,28,2,"{""aerodynamic_validity_limit"": 2}",55.173806963444044,19.433214655512646,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,rms_altitude_error,28,2,"{""aerodynamic_validity_limit"": 2}",4.533320285700444,2.6253816803904866,0.2483380287885666
+0.7,1.5,12.0,main_stable_margin,oracle,max_altitude_drop_m,28,2,"{""aerodynamic_validity_limit"": 2}",4.725729700129852,4.573762773840334,8.857457687863547e-05
+0.7,1.5,12.0,main_stable_margin,oracle,mean_elev,28,2,"{""aerodynamic_validity_limit"": 2}",0.8492450405428942,0.24219958024571264,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,mean_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.8109106698023122,0.2901049424378383,0.02000175416469574
+0.7,1.5,12.0,main_stable_margin,oracle,mean_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",2.965410580810642,0.9808506575920286,0.07314017415046692
+0.7,1.5,12.0,main_stable_margin,oracle,rms_elev,28,2,"{""aerodynamic_validity_limit"": 2}",1.0297737949729893,0.2451867446358592,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,rms_aileron,28,2,"{""aerodynamic_validity_limit"": 2}",0.9670639515226512,0.30860683709488157,0.0007440149784088135
+0.7,1.5,12.0,main_stable_margin,oracle,rms_rudder,28,2,"{""aerodynamic_validity_limit"": 2}",3.569031345900921,1.0652712054082207,0.029904991388320923
+0.7,1.5,12.0,main_stable_margin,oracle,elev_activity,28,2,"{""aerodynamic_validity_limit"": 2}",9807.433389728361,1799.7743507682899,0.0022483021020889282
+0.7,1.5,12.0,main_stable_margin,oracle,aileron_activity,28,2,"{""aerodynamic_validity_limit"": 2}",3791.157141935669,680.0227417775669,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,rudder_activity,28,2,"{""aerodynamic_validity_limit"": 2}",4457.343511305496,352.76427880403486,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,elev_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,oracle,aileron_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,oracle,rudder_saturation_s,28,2,"{""aerodynamic_validity_limit"": 2}",0.0,0.0,1.0
+0.7,1.5,12.0,main_stable_margin,oracle,tail_mean_abs,28,2,"{""aerodynamic_validity_limit"": 2}",2.386865366966007,0.48834090914521816,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,tail_rms,28,2,"{""aerodynamic_validity_limit"": 2}",2.417991211205849,0.4881393862971656,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,tail_activity,28,2,"{""aerodynamic_validity_limit"": 2}",979.1306142732066,228.9571573093106,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,mean_drag,28,2,"{""aerodynamic_validity_limit"": 2}",2.9144720198086667,0.11363639509825754,1.4901161193847656e-08
+0.7,1.5,12.0,main_stable_margin,oracle,pitch_settling_time_s,28,2,"{""aerodynamic_validity_limit"": 2}",10.90142857142834,0.20769839753503755,0.007420961287866498
+0.7,1.5,12.0,main_stable_margin,oracle,pitch_settled,28,2,"{""aerodynamic_validity_limit"": 2}",0.32142857142857145,0.4755948656056709,0.0026997960632601866
+0.7,1.5,12.0,main_stable_margin,oracle,pitch_steady_state_error,28,2,"{""aerodynamic_validity_limit"": 2}",-0.10842715009067906,0.22150170392300902,1.4901161193847656e-08
+0.7,1.5,20.0,main_stable_margin,conventional,max_pitch_dev,16,14,"{""aerodynamic_validity_limit"": 14}",1.1416371492908794,0.9086821675781205,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,max_roll_dev,16,14,"{""aerodynamic_validity_limit"": 14}",0.5257506771418115,0.1254754706421814,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,max_yaw_dev,16,14,"{""aerodynamic_validity_limit"": 14}",1.9026171139953714,0.4979684833375668,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,rms_pitch_error,16,14,"{""aerodynamic_validity_limit"": 14}",0.3532662365336028,0.11926585977931765,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,rms_roll_error,16,14,"{""aerodynamic_validity_limit"": 14}",0.2245176571060077,0.07084290545414851,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,rms_yaw_error,16,14,"{""aerodynamic_validity_limit"": 14}",0.8932212064701939,0.29365244792785433,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,itae_pitch,16,14,"{""aerodynamic_validity_limit"": 14}",13.43986554822336,2.9585103963875015,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,itae_roll,16,14,"{""aerodynamic_validity_limit"": 14}",11.137330783676662,4.195735864847781,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,itae_yaw,16,14,"{""aerodynamic_validity_limit"": 14}",44.93004436866199,17.028421425692855,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,rms_altitude_error,16,14,"{""aerodynamic_validity_limit"": 14}",2.9383257321645795,1.805825681066433,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,max_altitude_drop_m,16,14,"{""aerodynamic_validity_limit"": 14}",3.2768348310681157,1.786561266032292,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,mean_elev,16,14,"{""aerodynamic_validity_limit"": 14}",2.8196664806886806,0.0677901363129171,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,mean_aileron,16,14,"{""aerodynamic_validity_limit"": 14}",0.9826496517100363,0.253440874837167,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,mean_rudder,16,14,"{""aerodynamic_validity_limit"": 14}",2.152053647956477,0.6538929093342447,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,rms_elev,16,14,"{""aerodynamic_validity_limit"": 14}",3.104322952862246,0.13701084516052472,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,rms_aileron,16,14,"{""aerodynamic_validity_limit"": 14}",1.2235447663638745,0.31044739843813773,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,rms_rudder,16,14,"{""aerodynamic_validity_limit"": 14}",2.591501280591907,0.7488780115955789,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,elev_activity,16,14,"{""aerodynamic_validity_limit"": 14}",26523.068648565495,3342.69244774582,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,aileron_activity,16,14,"{""aerodynamic_validity_limit"": 14}",33868.89191173796,15100.058500031239,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,rudder_activity,16,14,"{""aerodynamic_validity_limit"": 14}",5717.105967298021,476.7871845563991,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,elev_saturation_s,16,14,"{""aerodynamic_validity_limit"": 14}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,aileron_saturation_s,16,14,"{""aerodynamic_validity_limit"": 14}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,rudder_saturation_s,16,14,"{""aerodynamic_validity_limit"": 14}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,tail_mean_abs,16,14,"{""aerodynamic_validity_limit"": 14}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,tail_rms,16,14,"{""aerodynamic_validity_limit"": 14}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,tail_activity,16,14,"{""aerodynamic_validity_limit"": 14}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,mean_drag,16,14,"{""aerodynamic_validity_limit"": 14}",4.282516450334934,0.3819747291048914,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,pitch_settling_time_s,16,14,"{""aerodynamic_validity_limit"": 14}",10.906249999999769,0.30205683791851073,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,pitch_settled,16,14,"{""aerodynamic_validity_limit"": 14}",0.375,0.5,1.0
+0.7,1.5,20.0,main_stable_margin,conventional,pitch_steady_state_error,16,14,"{""aerodynamic_validity_limit"": 14}",0.12325262228253518,0.02414627985777358,1.0
+0.7,1.5,20.0,main_stable_margin,nn,max_pitch_dev,25,5,"{""aerodynamic_validity_limit"": 5}",1.6002255117232553,2.5361237196579722,0.1590576171875
+0.7,1.5,20.0,main_stable_margin,nn,max_roll_dev,25,5,"{""aerodynamic_validity_limit"": 5}",0.5323737511873273,0.12311100551152288,0.596588134765625
+0.7,1.5,20.0,main_stable_margin,nn,max_yaw_dev,25,5,"{""aerodynamic_validity_limit"": 5}",1.6951481361614886,0.42522603930252934,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,rms_pitch_error,25,5,"{""aerodynamic_validity_limit"": 5}",0.3828698367864284,0.40873350490700705,0.005157470703125
+0.7,1.5,20.0,main_stable_margin,nn,rms_roll_error,25,5,"{""aerodynamic_validity_limit"": 5}",0.2091119464861002,0.05505494563782915,0.00762939453125
+0.7,1.5,20.0,main_stable_margin,nn,rms_yaw_error,25,5,"{""aerodynamic_validity_limit"": 5}",0.7984886905075774,0.23934649101248084,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,itae_pitch,25,5,"{""aerodynamic_validity_limit"": 5}",13.293875321786475,13.796919155642115,0.00628662109375
+0.7,1.5,20.0,main_stable_margin,nn,itae_roll,25,5,"{""aerodynamic_validity_limit"": 5}",10.303528714801011,3.317196106384851,0.00628662109375
+0.7,1.5,20.0,main_stable_margin,nn,itae_yaw,25,5,"{""aerodynamic_validity_limit"": 5}",40.71388430787058,13.887711750551473,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,rms_altitude_error,25,5,"{""aerodynamic_validity_limit"": 5}",2.75442047465695,1.6489187001707752,0.009185791015625
+0.7,1.5,20.0,main_stable_margin,nn,max_altitude_drop_m,25,5,"{""aerodynamic_validity_limit"": 5}",2.9616317213869583,2.016118088358912,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,mean_elev,25,5,"{""aerodynamic_validity_limit"": 5}",2.317726361659824,0.22602467280281285,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,mean_aileron,25,5,"{""aerodynamic_validity_limit"": 5}",1.091182136452813,0.23906592331982784,0.01824951171875
+0.7,1.5,20.0,main_stable_margin,nn,mean_rudder,25,5,"{""aerodynamic_validity_limit"": 5}",2.1374227320333925,0.6117290927075194,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,rms_elev,25,5,"{""aerodynamic_validity_limit"": 5}",2.6852117852361097,0.33263984713970635,6.103515625e-05
+0.7,1.5,20.0,main_stable_margin,nn,rms_aileron,25,5,"{""aerodynamic_validity_limit"": 5}",1.3612174878254475,0.2783421392982817,0.033538818359375
+0.7,1.5,20.0,main_stable_margin,nn,rms_rudder,25,5,"{""aerodynamic_validity_limit"": 5}",2.5704841791741044,0.7011172181951227,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,elev_activity,25,5,"{""aerodynamic_validity_limit"": 5}",27690.051504555202,3601.725684735111,0.596588134765625
+0.7,1.5,20.0,main_stable_margin,nn,aileron_activity,25,5,"{""aerodynamic_validity_limit"": 5}",40558.48025097765,14552.68061309294,0.0506591796875
+0.7,1.5,20.0,main_stable_margin,nn,rudder_activity,25,5,"{""aerodynamic_validity_limit"": 5}",5966.4549312521995,404.65359891078634,6.103515625e-05
+0.7,1.5,20.0,main_stable_margin,nn,elev_saturation_s,25,5,"{""aerodynamic_validity_limit"": 5}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,nn,aileron_saturation_s,25,5,"{""aerodynamic_validity_limit"": 5}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,nn,rudder_saturation_s,25,5,"{""aerodynamic_validity_limit"": 5}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,nn,tail_mean_abs,25,5,"{""aerodynamic_validity_limit"": 5}",0.48600295870323473,0.07275549342656179,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,tail_rms,25,5,"{""aerodynamic_validity_limit"": 5}",0.5518261632988534,0.07377479877348177,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,tail_activity,25,5,"{""aerodynamic_validity_limit"": 5}",190.50941148926333,33.35337921636655,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,mean_drag,25,5,"{""aerodynamic_validity_limit"": 5}",4.419781881301806,0.367583990660286,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,nn,pitch_settling_time_s,25,5,"{""aerodynamic_validity_limit"": 5}",10.896799999999766,0.511848936047856,0.3946268662430952
+0.7,1.5,20.0,main_stable_margin,nn,pitch_settled,25,5,"{""aerodynamic_validity_limit"": 5}",0.08,0.27688746209726917,0.10247043485974941
+0.7,1.5,20.0,main_stable_margin,nn,pitch_steady_state_error,25,5,"{""aerodynamic_validity_limit"": 5}",-0.12092621079387804,0.10295869701278926,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,elev_ff,max_pitch_dev,21,9,"{""aerodynamic_validity_limit"": 9}",1.789272069314712,4.066009762575761,0.0443115234375
+0.7,1.5,20.0,main_stable_margin,elev_ff,max_roll_dev,21,9,"{""aerodynamic_validity_limit"": 9}",0.5619891368068739,0.11244566697776752,0.14385986328125
+0.7,1.5,20.0,main_stable_margin,elev_ff,max_yaw_dev,21,9,"{""aerodynamic_validity_limit"": 9}",1.8620629178522299,0.46081273465741057,1.0
+0.7,1.5,20.0,main_stable_margin,elev_ff,rms_pitch_error,21,9,"{""aerodynamic_validity_limit"": 9}",0.5150773592258906,1.1637098395177097,0.002685546875
+0.7,1.5,20.0,main_stable_margin,elev_ff,rms_roll_error,21,9,"{""aerodynamic_validity_limit"": 9}",0.22409533322976088,0.060796514663361986,0.743560791015625
+0.7,1.5,20.0,main_stable_margin,elev_ff,rms_yaw_error,21,9,"{""aerodynamic_validity_limit"": 9}",0.874331552229687,0.27003948377923337,0.5618896484375
+0.7,1.5,20.0,main_stable_margin,elev_ff,itae_pitch,21,9,"{""aerodynamic_validity_limit"": 9}",23.856649756888483,65.86198314006349,0.000152587890625
+0.7,1.5,20.0,main_stable_margin,elev_ff,itae_roll,21,9,"{""aerodynamic_validity_limit"": 9}",11.108952663088457,3.718420851065329,0.93988037109375
+0.7,1.5,20.0,main_stable_margin,elev_ff,itae_yaw,21,9,"{""aerodynamic_validity_limit"": 9}",44.238813273370376,15.207067514410031,0.979949951171875
+0.7,1.5,20.0,main_stable_margin,elev_ff,rms_altitude_error,21,9,"{""aerodynamic_validity_limit"": 9}",2.7475544655831934,1.6769100781341626,0.010986328125
+0.7,1.5,20.0,main_stable_margin,elev_ff,max_altitude_drop_m,21,9,"{""aerodynamic_validity_limit"": 9}",3.100933388737165,1.8412264498988267,0.00030517578125
+0.7,1.5,20.0,main_stable_margin,elev_ff,mean_elev,21,9,"{""aerodynamic_validity_limit"": 9}",2.920217112125271,0.37213916963152766,0.19281005859375
+0.7,1.5,20.0,main_stable_margin,elev_ff,mean_aileron,21,9,"{""aerodynamic_validity_limit"": 9}",1.0446612440591956,0.2522633247623939,0.05767822265625
+0.7,1.5,20.0,main_stable_margin,elev_ff,mean_rudder,21,9,"{""aerodynamic_validity_limit"": 9}",2.09492335940146,0.6049907088327988,0.433197021484375
+0.7,1.5,20.0,main_stable_margin,elev_ff,rms_elev,21,9,"{""aerodynamic_validity_limit"": 9}",3.242448151483927,0.586250994725824,0.231201171875
+0.7,1.5,20.0,main_stable_margin,elev_ff,rms_aileron,21,9,"{""aerodynamic_validity_limit"": 9}",1.3066285003039453,0.30042945503841667,0.104583740234375
+0.7,1.5,20.0,main_stable_margin,elev_ff,rms_rudder,21,9,"{""aerodynamic_validity_limit"": 9}",2.5372335346553347,0.6954406072084844,0.2978515625
+0.7,1.5,20.0,main_stable_margin,elev_ff,elev_activity,21,9,"{""aerodynamic_validity_limit"": 9}",27157.236764328256,4130.934587480544,0.528167724609375
+0.7,1.5,20.0,main_stable_margin,elev_ff,aileron_activity,21,9,"{""aerodynamic_validity_limit"": 9}",38112.00555958906,15749.071279625607,0.116668701171875
+0.7,1.5,20.0,main_stable_margin,elev_ff,rudder_activity,21,9,"{""aerodynamic_validity_limit"": 9}",5777.211466952253,409.0299699350137,0.1590576171875
+0.7,1.5,20.0,main_stable_margin,elev_ff,elev_saturation_s,21,9,"{""aerodynamic_validity_limit"": 9}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,elev_ff,aileron_saturation_s,21,9,"{""aerodynamic_validity_limit"": 9}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,elev_ff,rudder_saturation_s,21,9,"{""aerodynamic_validity_limit"": 9}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,elev_ff,tail_mean_abs,21,9,"{""aerodynamic_validity_limit"": 9}",0.1253644574753072,0.0,6.334248366623973e-05
+0.7,1.5,20.0,main_stable_margin,elev_ff,tail_rms,21,9,"{""aerodynamic_validity_limit"": 9}",0.14754353569422832,0.0,6.334248366623973e-05
+0.7,1.5,20.0,main_stable_margin,elev_ff,tail_activity,21,9,"{""aerodynamic_validity_limit"": 9}",55.24758677879768,7.280896430443988e-15,6.334248366623973e-05
+0.7,1.5,20.0,main_stable_margin,elev_ff,mean_drag,21,9,"{""aerodynamic_validity_limit"": 9}",4.392446261230357,0.43607588264780156,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,elev_ff,pitch_settling_time_s,21,9,"{""aerodynamic_validity_limit"": 9}",10.999047619047385,0.0043643578047197545,0.04105088656045887
+0.7,1.5,20.0,main_stable_margin,elev_ff,pitch_settled,21,9,"{""aerodynamic_validity_limit"": 9}",0.047619047619047616,0.21821789023599236,0.05878172135535886
+0.7,1.5,20.0,main_stable_margin,elev_ff,pitch_steady_state_error,21,9,"{""aerodynamic_validity_limit"": 9}",-0.1834338284579988,0.2041489338228321,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,max_pitch_dev,27,3,"{""aerodynamic_validity_limit"": 3}",4.415183253208204,8.986170484490545,0.03863525390625
+0.7,1.5,20.0,main_stable_margin,oracle,max_roll_dev,27,3,"{""aerodynamic_validity_limit"": 3}",0.5652342713798759,0.11740791328883587,0.5618896484375
+0.7,1.5,20.0,main_stable_margin,oracle,max_yaw_dev,27,3,"{""aerodynamic_validity_limit"": 3}",1.709044823662557,0.39944031662037743,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,rms_pitch_error,27,3,"{""aerodynamic_validity_limit"": 3}",1.2288917953958014,2.6265436044596973,0.005157470703125
+0.7,1.5,20.0,main_stable_margin,oracle,rms_roll_error,27,3,"{""aerodynamic_validity_limit"": 3}",0.21828756809606947,0.05608132851422719,0.274444580078125
+0.7,1.5,20.0,main_stable_margin,oracle,rms_yaw_error,27,3,"{""aerodynamic_validity_limit"": 3}",0.793510857458792,0.22893472969117298,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,itae_pitch,27,3,"{""aerodynamic_validity_limit"": 3}",57.98681338499643,129.8177617819258,0.005157470703125
+0.7,1.5,20.0,main_stable_margin,oracle,itae_roll,27,3,"{""aerodynamic_validity_limit"": 3}",10.726781926794558,3.61450518148874,0.21142578125
+0.7,1.5,20.0,main_stable_margin,oracle,itae_yaw,27,3,"{""aerodynamic_validity_limit"": 3}",40.06714883882406,13.610741807963995,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,rms_altitude_error,27,3,"{""aerodynamic_validity_limit"": 3}",2.926185802443363,1.6735855062905085,0.010986328125
+0.7,1.5,20.0,main_stable_margin,oracle,max_altitude_drop_m,27,3,"{""aerodynamic_validity_limit"": 3}",3.0735222808635387,2.112273249699389,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,mean_elev,27,3,"{""aerodynamic_validity_limit"": 3}",2.1581003374148757,1.135234902672788,6.103515625e-05
+0.7,1.5,20.0,main_stable_margin,oracle,mean_aileron,27,3,"{""aerodynamic_validity_limit"": 3}",1.125836255605101,0.24601640017734008,0.00042724609375
+0.7,1.5,20.0,main_stable_margin,oracle,mean_rudder,27,3,"{""aerodynamic_validity_limit"": 3}",2.105225420547098,0.5961456001941945,0.000152587890625
+0.7,1.5,20.0,main_stable_margin,oracle,rms_elev,27,3,"{""aerodynamic_validity_limit"": 3}",2.6634502134962394,1.4918806106786637,0.005157470703125
+0.7,1.5,20.0,main_stable_margin,oracle,rms_aileron,27,3,"{""aerodynamic_validity_limit"": 3}",1.408574330105083,0.29518149114192377,0.001312255859375
+0.7,1.5,20.0,main_stable_margin,oracle,rms_rudder,27,3,"{""aerodynamic_validity_limit"": 3}",2.5407212903217093,0.6776789614267567,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,elev_activity,27,3,"{""aerodynamic_validity_limit"": 3}",29302.185165705676,6716.606159571228,0.781951904296875
+0.7,1.5,20.0,main_stable_margin,oracle,aileron_activity,27,3,"{""aerodynamic_validity_limit"": 3}",42925.0251131842,15458.714370192773,0.00213623046875
+0.7,1.5,20.0,main_stable_margin,oracle,rudder_activity,27,3,"{""aerodynamic_validity_limit"": 3}",6083.969995180505,484.2466410330066,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,elev_saturation_s,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,oracle,aileron_saturation_s,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,oracle,rudder_saturation_s,27,3,"{""aerodynamic_validity_limit"": 3}",0.0,0.0,1.0
+0.7,1.5,20.0,main_stable_margin,oracle,tail_mean_abs,27,3,"{""aerodynamic_validity_limit"": 3}",0.9909369707607992,0.10201640077018503,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,tail_rms,27,3,"{""aerodynamic_validity_limit"": 3}",1.006921664672313,0.10188055780596997,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,tail_activity,27,3,"{""aerodynamic_validity_limit"": 3}",333.326859930601,63.554676519801696,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,mean_drag,27,3,"{""aerodynamic_validity_limit"": 3}",4.65339055889641,0.6763025200435399,3.0517578125e-05
+0.7,1.5,20.0,main_stable_margin,oracle,pitch_settling_time_s,27,3,"{""aerodynamic_validity_limit"": 3}",10.85999999999977,0.69168690115597,0.5873223123484554
+0.7,1.5,20.0,main_stable_margin,oracle,pitch_settled,27,3,"{""aerodynamic_validity_limit"": 3}",0.25925925925925924,0.44657608470472243,0.47950012218695337
+0.7,1.5,20.0,main_stable_margin,oracle,pitch_steady_state_error,27,3,"{""aerodynamic_validity_limit"": 3}",-0.059813206448144966,0.4728093306761737,3.0517578125e-05

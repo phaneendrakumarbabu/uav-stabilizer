@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>UAV Stability Simulation</title>
+<link rel="stylesheet" href="css/style.css?v=4" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <h1>UAV STABILITY SIMULATION</h1>
+    <div class="status-row">
+      <span id="status-dot" class="status-dot disconnected"></span>
+      <span id="status-text">Checking backend…</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="panel control-panel">
+      <p class="section-title">Flight Presets</p>
+      <div class="preset-group">
+        <button class="preset-btn" data-pl="0.2" data-va="15" data-gust="0.2" data-lat="false" title="Nominal cruise with light turbulence">🎯 Nominal</button>
+        <button class="preset-btn" data-pl="0.7" data-va="16" data-gust="0.5" data-lat="false" title="Heavy payload shift test">📦 Heavy Drop</button>
+        <button class="preset-btn" data-pl="0.5" data-va="14" data-gust="1.5" data-lat="true" title="Severe turbulence and crosswind">🌪️ Gust Storm</button>
+        <button class="preset-btn" data-pl="0.74" data-va="20" data-gust="1.0" data-lat="false" title="High-speed envelope boundary test">⚡ Limit Test</button>
+      </div>
+
+      <p class="section-title">Scenario Parameters</p>
+      <div class="slider-group">
+        <label>Payload level <span id="payload-val">0.5</span></label>
+        <input type="range" id="payload-slider" min="0" max="1" step="0.01" value="0.5" />
+      </div>
+      <div class="slider-group">
+        <label>Airspeed (m/s) <span id="airspeed-val">15</span></label>
+        <input type="range" id="airspeed-slider" min="12" max="20" step="0.5" value="15" />
+      </div>
+      <div class="slider-group">
+        <label>Gust intensity <span id="gust-val">0.5</span></label>
+        <input type="range" id="gust-slider" min="0" max="2" step="0.05" value="0.5" />
+      </div>
+      <div class="slider-group">
+        <label for="seed-input">Random seed</label>
+        <input type="number" id="seed-input" min="0" max="2147483647" step="1" value="42" />
+        <small class="field-help">Same seed = same gust pattern and reproducible result.</small>
+      </div>
+
+      <div class="toggle-row">
+        <input type="checkbox" id="lateral-toggle" />
+        <label for="lateral-toggle" style="margin:0; text-transform:none; letter-spacing:normal; font-size:12px;">Lateral crosswind disturbance</label>
+      </div>
+
+      <p class="section-title">Controller Mode</p>
+      <div class="mode-toggle">
+        <button class="mode-btn active" data-mode="conventional">Conventional</button>
+        <button class="mode-btn" data-mode="intelligent">Intelligent</button>
+        <button class="mode-btn" data-mode="compare">Compare</button>
+      </div>
+
+      <button id="run-btn" disabled>Run Simulation</button>
+    </aside>
+
+    <main class="main-col">
+      <div class="panel">
+        <div class="viewport-toolbar">
+          <div class="toolbar-group">
+            <button id="btn-view-center" class="vp-btn" title="Center model directly in middle">🎯 Center</button>
+            <button id="btn-view-chase" class="vp-btn active" title="Chase Camera">👁️ Chase</button>
+            <button id="btn-view-orbit" class="vp-btn" title="Free 360° Mouse Orbit">🔄 Orbit</button>
+            <button id="btn-view-top" class="vp-btn" title="Top Planform View">🛩️ Top</button>
+            <button id="btn-view-side" class="vp-btn" title="Side Profile View">📐 Side</button>
+            <button id="btn-view-front" class="vp-btn" title="Front View">🛫 Front</button>
+          </div>
+          <div class="toolbar-group">
+            <button id="btn-mode-solid" class="vp-btn active" title="Solid composite skin">🎨 Solid</button>
+            <button id="btn-mode-seethrough" class="vp-btn" title="See-Through / X-Ray Mode (Internal Payload & CG)">🔍 See-Through</button>
+            <button id="btn-mode-wireframe" class="vp-btn" title="Wireframe Mesh">🕸️ Wire</button>
+            <button id="btn-snapshot" class="vp-btn" title="Capture 3D Snapshot PNG">📸</button>
+          </div>
+        </div>
+
+        <div id="viewport-single-wrap" class="viewport-wrap">
+          <div class="hud-overlay" id="hud-overlay">
+            <div class="hud-chip">
+              <span class="hud-label">AIRSPEED</span>
+              <span class="hud-val" id="hud-airspeed">15.0</span> <span class="hud-unit">m/s</span>
+            </div>
+            <div class="hud-chip">
+              <span class="hud-label">ALTITUDE</span>
+              <span class="hud-val" id="hud-alt">100.0</span> <span class="hud-unit">m</span>
+            </div>
+            <div class="hud-chip">
+              <span class="hud-label">ATTITUDE</span>
+              <span class="hud-val" id="hud-attitude">P: 0.0° / R: 0.0°</span>
+            </div>
+            <div class="hud-chip">
+              <span class="hud-label">SURFACES</span>
+              <span class="hud-val" id="hud-surfaces">δe: 0.0° | δtail: 0.0°</span>
+            </div>
+            <div class="hud-chip" id="hud-cg-chip">
+              <span class="hud-label">CG MARGIN</span>
+              <span class="hud-val" id="hud-cg">Stable (+15%)</span>
+            </div>
+          </div>
+          <div id="viewport-single"></div>
+        </div>
+
+        <div id="viewport-compare-wrap">
+          <div class="compare-cell">
+            <span class="compare-label conv">Conventional</span>
+            <div id="viewport-conv" style="width:100%;height:100%;"></div>
+          </div>
+          <div class="compare-cell">
+            <span class="compare-label intl">Intelligent</span>
+            <div id="viewport-intl" style="width:100%;height:100%;"></div>
+          </div>
+        </div>
+
+        <div class="playback-bar" style="margin-top:12px;">
+          <button id="play-btn" title="Play / Pause">▶</button>
+          <button id="step-back-btn" class="playback-step-btn" title="Step Back 0.1s">⏮</button>
+          <button id="step-fwd-btn" class="playback-step-btn" title="Step Forward 0.1s">⏭</button>
+          <input type="range" id="scrubber" min="0" max="100" value="0" />
+          <span id="time-label">t = 0.00s</span>
+          <select id="speed-select" class="speed-select" title="Playback Speed">
+            <option value="0.5">0.5x</option>
+            <option value="1.0" selected>1.0x</option>
+            <option value="2.0">2.0x</option>
+            <option value="4.0">4.0x</option>
+          </select>
+          <button id="jump-event-btn" class="secondary-btn" title="Jump to disturbance event at t=10s">⚡ Jump to Drop</button>
+        </div>
+        <div id="nn-estimate-readout"></div>
+      </div>
+
+      <div class="panel">
+        <p class="section-title">Synced Telemetry Readouts</p>
+        <div class="charts-grid">
+          <div class="chart-block">
+            <div class="chart-title">Attitude (deg): pitch / roll / yaw</div>
+            <canvas id="chart-attitude"></canvas>
+          </div>
+          <div class="chart-block">
+            <div class="chart-title">Altitude (m)</div>
+            <canvas id="chart-alt"></canvas>
+          </div>
+        </div>
+        <div class="chart-block" style="margin-top:12px;">
+          <div class="chart-title">Control surfaces (deg): elevator / aileron / rudder / tail incidence</div>
+          <canvas id="chart-controls"></canvas>
+        </div>
+      </div>
+
+      <div class="panel">
+        <p class="section-title">Results Summary & Performance KPIs</p>
+        <div class="kpi-grid" id="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-label">Pitch RMS Error</div>
+            <div class="kpi-val" id="kpi-pitch-rms">--</div>
+            <div class="kpi-sub" id="kpi-pitch-diff">Conventional vs Intelligent</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Peak Pitch Dev</div>
+            <div class="kpi-val" id="kpi-pitch-peak">--</div>
+            <div class="kpi-sub">Max dynamic excursion</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Control Activity</div>
+            <div class="kpi-val" id="kpi-control-effort">--</div>
+            <div class="kpi-sub">Elevator + Tail deflection</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Flight Envelope</div>
+            <div class="kpi-val" id="kpi-validity">--</div>
+            <div class="kpi-sub">Linear boundary safety</div>
+          </div>
+        </div>
+        <div id="results-summary"></div>
+        <div class="results-actions">
+          <button id="export-csv-btn" class="secondary-btn" disabled>📥 Export Flight Telemetry CSV</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/geometry.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/viewport.js?v=4"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/app.js?v=4"></script>
+</body>
+</html>

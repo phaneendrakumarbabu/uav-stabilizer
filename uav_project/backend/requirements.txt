@@ -1,0 +1,10 @@
+# Version-locked environment used to generate and validate the published
+# estimator artifact. Starlette 1.7 uses httpx2 for its TestClient.
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+fastapi==0.143.0
+uvicorn==0.54.0
+pydantic==2.14.0
+joblib==1.6.0
+httpx2==2.13.1

@@ -1,0 +1,137 @@
+{
+  "scenario": {
+    "payload": 0.7,
+    "airspeed_mps": 20.0,
+    "gust_intensity": 1.5,
+    "T_s": 15.0,
+    "change_t_s": 4.0,
+    "crosswind": false,
+    "gust_model": "ou"
+  },
+  "purpose": "Demonstrate deterministic replay for a fixed seed and different gust realization for a different seed.",
+  "records": [
+    {
+      "controller": "conventional",
+      "seed": 42,
+      "status_random_seed": 42,
+      "valid": true,
+      "terminated_reason": null,
+      "simulated_T": 14.999999999999769,
+      "log_sha256": "01a444ea8e349126da837ad38c9e07a42e5ee88fc4817bdb26b67793bc9f8f50",
+      "metrics": {
+        "pitch_settling_time_s": 10.999999999999766,
+        "pitch_settled": 0.0,
+        "max_pitch_dev": 19.671022726511058,
+        "max_roll_dev": 0.5891235682081082,
+        "max_yaw_dev": 0.9444070839560991,
+        "rms_pitch_error": 3.660521091363179,
+        "rms_roll_error": 0.20106271498841968,
+        "rms_yaw_error": 0.39641051646400144
+      }
+    },
+    {
+      "controller": "conventional",
+      "seed": 42,
+      "status_random_seed": 42,
+      "valid": true,
+      "terminated_reason": null,
+      "simulated_T": 14.999999999999769,
+      "log_sha256": "01a444ea8e349126da837ad38c9e07a42e5ee88fc4817bdb26b67793bc9f8f50",
+      "metrics": {
+        "pitch_settling_time_s": 10.999999999999766,
+        "pitch_settled": 0.0,
+        "max_pitch_dev": 19.671022726511058,
+        "max_roll_dev": 0.5891235682081082,
+        "max_yaw_dev": 0.9444070839560991,
+        "rms_pitch_error": 3.660521091363179,
+        "rms_roll_error": 0.20106271498841968,
+        "rms_yaw_error": 0.39641051646400144
+      }
+    },
+    {
+      "controller": "conventional",
+      "seed": 43,
+      "status_random_seed": 43,
+      "valid": true,
+      "terminated_reason": null,
+      "simulated_T": 14.999999999999769,
+      "log_sha256": "04c1222b9afe0ac11ea53a7afd436cd40c091dc93a302c72df31fabdb8c9a915",
+      "metrics": {
+        "pitch_settling_time_s": 10.999999999999766,
+        "pitch_settled": 0.0,
+        "max_pitch_dev": 0.5694806638093957,
+        "max_roll_dev": 0.5505547610982782,
+        "max_yaw_dev": 1.6913581259721957,
+        "rms_pitch_error": 0.2875344037705986,
+        "rms_roll_error": 0.20503658500159547,
+        "rms_yaw_error": 0.7460608141602283
+      }
+    },
+    {
+      "controller": "intelligent",
+      "seed": 42,
+      "status_random_seed": 42,
+      "valid": true,
+      "terminated_reason": null,
+      "simulated_T": 14.999999999999769,
+      "log_sha256": "d467da86d7b7e3084bc4774d7b376e8ec1a13f77b3a11ec977a6f8d3840e0ce8",
+      "metrics": {
+        "pitch_settling_time_s": 10.999999999999766,
+        "pitch_settled": 0.0,
+        "max_pitch_dev": 3.5273111636952166,
+        "max_roll_dev": 0.6180861161129584,
+        "max_yaw_dev": 0.8539763717114889,
+        "rms_pitch_error": 0.6153751517878302,
+        "rms_roll_error": 0.18510970875625316,
+        "rms_yaw_error": 0.3719912316540492
+      }
+    },
+    {
+      "controller": "intelligent",
+      "seed": 42,
+      "status_random_seed": 42,
+      "valid": true,
+      "terminated_reason": null,
+      "simulated_T": 14.999999999999769,
+      "log_sha256": "d467da86d7b7e3084bc4774d7b376e8ec1a13f77b3a11ec977a6f8d3840e0ce8",
+      "metrics": {
+        "pitch_settling_time_s": 10.999999999999766,
+        "pitch_settled": 0.0,
+        "max_pitch_dev": 3.5273111636952166,
+        "max_roll_dev": 0.6180861161129584,
+        "max_yaw_dev": 0.8539763717114889,
+        "rms_pitch_error": 0.6153751517878302,
+        "rms_roll_error": 0.18510970875625316,
+        "rms_yaw_error": 0.3719912316540492
+      }
+    },
+    {
+      "controller": "intelligent",
+      "seed": 43,
+      "status_random_seed": 43,
+      "valid": false,
+      "terminated_reason": "aerodynamic_validity_limit",
+      "simulated_T": 8.599999999999905,
+      "log_sha256": "1c5ce288def425172a9f64624b89d2a1a45325a5a2dc126164b953d619491c95",
+      "metrics": {
+        "pitch_settling_time_s": 4.599999999999903,
+        "pitch_settled": 0.0,
+        "max_pitch_dev": 35.60882060148018,
+        "max_roll_dev": 0.3760980131042468,
+        "max_yaw_dev": 1.526092801252208,
+        "rms_pitch_error": 15.995743353467414,
+        "rms_roll_error": 0.1988957919972881,
+        "rms_yaw_error": 0.8823350768121921
+      }
+    }
+  ],
+  "assertions": {
+    "conventional_same_seed_repeats_exactly": true,
+    "conventional_different_seed_changes_log": true,
+    "intelligent_same_seed_repeats_exactly": true,
+    "intelligent_different_seed_changes_log": true,
+    "matched_controller_seed_is_same": true
+  },
+  "all_assertions_pass": true,
+  "interpretation": "The visible scenario parameters define disturbance strength and the aircraft condition. The seed defines the exact stochastic gust realization. Same seed reproduces the exact log; a different seed creates a different gust realization. Compare mode uses the same seed for both controllers."
+}
